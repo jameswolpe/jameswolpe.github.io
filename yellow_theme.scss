@@ -1,0 +1,99 @@
+/*-- scss:defaults --*/
+
+// Import fonts (define mainfont in _quarto.yml)
+
+
+// Font family
+$font-family: "Avenir Next W02", system-ui, -apple-system;
+
+// Colors
+$yellow: #FE9900;
+$white: #FFFFFF;
+$black: #000000;
+
+$light-sage-green: #D1D9CE;
+$light-sage-green: #D1D9CE;
+$dark-sage-green: #98A08D;
+$cream: #FDFBF7;
+$dark-gray: #5A5856;
+$gray: #64605f;
+$light-gray: #949799;
+$purple: #9158A2; //#AE8BD1;
+
+$burnt-orange: #ad7237;
+
+// Base document colors
+$navbar-bg: $yellow;
+$navbar-fg: $white;
+$navbar-hl: $white;
+//$body-bg: $light-sage-green;
+//$body-color: $gray;
+$footer-bg: $black;
+$footer-color: $white;
+//$link-color: $purple;
+
+// Inline code
+//$code-bg: $cream;
+//$code-color: $burnt-orange; //$purple;
+
+// Code blocks
+//$code-block-bg: $cream;
+
+/*-- scss:rules --*/
+
+/* ELEMENT SELECTORS */
+
+//h1, h2, h3, h4, h5, h6 {
+//  letter-spacing: 3px;
+//  font-weight: 700;
+//  color: $gray;
+//}
+
+h3 {
+  font-size: 35px;
+}
+
+body {
+  line-height: 1.5; // min 1.5 suggested for assistive tech
+  font-size: 19.5px;
+  font-family: $font-family;
+}
+
+/* ID selectors */
+
+/* Logo */
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-brand img {
+  max-width: 100%; // Ensure the logo doesn't exceed the container width
+}
+
+/* Navbar text */
+.navbar a {
+  font-family: $font-family;
+  &.active {
+    font-weight: bold;
+  }
+}
+
+
+
+/* CLASS SELECTORS (copied from inspecting site -- Quarto defined?) */
+
+// resize logo (top left corner) see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
+.navbar-brand img {
+  max-height: 60px;
+  width: auto;
+}
+
+/* Center the logo in the navbar */
+.navbar-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

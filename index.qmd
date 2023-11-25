@@ -13,7 +13,7 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/jameswolpe/
-    - icon: envelope
+    - icon: envelop
       text: Email
       href: mailto:jameswolpe@gmail.com
 ---

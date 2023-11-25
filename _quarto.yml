@@ -1,11 +1,12 @@
 project:
   type: website
+  output-dir: docs
+
 website:
   #title: "James J. Wolpe"
   navbar:
     title: false
     logo: images/logos/full_name_white.png
-    logo_css: "width: 2000px;"
     left:
       - href: index.qmd
         text: Home
@@ -22,17 +23,18 @@ website:
         href: https://www.linkedin.com/in/jameswolpe/
       - icon: envelope
         href: mailto:jameswolpe@gmail.com
-    align: center  # Center align the logo
+      - icon: reddit
+        href: https://www.reddit.com/user/josephjjames
 
   page-footer:
-    background: black
     left: James Wolpe 2023
     right: This website is built with {{< fa heart title="a heart" >}} and [Quarto](https://quarto.org/)
 
 format:
   html:
-    #theme: cosmo
-    css: styles.css
+    page-layout: full
+    sidebar: false
+    theme:
+      - yellow_theme.scss
+    # css: styles.css
     toc: true
-
-editor: source
