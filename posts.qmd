@@ -1,5 +1,5 @@
 ---
-title: "Blog , Posts"
+title: "Posts"
 subtitle: "subtitle goes here"
 listing:
   contents: posts

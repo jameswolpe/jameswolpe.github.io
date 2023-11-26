@@ -1,39 +1,60 @@
 ---
-title: "James J. Wolpe"
-about:
-  template: broadside
-  image: images/logos/jameswolpelogo.png
-  image-shape: rectangle
-  image-width: 14em
-  # make link open a new tab
-  links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/jameswolpe/
-    - icon: github
-      text: GitHub
-      href: https://github.com/jameswolpe/
-    - icon: envelop
-      text: Email
-      href: mailto:jameswolpe@gmail.com
+#image: images/logos/jameswolpelogo.png
+title: ""
+page-layout: full
+title-block-banner: true
+listing: 
+  - id: listing-blog
+    contents: "posts/"
+    #template: /ejs/most-recent-only.ejs
+    sort: "date desc"
+    type: grid
 ---
 
-:::{#hero-heading}
+::: {#img-me .center}
+![](images/logos/jameswolpelogo.png)
+:::
 
-James 
 
-## Education
+::: {.center-text}
+  Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men's Tennis Team and a part of a living and learning theme community on campus.
 
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
+  In my free time, I like to play backgammon, watch movies, and cheer for the Celtics.
+:::
 
-Macalester College | St. Paul MA
-B.A in Economics | Sept 2007 - June 2011
+::: {.side-by-side}
 
-## Experience
+::: {.left-text}
 
-Wengo Analytics | Head Data Scientist | April 2018 - present
+OREO
 
-GeoScynce | Chief Analyst | Sept 2012 - April 2018
+::: 
 
+::: {.right-text}
+
+TESTO
+:::
+:::
+
+<div style="display: flex; justify-content: space-between; font-family: "Avenir Next W02";">
+  <div style="text-align: left; width: 48%; margin-right: 2%;">
+    Left Text Goes Here
+  </div>
+  
+  <div style="text-align: left; width: 48%;">
+    Right Text Goes Here
+  </div>
+</div>
+
+### Blog
+
+Latest from the blog
+
+::: {#listing-blog}
+:::
+:::
+
+::: {.feature-bottom}
+[Posts](posts.qmd){.btn .btn-secondary role="button"}
+:::
 :::

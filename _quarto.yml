@@ -10,12 +10,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: blog.qmd
-        text: Blog
+      - href: posts.qmd
+        text: Posts
+      - href: recommendations.qmd
+        text: Recommendations
       - href: about.qmd
         text: About
-#      - href: recommendations.qmd
-#        text: Recommendations
     right:
       - icon: github
         href: https://github.com/jameswolpe/

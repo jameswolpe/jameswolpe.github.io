@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "James J. Wolpe",
+    "title": "",
     "section": "",
-    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.\n\n\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011\n\n\n\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
+    "text": "Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus.\nIn my free time, I like to play backgammon, watch movies, and cheer for the Celtics.\n\n\n\nOREO\n\n\nTESTO\n\n\n\n  \n    Left Text Goes Here\n  \n  \n  \n    Right Text Goes Here\n  \n\n\nBlog\nLatest from the blog\n\n\n\n\n\n\n\n\ntest blog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntest2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntest2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDaily NBA Predictions using Bradley Terry Model\n\n\n\n\n\n\nJames Wolpe\n\n\nNov 25, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n:::\n\nPosts\n\n:::"
   },
   {
     "objectID": "index.html#education",
@@ -33,5 +33,138 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "test blog post\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest2\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest2\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nDaily NBA Predictions using Bradley Terry Model\n\n\n\n\n\n\n\nNBA\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nNov 25, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html",
+    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html",
+    "title": "Building with Quarto",
+    "section": "",
+    "text": "I spent a decent amount of time working on rebuilding my site with Quarto but the decision of should I rebuild my website was pretty impulsive. It’s not the first time I’ve hastily moved to a shiny new static site generator. Before that I was using Pelican and before that, Jykell; I suppose I love the process of trying to design something new and see how I can take advantage of something new to make it even easier to blog!\nI was going to make a joke about Field of Dreams and how I built it and the blog posts didn’t come. But that’s not the important part! The important part was that I went in the world wide web version of the yard to do my little project.\n\nWhat this post will not be is a complete end-to-end guide on building a website with Quarto. I think there are already a lot of great pieces of content and the docs are really well put together. I don’t want to just rehash what already exists. I thought it might be helpful to just document how I went about taking some things from the Quarto website and editing/altering for myself and really just focus on some of the aspects of using Quarto that were not initially clear and required some patience to work through.\n\n\n\n\n\n\n\nJust keep in mind\n\n\n\nI’m by no means a front-end professional and a lot of what I’ve discovered putting this site together was from reading the docs, looking for examples, and trying things out. If you notice something that isn’t right; feel free to create an issue on the repo. Thanks!"
+  },
+  {
+    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#motivation-and-thoughts",
+    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#motivation-and-thoughts",
+    "title": "Building with Quarto",
+    "section": "",
+    "text": "I spent a decent amount of time working on rebuilding my site with Quarto but the decision of should I rebuild my website was pretty impulsive. It’s not the first time I’ve hastily moved to a shiny new static site generator. Before that I was using Pelican and before that, Jykell; I suppose I love the process of trying to design something new and see how I can take advantage of something new to make it even easier to blog!\nI was going to make a joke about Field of Dreams and how I built it and the blog posts didn’t come. But that’s not the important part! The important part was that I went in the world wide web version of the yard to do my little project.\n\nWhat this post will not be is a complete end-to-end guide on building a website with Quarto. I think there are already a lot of great pieces of content and the docs are really well put together. I don’t want to just rehash what already exists. I thought it might be helpful to just document how I went about taking some things from the Quarto website and editing/altering for myself and really just focus on some of the aspects of using Quarto that were not initially clear and required some patience to work through.\n\n\n\n\n\n\n\nJust keep in mind\n\n\n\nI’m by no means a front-end professional and a lot of what I’ve discovered putting this site together was from reading the docs, looking for examples, and trying things out. If you notice something that isn’t right; feel free to create an issue on the repo. Thanks!"
+  },
+  {
+    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#quarto-how-to-start",
+    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#quarto-how-to-start",
+    "title": "Building with Quarto",
+    "section": "Quarto, how to start?",
+    "text": "Quarto, how to start?\n\nSo we have four different options above. When inspecting the plain text within the .Rproj file itself (something like vim name.Rproj), there isn’t any magic happening under the hood in connection to Quarto. However, each of these options correspond to different commands that you could also run via the cli. Remember, Quarto is a tool that is built on top of and extends Pandoc, which also is a cli, so don’t be afraid to run things that way too. Initially I thought that if I decided to do a Quarto Website instead of a Quarto Blog I’d be locked into something and that is not the case at all! So don’t worry too much at this stage.\n\n\n\n\n\n\n\n\nUse the source (code)\n\n\n\nIf you want to examine Quarto’s source code on GitHub, it’s under quarto-cli. If you want to see the source code for the Quarto website itself, it’s under quarto-web. So if there’s something you see on the main website that you like, check the GitHub repo to see how they’re doing it."
+  },
+  {
+    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#building-blocks",
+    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#building-blocks",
+    "title": "Building with Quarto",
+    "section": "Building blocks",
+    "text": "Building blocks\n\nAs an example, I borrowed a design pattern from the index.qmd file from Quarto’s landing page for my landing page; here’s the original:\n::: {.content-block}\n::: {.features}\n\n::: {.feature}\n### Dynamic Documents\nGenerate dynamic output using Python, R, Julia, and Observable. \nCreate reproducible documents that can be regenerated when \nunderlying assumptions or data change.\n\n::: {.learn-more}\n[Learn more »](docs/computations/python.qmd)\n:::\n:::\n\n::: {.feature}\n### Beautiful Publications\nPublish high-quality articles, reports, presentations, \nwebsites, and books in HTML, PDF, MS Word, ePub, and \nmore. Use a single source document to target multiple \nformats.\n\n::: {.learn-more}\n[Learn more »](docs/output-formats/all-formats.qmd)\n:::\n:::\n\n::: {.feature}\n### Scientific Markdown\nPandoc markdown has excellent support for LaTeX equations \nand citations. Quarto adds extensions for cross-references, \nfigure panels, callouts, advanced page layout, and more.\n\n::: {.learn-more}\n[Learn more »](docs/authoring/markdown-basics.qmd)\n:::\n:::\n\n::: {.feature}\n### Authoring Tools\nUse your favorite tools including VS Code, RStudio, \nJupyter Lab, or any text editor. Use the Quarto visual \nmarkdown editor for long-form documents.\n\n::: {.learn-more}\n[Learn more »](docs/tools/jupyter-lab.qmd)\n:::\n:::\n\n::: {.feature}\n### Interactivity\nEngage readers by adding interactive data exploration \nto your documents using Jupyter Widgets, htmlwidgets for \nR, Observable JS, and Shiny.\n\n::: {.learn-more}\n[Learn more »](docs/interactive/)\n:::\n:::\n\n::: {.feature}\n### Websites and Books\nPublish collections of documents as a blog or full \nwebsite. Create books and manuscripts in both print \nformats (PDF and MS Word) and online formats (HTML \nand ePub).\n\n::: {.learn-more}\n[Learn more »](docs/websites/)\n:::\n:::\n\n:::\n:::"
+  },
+  {
+    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#divs-and-spans",
+    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#divs-and-spans",
+    "title": "Building with Quarto",
+    "section": "<div>s and <span>s",
+    "text": "&lt;div&gt;s and &lt;span&gt;s\n\nFirst, let’s talk about what’s going on here. If you’re new to this syntax of ::: {.some-class} ::: then take a bit of time to read the Quarto docs on divs and spans to gain a good foundation. In Pandoc these are called fenced divs.\nOnce you understand the syntax, it might not be apparent at first, but these fenced divs are extraordinarily flexible! Let’s break down the above code chunk:\nThe ::: {.content-block}::: is a &lt;div&gt; defining the padding for the top and bottom and the margin for the left and the right; here is the CSS from index.css:\n.content-block {\n  padding-top: 20px;\n  padding-bottom: 10px;\n  margin-left: 30px;\n  margin-right: 30px;\n}\nThis creates space on the page for the two main components:\n\n\n\n\nThe container\n\n\n::: {.features} :::\nSimilarly to the .content-block, this is like a row for the other content elements. On the Bootstrap 5 [page] you’ll see lots of examples of something like container -&gt; row -&gt; col.\n\n\n\n\nThe flexbox\n\n\n::: {.feature} :::\nThese are the individual elements of content. They’re like post-its with info on them. Each .feature is contained within the .features container.\n\n\n\n\n\n\n\n\n\n\n\nPutting it together\n\n\n\nYou can think of the .container like a board you want to hang on the wall–the .features is like a sticky adhesive and the .feature the squares with notes on them that you stick to your board.\n\n\n\nFrom the docs, Bootstrap 5 uses a mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, six default responsive tiers, Sass variables and mixins, and dozens of predefined classes. It can definitely be confusing if you haven’t ever written HTML before, so don’t worry if it isn’t clicking right away. Learning more about Bootstrap 5 will only enhance your Quarto experience if you’re interested. The better you understand the grid the more flexible you will be when thinking of how you want to arrange components on your site and what is available to you as ways to do that."
+  },
+  {
+    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#so-how-did-i-alter-the-example",
+    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#so-how-did-i-alter-the-example",
+    "title": "Building with Quarto",
+    "section": "So how did I alter the example?",
+    "text": "So how did I alter the example?\n\nWhat I liked was the ability to just create a simple grid for some content–but I also wanted to have a button and I wanted those buttons to line up. So this was my way to make that happen:\n::: {.content-block}\n::: {.features}\n\n::: {.feature}\n::: {.feature-top}\n### Blog\n\nLatest from the blog\n\n::: {#listing-blog}\n:::\n:::\n\n::: {.feature-bottom}\n[Blog](blog.qmd){.btn .btn-secondary role=\"button\"}\n:::\n:::\n\n::: {.feature}\n::: {.feature-top}\n### Talks\n\nLatest talk I've done\n\n::: {#listing-talks}\n:::\n:::\n\n::: {.feature-bottom}\n[Talks](talks.qmd){.btn .btn-secondary role=\"button\"}\n:::\n:::\n\n::: {.feature}\n::: {.feature-top}\n### Projects\n\nLatest tinkering\n\n::: {#listing-projects}\n:::\n:::\n\n::: {.feature-bottom}\n[Projects](projects.qmd){.btn .btn-secondary role=\"button\"}\n:::\n:::\n\n:::\n:::\nYou’ll notice some new things here; a couple of new classes and some document listings. Let’s start with the new classes first and then talk about the document listings.\n\n\n\n\n\n\n\nLinks to buttons\n\n\n\nTo turn a regular link into a button you can add a helpful Bootstrap 5 class to the link: .btn and then adding the role=\"button\"! So simple and it looks really nice too. I’m also using .btn-secondary to use the secondary color specified in the Sass file to make it pop"
+  },
+  {
+    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#new-classes",
+    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#new-classes",
+    "title": "Building with Quarto",
+    "section": "New classes",
+    "text": "New classes\n\nThe .content-block has not changed. So we don’t need to focus on that. There is a new addition to the .features class’ CSS though:\n.features {\n  padding-bottom: 2em;\n  height: calc(100% + 250px);\n}\nSo what is this height: calc(100% + 250px); doing? Well, it’s saying, whatever 100% of the height is for this normally, add an additional 250 pixels. Why we want to do this will become apparent with the next two classes:\n\n\n\n\n.feature-top\n\n\n.feature-top {\n  height: 75%;\n}\nWe want this &lt;div&gt; to take up 75% of .features’s height.\n\n\n\n\n.feature-bottom\n\n\n.feature-bottom {\n  height: 25%;\n}\nWe want this &lt;div&gt; to take up 25% of .features’s height\n\n\n\n\nThe goal is to have the .feature divisible by two but in a way that allows for the bottom portion to align across .features rather than have the button in different positions based on the length of the document being highlighted by the document listing.\nNow, this may not be the best solution–I imagine that for someone that is an experienced front-end dev or someone that knows Lua could potentially do something much more elegant. This seemed to me to be the best way to accomplish this for myself. I see the buttons align and that makes me happy"
+  },
+  {
+    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#document-listings",
+    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#document-listings",
+    "title": "Building with Quarto",
+    "section": "Document listings",
+    "text": "Document listings\n\nI linked it earlier but ICYMI, document listings are something very new to me via Quarto. Read the docs on document listings first to gain a bit more familiarity and then I’ll explain what I’m doing here.\nMy index.qmd is using multiple custom listings. Make sure to read the docs to get a feel for what’s different between altering/editing the available document listing vs creating a custom listing."
+  },
+  {
+    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#ejs",
+    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#ejs",
+    "title": "Building with Quarto",
+    "section": "EJS",
+    "text": "EJS\n\nThe custom listings are written in Embedded JavaScript templating (EJS), which was very confusing for me. I’ll try to share what limited clarity I’ve been able to obtain but if this isn’t something you’ll want to do you can feel free to skip.\nI followed the example from quarto-web and created an ejs directory and then put my custom listing .ejs file in that directory. Before threading everything together, let’s just look at how the custom listing is working:\n&lt;!-- attributes for item --&gt;\n&lt;!--  freeze,\n      title-block-banner,\n      title,\n      author,\n      date,\n      categories,\n      image,\n      path,\n      image-alt,\n      description,\n      filename,\n      file-modified,\n      reading-time,\n      sortableValues --&gt;\n&lt;% for (const item of items.slice(0, 1)) { %&gt;\n  &lt;h4&gt;&lt;a href=\"&lt;%- item.path %&gt;\"&gt;&lt;%= item.title %&gt;&lt;/a&gt;&lt;/h4&gt;\n  &lt;small&gt;{{&lt; fa calendar &gt;}} &lt;%= item.date %&gt;&lt;/small&gt;\n&lt;% } %&gt; \nFirst, please excuse the low quality but high effort JavaScript. Second, notice the comment I added for the attributes available to us through the initial for loop. I wanted to keep these readily available in the event I need to create some other custom listing. Based on what it is you want to highlight you can change or alter this to see if it works for your purposes as well. What I wanted was just the most recent listing from a document list, so I only want one listing. That is the purpose of the .slice(0, 1) method. The goal is to not have to update the index.qmd ever–even when there are new blog posts, talks, or projects. I’m slicing this list for the very first (most recent) listing and just grabbing a minimal amount of attributes: its location, the title, and the date."
+  },
+  {
+    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#connecting-it-all-together",
+    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#connecting-it-all-together",
+    "title": "Building with Quarto",
+    "section": "Connecting it all together",
+    "text": "Connecting it all together\n\nTo connect the custom listing you’ll need to add it in your .qmd file’s YAML header. Here’s an example from my index.qmd:\n---\ntitle: \"\"\npage-layout: full\ntitle-block-banner: true\nlisting: \n  - id: listing-blog\n    contents: \"blog/\"\n    template: /ejs/most-recent-only.ejs\n    sort: \"date desc\"\n  - id: listing-talks\n    contents: \"talks/\"\n    template: /ejs/most-recent-only.ejs\n    sort: \"date desc\"\n  - id: listing-projects\n    contents: \"projects/\"\n    template: /ejs/most-recent-only.ejs\n    sort: \"date desc\"\n---\nWhat this is saying is that Quarto will create an ID that can be used to know where on the page to have this listing display its listing and how to sort the listing. By setting sort: \"date desc\" in conjunction with the .slice method in the EJS template, that is how we’re able to get the most recent piece of content from these three categories.\nThen it’s as simple as adding the ID you specified in the YAML in a &lt;div&gt;, e.g.:\n::: {#listing-blog}\n:::\nIt took me a little bit of time to get a feel for how this all comes together so I’d recommend playing around with this a bit to build an intuition."
+  },
+  {
+    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#conclusion",
+    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#conclusion",
+    "title": "Building with Quarto",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nI think this is probably a good place to end things. There is obviously more I could cover in connection to publishing, custom domains, etc, but as I mentioned at the outset–I just wanted to sort of focus on the parts that were exciting and new to me via Quarto. Feel free to get in touch with me if you have any questions or comments. Again, if something isn’t correct, feel free to create an issue on the repo."
+  },
+  {
+    "objectID": "index.html#fa-hand-peace-hello-there-this-is-a-website-i-dont-always-have-a-chance-to-update-but-it-has-a-few-posts-and-some-ways-to-get-in-touch-with-me-if-you-need-to-cheers-fa-champagne-glasses",
+    "href": "index.html#fa-hand-peace-hello-there-this-is-a-website-i-dont-always-have-a-chance-to-update-but-it-has-a-few-posts-and-some-ways-to-get-in-touch-with-me-if-you-need-to-cheers-fa-champagne-glasses",
+    "title": "",
+    "section": " hello there! this is a website I don’t always have a chance to update but it has a few posts and some ways to get in touch with me if you need to; cheers ",
+    "text": "hello there! this is a website I don’t always have a chance to update but it has a few posts and some ways to get in touch with me if you need to; cheers"
+  },
+  {
+    "objectID": "recommendations.html",
+    "href": "recommendations.html",
+    "title": "Recommendations",
+    "section": "",
+    "text": "Velocity Global:\n\n\n\n\nAttentive Mobile:"
+  },
+  {
+    "objectID": "about.html#fa-compass-personal-philosophy",
+    "href": "about.html#fa-compass-personal-philosophy",
+    "title": "About",
+    "section": " Personal Philosophy",
+    "text": "Personal Philosophy"
+  },
+  {
+    "objectID": "posts/test_blog_post.html",
+    "href": "posts/test_blog_post.html",
+    "title": "test blog post",
+    "section": "",
+    "text": "Hello world, this is a test blog post."
+  },
+  {
+    "objectID": "posts/test2/test_post2.html",
+    "href": "posts/test2/test_post2.html",
+    "title": "test2",
+    "section": "",
+    "text": "test file #2 for testing purposes"
+  },
+  {
+    "objectID": "posts/test1/test_blog_post.html",
+    "href": "posts/test1/test_blog_post.html",
+    "title": "test blog post",
+    "section": "",
+    "text": "Hello world, this is a test blog post."
+  },
+  {
+    "objectID": "posts/test3/test3.html",
+    "href": "posts/test3/test3.html",
+    "title": "test2",
+    "section": "",
+    "text": "wejrhfdshjnfshb test 3"
   }
 ]

@@ -1,4 +1,10 @@
 ---
-title: "recommendations"
+title: "Recommendations"
 ---
 
+#### Velocity Global:
+
+<iframe src="images/james_wolpe_velocity_global_rec.pdf" width="90%" height="400px"></iframe>
+
+#### Attentive Mobile:
+<iframe src="images/james_wolpe_attentive_mobile_rec.pdf" width="90%" height="400px"></iframe>

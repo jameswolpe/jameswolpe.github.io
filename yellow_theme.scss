@@ -97,3 +97,20 @@ body {
   align-items: center;
   height: 100%;
 }
+
+.side-by-side {
+  display: flex;
+  justify-content: space-between;
+  font-family: $font-family;
+}
+
+.left-text, .right-text {
+  text-align: left;
+  width: 48%; // Adjust the width as needed
+  font-family: $font-family;
+}
+
+.left-text {
+  margin-right: 2%; // Adjust the margin between the two text blocks
+  font-family: $font-family;
+}
