@@ -12,8 +12,8 @@ website:
         text: Home
       - href: posts.qmd
         text: Posts
-      - href: recommendations.qmd
-        text: Recommendations
+      - href: references.qmd
+        text: References
       - href: about.qmd
         text: About
     right:

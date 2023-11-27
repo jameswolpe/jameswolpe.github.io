@@ -15,40 +15,42 @@ listing:
 ::: {#img-me .center}
 ![](images/logos/jameswolpelogo.png)
 :::
-## 
+## tldr;
 
-  Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men's Tennis Team and a part of a living and learning theme community on campus.
-
-  In my free time, I like to play backgammon, watch movies, and cheer for the Celtics.
+  Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men's Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics.
 
 ## Work Experience
 
 ::: {.side-by-side}
 
 ::: {.left-text}
+<div style="position: relative; background-image: url('images/velocity-global.png'); background-size: 30%; background-position: top right; background-repeat: no-repeat; text-align: left; padding: 20px;">
 
-  
-<div style="position: relative;">
-  <img src="images/velocity-global.png" style="width: 30%; height: auto; opacity: 1; position: absolute; top: 0; right: 0;">
-  <span style="font-size: 36pt; font-weight: bold; position: absolute; top: 10px; left: 10px; z-index: 1; color: black;">Velocity Global</span>
+  <span style="font-size: 30pt;">**Velocity Global**</span>
   <br>
-  <span style="font-size: 24pt; position: absolute; top: 60px; left: 10px; z-index: 1; color: black;">Data Analyst Intern</span>
+  <span style="font-size: 19.5pt;">Data Science Intern</span>
+  <br>
+  `Summer 2022`
+  
+Under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence, I played a pivotal role in developing business intelligence (BI) solutions, fostering data-driven decision-making. Additionally, I engineered a predictive machine learning model in Python utilizing XGBoost, leading to a remarkable 4.5x increase in conversion rates for the top 20% of leads. My responsibilities also involved synthesizing data from a warehouse using SQL, conducting extensive exploratory data analysis, and implementing feature engineering to identify key attributes for lead conversion among a vast pool of over 300 features.
 </div>
 :::
-
 
 ::: {.right-text}
+<div style="position: relative; background-image: url('images/attentive.png'); background-size: 30%; background-position: top right; background-repeat: no-repeat; height: 300px; text-align: left; padding: 20px;">
 
-<div style="position: relative; text-align: left;">
-  <img src="images/attentive.png" style="width: 30%; height: auto; opacity: 1; position: absolute; top: 0; right: 0;">
-  <span style="font-size: 36pt; font-weight: bold; position: absolute; top: 10px; left: 10px; z-index: 1; color: black;">Attentive Mobile</span>
+  <span style="font-size: 30pt;">**Attentive Mobile**</span>
   <br>
-  <span style="font-size: 24pt; position: absolute; top: 60px; left: 10px; z-index: 1; color: black;">Data Analyst Intern</span>
-  <span style="font-size: 17pt; position: absolute; top: 100px; left: 10px; z-index: 1; color: black;">Data Analyst Intern fad afad ad </span>
+  <span style="font-size: 19.5pt;">Data Analyst Intern</span>
+  <br>
+  `Summer 2023`
+  
+I spearheaded a Go-to-Market (GTM) analysis, comparing a novel AI product with its traditional human-operated counterpart. Leveraging the insights gained, I defined key performance indicators (KPIs) crucial for decision-making. Additionally, I developed and maintained data-driven dashboards using Google Looker. In weekly meetings, I effectively communicated insights and updates from the analysis, ensuring clear understanding among both technical and non-technical stakeholders about the strategic implications of our findings.
 </div>
+:::
 
 :::
-:::
+
 
 ::: {.feature-bottom}
 [Recommendations](recommendations.qmd){.btn .btn-secondary role="button"}

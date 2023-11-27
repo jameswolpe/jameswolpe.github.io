@@ -30,9 +30,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Full CV",
+    "title": "CV",
     "section": "",
-    "text": "Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter\n\n\n\n\n\n\n\n\n\n Led team as captain, chosen by coach and team members, responsible for conducting captain’s practices during the offseason and fostering strong team culture; committed ~20 hours per week\n\n\n Served as a member of Student-Athlete Advisory Committee as an underclassman, addressing student-athlete concerns, and coordinating team participation in philanthropy events\n\n\n\n\n\n\n\n Elected by peers as Head of House of Commons College, a co-ed living and learning community of 24 residents taking a class beyond the traditional classroom and living together\n\n\n Facilitated weekly house meetings, served as liaison to school administration, coordinated class with the house professor (current course is on having difficult conversations)\n\n\n\n\n\n\n\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship"
+    "text": "Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
   },
   {
     "objectID": "posts.html",
@@ -172,14 +172,14 @@
     "href": "index.html#work-experience",
     "title": "",
     "section": "Work Experience",
-    "text": "Work Experience\n\n\n\n Velocity Global  Data Analyst Intern\n\n\n\n\n Attentive Mobile  Data Analyst Intern Data Analyst Intern fad afad ad \n\n\n\n\nRecommendations"
+    "text": "Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nUnder the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence, I played a pivotal role in developing business intelligence (BI) solutions, fostering data-driven decision-making. Additionally, I engineered a predictive machine learning model in Python utilizing XGBoost, leading to a remarkable 4.5x increase in conversion rates for the top 20% of leads. My responsibilities also involved synthesizing data from a warehouse using SQL, conducting extensive exploratory data analysis, and implementing feature engineering to identify key attributes for lead conversion among a vast pool of over 300 features.\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nI spearheaded a Go-to-Market (GTM) analysis, comparing a novel AI product with its traditional human-operated counterpart. Leveraging the insights gained, I defined key performance indicators (KPIs) crucial for decision-making. Additionally, I developed and maintained data-driven dashboards using Google Looker. In weekly meetings, I effectively communicated insights and updates from the analysis, ensuring clear understanding among both technical and non-technical stakeholders about the strategic implications of our findings.\n\n\n\n\nRecommendations"
   },
   {
     "objectID": "index.html#section",
     "href": "index.html#section",
     "title": "",
     "section": "",
-    "text": "Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus.\nIn my free time, I like to play backgammon, watch movies, and cheer for the Celtics."
+    "text": "Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics."
   },
   {
     "objectID": "index.html#blog",
@@ -191,7 +191,7 @@
   {
     "objectID": "recommendations.html#attentive-mobile",
     "href": "recommendations.html#attentive-mobile",
-    "title": "Recommendations",
+    "title": "References",
     "section": "Attentive Mobile:",
     "text": "Attentive Mobile:"
   },
@@ -205,15 +205,78 @@
   {
     "objectID": "about.html#fa-institution-organizations",
     "href": "about.html#fa-institution-organizations",
-    "title": "Full CV",
-    "section": "",
-    "text": "Led team as captain, chosen by coach and team members, responsible for conducting captain’s practices during the offseason and fostering strong team culture; committed ~20 hours per week\n\n\n Served as a member of Student-Athlete Advisory Committee as an underclassman, addressing student-athlete concerns, and coordinating team participation in philanthropy events\n\n\n\n\n\n\n\n Elected by peers as Head of House of Commons College, a co-ed living and learning community of 24 residents taking a class beyond the traditional classroom and living together\n\n\n Facilitated weekly house meetings, served as liaison to school administration, coordinated class with the house professor (current course is on having difficult conversations)"
+    "title": "CV",
+    "section": " Organizations",
+    "text": "Organizations\n\n\nSt. Lawrence Men’s Varsity Tennis\n\n\nMember (Team Captain Senior Year) | September 2019 – May 2023\n\n\n Led team as captain, chosen by coach and team members, responsible for conducting captain’s practices during the offseason and fostering strong team culture; committed ~20 hours per week\n\n\n Served as a member of Student-Athlete Advisory Committee as an underclassman, addressing student-athlete concerns, and coordinating team participation in philanthropy events\n\n\n\n\n\nCommons College Theme House\n\n\nResident (Head of House Senior Year) | September 2019 – May 2023\n\n\n Elected by peers as Head of House of Commons College, a co-ed living and learning community of 24 residents taking a class beyond the traditional classroom and living together\n\n\n Facilitated weekly house meetings, served as liaison to school administration, coordinated class with the house professor (current course is on having difficult conversations)"
   },
   {
     "objectID": "about.html#fa-institution-education",
     "href": "about.html#fa-institution-education",
-    "title": "Full CV",
+    "title": "CV",
+    "section": " Education",
+    "text": "Education\n\n\nSt. Lawrence University\n\n\nBachelor of Science, Data Science | Graduating December 2023\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship\n\n\n\n\n\nDublin School\n\n\n2015-2019\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship"
+  },
+  {
+    "objectID": "index.html#data-analyst-intern-may-2023-august-2023",
+    "href": "index.html#data-analyst-intern-may-2023-august-2023",
+    "title": "Attentive Mobile",
+    "section": "Data Analyst Intern | May 2023 – August 2023",
+    "text": "Data Analyst Intern | May 2023 – August 2023\n\nPoint 1\nPoint 2\nPoint 3"
+  },
+  {
+    "objectID": "index.html#data-analyst-intern-may-2023-august-2023-1",
+    "href": "index.html#data-analyst-intern-may-2023-august-2023-1",
+    "title": "Attentive Mobile",
+    "section": "Data Analyst Intern | May 2023 – August 2023",
+    "text": "Data Analyst Intern | May 2023 – August 2023\n\nPoint 1\nPoint 2\nPoint 3"
+  },
+  {
+    "objectID": "posts/homepage/test2/test_post2.html",
+    "href": "posts/homepage/test2/test_post2.html",
+    "title": "test2",
     "section": "",
-    "text": "Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship"
+    "text": "test file #2 for testing purposes"
+  },
+  {
+    "objectID": "posts/homepage/test1/test_blog_post.html",
+    "href": "posts/homepage/test1/test_blog_post.html",
+    "title": "test blog post",
+    "section": "",
+    "text": "Hello world, this is a test blog post."
+  },
+  {
+    "objectID": "index.html#tldr",
+    "href": "index.html#tldr",
+    "title": "",
+    "section": "tldr;",
+    "text": "tldr;\nHi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics."
+  },
+  {
+    "objectID": "about.html#fa-hand-rock-o-work-experience",
+    "href": "about.html#fa-hand-rock-o-work-experience",
+    "title": "CV",
+    "section": "",
+    "text": "Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
+  },
+  {
+    "objectID": "about.html#fa-institution-education-1",
+    "href": "about.html#fa-institution-education-1",
+    "title": "CV",
+    "section": " Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "references.html#attentive-mobile",
+    "href": "references.html#attentive-mobile",
+    "title": "References",
+    "section": "Attentive Mobile:",
+    "text": "Attentive Mobile:"
+  },
+  {
+    "objectID": "about.html#fa-institution-technical-skills",
+    "href": "about.html#fa-institution-technical-skills",
+    "title": "CV",
+    "section": " Technical Skills",
+    "text": "Technical Skills\n\n\nProgramming\n\n\nR (Tidyverse, ggplot2, Shiny), SQL (Snowflake, PostgreSQL), Java (Object-Oriented Programing), Python (Pandas, NumPy, Scikit-learn), Git, Google Looker Studio, Data Visualization\n\n\n\n\n\nMath & Statistics\n\n\nProbability, Calculus (Differential, Integral, Multivariable), A/B Testing, Regression Analysis, Linear Algebra, Statistical and Machine Learning, Time Series Analysis"
   }
 ]
