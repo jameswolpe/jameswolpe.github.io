@@ -30,9 +30,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Full CV",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter\n\n\n\n\n\n\n\n\n\n Led team as captain, chosen by coach and team members, responsible for conducting captain’s practices during the offseason and fostering strong team culture; committed ~20 hours per week\n\n\n Served as a member of Student-Athlete Advisory Committee as an underclassman, addressing student-athlete concerns, and coordinating team participation in philanthropy events\n\n\n\n\n\n\n\n Elected by peers as Head of House of Commons College, a co-ed living and learning community of 24 residents taking a class beyond the traditional classroom and living together\n\n\n Facilitated weekly house meetings, served as liaison to school administration, coordinated class with the house professor (current course is on having difficult conversations)\n\n\n\n\n\n\n\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship"
   },
   {
     "objectID": "posts.html",
@@ -136,8 +136,8 @@
     "objectID": "about.html#fa-compass-personal-philosophy",
     "href": "about.html#fa-compass-personal-philosophy",
     "title": "About",
-    "section": " Personal Philosophy",
-    "text": "Personal Philosophy"
+    "section": "",
+    "text": "I believe that the 21st century requires a more multifaceted toolkit if we hope to solve complex challenges–process and task oriented approaches balanced within a framework that fosters strategic thinking. That interdisciplinary relationships can be strengthened through active community participation–working toward something with the shared value of doing good.\n I bring a lot of energy and enthusiasm to the projects that I become involved in. I thrive in situations that require imagination and innovation. My interests are varied; among my passions I would list: academic inquiry, classical and contemporary thought, the music and cuisine of other cultures, the arts, traveling, languages, and social justice. I believe that our most vulnerable deserve respect and to be treated with dignity and fairness.\n Ultimately I hope that the work I do is helpful–that it enables discovery or provides clarity. I hope to bring together practical and principled approaches and I hope to further grow as this philosophy guides me."
   },
   {
     "objectID": "posts/test_blog_post.html",
@@ -179,14 +179,14 @@
     "href": "index.html#section",
     "title": "",
     "section": "",
-    "text": "Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus.\nIn my free time, I like to play backgammon, watch movies, and cheer for the Celtics. :::"
+    "text": "Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus.\nIn my free time, I like to play backgammon, watch movies, and cheer for the Celtics."
   },
   {
     "objectID": "index.html#blog",
     "href": "index.html#blog",
     "title": "",
     "section": "Blog",
-    "text": "Blog\nLatest from the blog\n\n\n\n\n\n\n\n\ntest blog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntest2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntest2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDaily NBA Predictions using Bradley Terry Model\n\n\n\n\n\n\nJames Wolpe\n\n\nNov 25, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nPosts"
+    "text": "Blog\nLatest from the blog\n\n\n\n\n\n\n\n\ntest blog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntest2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDaily NBA Predictions using Bradley Terry Model\n\n\n\n\n\n\nJames Wolpe\n\n\nNov 25, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nPosts"
   },
   {
     "objectID": "recommendations.html#attentive-mobile",
@@ -194,5 +194,26 @@
     "title": "Recommendations",
     "section": "Attentive Mobile:",
     "text": "Attentive Mobile:"
+  },
+  {
+    "objectID": "about.html#fa-institution-work-experience",
+    "href": "about.html#fa-institution-work-experience",
+    "title": "Full CV",
+    "section": "",
+    "text": "Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
+  },
+  {
+    "objectID": "about.html#fa-institution-organizations",
+    "href": "about.html#fa-institution-organizations",
+    "title": "Full CV",
+    "section": "",
+    "text": "Led team as captain, chosen by coach and team members, responsible for conducting captain’s practices during the offseason and fostering strong team culture; committed ~20 hours per week\n\n\n Served as a member of Student-Athlete Advisory Committee as an underclassman, addressing student-athlete concerns, and coordinating team participation in philanthropy events\n\n\n\n\n\n\n\n Elected by peers as Head of House of Commons College, a co-ed living and learning community of 24 residents taking a class beyond the traditional classroom and living together\n\n\n Facilitated weekly house meetings, served as liaison to school administration, coordinated class with the house professor (current course is on having difficult conversations)"
+  },
+  {
+    "objectID": "about.html#fa-institution-education",
+    "href": "about.html#fa-institution-education",
+    "title": "Full CV",
+    "section": "",
+    "text": "Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship"
   }
 ]

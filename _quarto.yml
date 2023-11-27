@@ -23,8 +23,8 @@ website:
         href: https://www.linkedin.com/in/jameswolpe/
       - icon: envelope
         href: mailto:jameswolpe@gmail.com
-      - icon: reddit
-        href: https://www.reddit.com/user/josephjjames
+#      - icon: reddit
+#        href: https://www.reddit.com/user/josephjjames
 
   page-footer:
     left: James Wolpe 2023
@@ -37,4 +37,4 @@ format:
     theme:
       - yellow_theme.scss
     # css: styles.css
-    toc: true
+    #toc: true

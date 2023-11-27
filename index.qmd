@@ -6,7 +6,7 @@ title-block-banner: true
 toc: false
 listing: 
   - id: listing-blog
-    contents: "posts/"
+    contents: "posts/homepage"
     #template: /ejs/most-recent-only.ejs
     sort: "date desc"
     type: grid
@@ -20,13 +20,14 @@ listing:
   Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men's Tennis Team and a part of a living and learning theme community on campus.
 
   In my free time, I like to play backgammon, watch movies, and cheer for the Celtics.
-:::
 
 ## Work Experience
 
 ::: {.side-by-side}
 
 ::: {.left-text}
+
+  
 <div style="position: relative;">
   <img src="images/velocity-global.png" style="width: 30%; height: auto; opacity: 1; position: absolute; top: 0; right: 0;">
   <span style="font-size: 36pt; font-weight: bold; position: absolute; top: 10px; left: 10px; z-index: 1; color: black;">Velocity Global</span>
@@ -38,13 +39,12 @@ listing:
 
 ::: {.right-text}
 
-<div style="position: relative;">
+<div style="position: relative; text-align: left;">
   <img src="images/attentive.png" style="width: 30%; height: auto; opacity: 1; position: absolute; top: 0; right: 0;">
   <span style="font-size: 36pt; font-weight: bold; position: absolute; top: 10px; left: 10px; z-index: 1; color: black;">Attentive Mobile</span>
   <br>
   <span style="font-size: 24pt; position: absolute; top: 60px; left: 10px; z-index: 1; color: black;">Data Analyst Intern</span>
-    <span style="font-size: 17pt; position: relative; color: black;">Data Analyst Intern fad afad ad </span>
-
+  <span style="font-size: 17pt; position: absolute; top: 100px; left: 10px; z-index: 1; color: black;">Data Analyst Intern fad afad ad </span>
 </div>
 
 :::

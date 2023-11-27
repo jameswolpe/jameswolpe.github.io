@@ -6,19 +6,18 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/test1/test_blog_post.html",
+      "/posts/homepage/test1/test_blog_post.html",
+      "/posts/homepage/test2/test_post2.html",
       "/posts/test3/test3.html",
-      "/posts/test2/test_post2.html",
-      "/posts/2023-11-nba-compr-site/daily_nba_compr.html"
+      "/posts/homepage/2023-11-nba-compr-site/daily_nba_compr.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/posts/test1/test_blog_post.html",
-      "/posts/test3/test3.html",
-      "/posts/test2/test_post2.html",
-      "/posts/2023-11-nba-compr-site/daily_nba_compr.html"
+      "/posts/homepage/test1/test_blog_post.html",
+      "/posts/homepage/test2/test_post2.html",
+      "/posts/homepage/2023-11-nba-compr-site/daily_nba_compr.html"
     ]
   }
 ]
