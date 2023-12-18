@@ -1,0 +1,121 @@
+---
+title: "The Art and Popularity Paradox: Trends in Oscar Best Picture Movies"
+author: "James Wolpe"
+date: "5/11/2022"
+---
+
+Look at box office, ratings, votes, etc.
+and compare with google trends for oscars search
+
+```{r, include=FALSE}
+library(tidyverse)
+library(pander)
+```
+
+```{r, include=FALSE}
+basics <- read_tsv(here::here('posts/data/title.basics.popular.tsv.gz'))
+akas <- read_tsv(here::here('posts/data/title.akas.popular.tsv.gz'))
+ratings <- read_tsv(here::here('posts/data/title.ratings.popular.tsv.gz'))
+
+
+oscarWinnerBasics <- basics %>% filter(tconst %in% c("tt6751668", "tt6966692", "tt5580390", "tt4975722", "tt1895587", "tt2562232", "tt2024544", "tt1024648", "tt1655442", "tt1504320", "tt1010048", "tt0887912", "tt0477348", "tt0407887", "tt0405159", "tt0375679", "tt0167260", "tt0299658", "tt0268978", "tt0172495", "tt0169547", "tt0138097", "tt0120338", "tt0116209", "tt0112573", "tt0109830", "tt0108052", "tt0105695", "tt0102926", "tt0099348"))
+                                       
+oscarWinnerBasics <- oscarWinnerBasics %>% arrange(startYear)
+oscarWinnerBasics$startYear[19] <- 2009
+oscarWinnerBasics$startYear[15] <- 2005
+
+oscarWinnerRatings <- ratings %>% filter(tconst %in% c("tt6751668", "tt6966692", "tt5580390", "tt4975722", "tt1895587", "tt2562232", "tt2024544", "tt1024648", "tt1655442", "tt1504320", "tt1010048", "tt0887912", "tt0477348", "tt0407887", "tt0405159", "tt0375679", "tt0167260", "tt0299658", "tt0268978", "tt0172495", "tt0169547", "tt0138097", "tt0120338", "tt0116209", "tt0112573", "tt0109830", "tt0108052", "tt0105695", "tt0102926", "tt0099348"))
+
+oscarFull <- left_join(oscarWinnerBasics, oscarWinnerRatings,  by ="tconst") %>%
+  mutate(startYear = as.numeric(startYear))
+```
+
+# Introduction
+Over the last 30 years it seems that the movie that wins best picture at the Oscars has gotten more "artsy" and less "popular". To investigate this question I will be using data pulled from the IMDB website, specifically the variables that count the number of ratings votes, the average rating, and the run time of movies for best picture winning movies over the last 30 years.
+
+It is important to note that the last two best picture winners, "CODA" and "Nomadland" were not included in the data set as well as the 1996 film "The English Patient"
+
+# Analysis
+
+Figure 1 below shows a consistent decline in the number of votes the best picture received on IMDB by year. For each one year increase, the number of votes received by the best picture winner decreases by an estimated 21826 (p-value 0.027). This shows a steady decline in the popularity of the best picture winning movie.
+```{r,echo=FALSE, message=FALSE}
+ggplot(oscarFull, aes(x =startYear, y = numVotes))+
+  geom_point() +
+  geom_smooth(method = lm, se = FALSE)+
+  scale_x_continuous(breaks = oscarFull$startYear)+
+  labs(y = "Number of Votes",
+       x = "Movie Release Year",
+       title = "Analysis of Number of Votes by Year",
+       caption = "An analysis of the number of IMDB ratings votes by 
+       the release year of the best picture winning movie.
+       
+       Fig. 1")+
+  theme_bw() +
+  theme(axis.text.x=element_text(angle=90))
+```
+
+```{r, echo=FALSE}
+
+modM1 <- lm(numVotes ~ startYear, data = oscarFull)
+
+summary(modM1) %>% pander()
+```
+
+Figure 2 shows a decrease in the average rating the best picture received on IMDB by year. For each one year increase the average rating of the movie is estimated to decrease by  0.02 points. However the data points for this analysis are quite spread out and the p-value of that estimate is 0.0616 putting it above the .05 significance level.
+```{r, echo=FALSE, message=FALSE}
+ggplot(oscarFull, aes(x =startYear, y = averageRating))+
+  geom_point() +
+  geom_smooth(method = lm, se = FALSE)+
+  scale_x_continuous(breaks = oscarFull$startYear)+
+  labs(y = "Average Rating",
+       x = "Movie Release Year",
+       title = "Analysis of Average rating by Year",
+       caption = "An analysis of the average IMDB rating by 
+       the release year of the best picture winning movie.
+       
+       Fig. 2")+
+  theme_bw() +
+    theme(axis.text.x=element_text(angle=90))
+```
+
+```{r, echo=FALSE}
+
+modM2 <- lm(averageRating ~ startYear, data = oscarFull)
+
+summary(modM2) %>% pander()
+```
+
+
+Figure 3 looks the average run time of best picture winning movies over the last 30 years. I expected a steady increase as the have become more "artsy" and less popular but was surprised to see a negative trend line. For each one year increase, the run time of the best picture winner decreases by an estimated 1.5 minutes (p-value 0.00556).
+```{r, echo=FALSE, message=FALSE}
+oscarFull <- oscarFull %>% 
+  mutate(runtimeMinutes = as.numeric(runtimeMinutes),
+         runtimeHours = runtimeMinutes/60)
+
+ggplot(oscarFull, aes(x =startYear, y = runtimeHours))+
+  geom_point() +
+  geom_smooth(method = lm, se = FALSE) +
+  scale_x_continuous(breaks = oscarFull$startYear) + 
+  labs(y = "Run Time in Hours ",
+       x = "Movie Release Year",
+       title = "Analysis of Average Runtime by Year",
+       caption = "An analysis of the average runtime in hours
+       by the release year of the best picture winning movie.
+       
+       Fig. 3")+
+  theme_bw()+
+  theme(axis.text.x=element_text(angle=90))
+```
+
+```{r, echo=FALSE}
+modM3 <- lm(runtimeMinutes ~ startYear, data = oscarFull)
+
+summary(modM3) %>% pander()
+```
+
+# Discussion
+As a fan of the Oscars, in recent years it has felt like the best picture is going to more and more obscure movies and that less of my friends have seen or heard of them. To analyze this I looked at IMDB data of the Oscar winners of the last 30 years and made multiple plots to visualize trends looking at number of votes and average rating. The results from the graphs of number of votes and average ratings showed a decline in both the number of people seeing the Oscar nominated movie over recent years and how much they liked the movie. Hopefully the Academy can change its ways and award films more popular among everyday people the best picture award and we can get more films like "Forrest Gump".
+
+# References
+
+<https://www.imdb.com/search/title/?count=100&groups=oscar_best_picture_winners&sort=year%2Cdesc>

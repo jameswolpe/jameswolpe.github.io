@@ -1,0 +1,173 @@
+---
+title: "Exploring Greek Life Trends: A Stat 113 Survey Analysis"
+author: "James Wolpe"
+date: "5/10/2022"
+---
+# Introduction
+
+For this project I used the Stat 113 data set which contains survey data from Stat 113 students. The variables of interest are weather or not a student is in or planning on joing Greek life, the students school year, the students gender, and a new variable I created that evaluates weather the semester was pre or postpandemic.
+
+In my first semester back (last spring) since the Covid-19 pandemic I noticed that it was hard to meet new people and have a social scene. It also felt like most of my grade joined greek life. To investigate this I looked at the general trend of greek life participation and if there were more males rushing fraternaties postpandemic.
+
+# Data Exploration
+
+```{r, include=FALSE}
+library(tidyverse)
+library(pander)
+stat113 <- read_csv(here::here("posts/data/stat113_surveys.csv"))
+```
+
+
+```{r, include=FALSE}
+stat113P2 <- stat113 %>% 
+  separate(Term, into = c("semester", "Syear"), sep = 1) %>%
+  unite(col = "Term", c(semester, Syear)) %>%
+  mutate(Term = fct_inorder(Term)) %>%
+  mutate(Term2 = Term) %>%
+  relocate(Term2) %>%
+  separate(Term2, into = c("semester", "Syear"), sep = "_") %>% 
+  mutate(post_pandemic = if_else(Term %in% c( "F_21", "S_21", "F_22", "F_20"),
+                                                   true = TRUE,
+                                                   false = FALSE)) %>%
+  filter(Term != "F_06", 
+         Term !="S_07", 
+         Term !="F_07")
+stat113total <-
+stat113P2 %>% drop_na(Greek, Gender) %>%
+  filter(Gender== "M" | Gender == "F") %>%
+  mutate(Greek = if_else(Greek == "No", true = FALSE,
+                                        false = TRUE))%>%
+   group_by(Term, Greek, Gender) %>%
+  summarise(ncount = n()) %>%
+  ungroup() %>%
+  group_by(Term) %>%
+  mutate(total = sum(ncount)) %>% 
+  ungroup() %>%
+  mutate(propGreek = (ncount/total)*100) %>%
+  filter(Greek == TRUE)
+```
+
+First I looked at the trends in males and females who were either in, or planning on joining greek life. A steady increase in the percent of males in, or planning on joining greek life can be seen. In fact, these most recent two semesters are the first time a higher percent of males than females in Stat 113 or in or planning on joining greek life.
+```{r, echo=FALSE}
+ggplot(data = stat113total, aes(x = Term, y = propGreek, color = Gender, group = Gender)) +
+  geom_point(shape = 9) +
+  geom_smooth(se = FALSE) +
+  labs(y = "Percentage",
+       title = "Change in Greek Participation Over Time")+ 
+  scale_colour_brewer(palette = "Set2") +
+  theme_bw() +
+  theme(axis.text.x=element_text(angle=90, size=10)) 
+```
+
+```{r, include==FALSE}
+stat113FSmale <-
+stat113P2 %>% drop_na(Greek) %>%
+  mutate(Year=as_factor(Year))%>%
+  filter(Gender== "M",
+         Year == 1 | Year == 2) %>%
+   group_by(Term, Greek, Year) %>%
+  summarise(ncount = n()) %>%
+  ungroup() %>%
+  group_by(Term, Year) %>%
+  mutate(total = sum(ncount)) %>% 
+  ungroup() %>%
+  mutate(propGreek = (ncount/total)*100) %>%
+  filter(Greek == "Planning") %>%
+    mutate(Year = factor(Year, levels = c("1", "2"), 
+              labels = c("Freshman", "Sophmore")))
+```
+
+Next I looked to see where all those males were coming from. Both freshman and sophmores males have been increasing in perctage planning on joining greek life, however, in the past few semesters there has been a jump in sophmore males; especially that last spring semester I spoke about in my introduction.
+
+```{r, message=FALSE, echo=FALSE}
+ggplot(data = stat113FSmale, aes(x = Term, y = propGreek, color = Year, group = Year)) +
+  geom_point() +
+  geom_smooth() +
+  facet_wrap(~Year) +
+  labs(y = "Percentage Greek", 
+       title = "Freshman vs. Sophmore Males Planning to Rush")+
+  theme_bw()+
+  theme(axis.text.x=element_text(angle=90, size=6)) + 
+  scale_colour_brewer(palette = "Set1")
+```
+
+```{r, include=FALSE}
+stat113BoxPlots <- 
+  stat113P2 %>% 
+  drop_na(Greek) %>% 
+  filter(Gender== "M",
+         Year == 2,
+         Term %in% c("F_11", "S_12", "F_12","S_13","F_13","S_14","F_14", "S_15","F_15","S_16","F_16","S_17","F_17","S_18","F_18","S_19", "F_19","S_20", "F_20", "S_21", "F_21", "S_22")) %>% 
+  group_by(Term, Greek) %>%
+  summarise(ncount = n()) %>%
+  ungroup() %>%
+  group_by(Term) %>%
+  mutate(total = sum(ncount)) %>% 
+  ungroup() %>%
+  mutate(propGreek = (ncount/total)*100,
+         se = sqrt(propGreek * (100 - propGreek) / total),
+         l_se = propGreek - se,
+         u_se = propGreek + se) %>%
+  filter(Greek == "Planning") %>%
+  mutate(postPandemic = if_else(Term %in% c("F_20","S_21", "F_21","S_22"),
+                                                   true = "Postpandemic",
+                                                   false = "Prepandemic"
+                               ))
+```
+
+To investigate Sophmore males planning on joining greek further I ploted them individually with standard error bars and colored by weather it was pre or post pandemic. Last spring was by far the highest percentage of Sophmore males planning on joining greek, my hypothesis for this is that there was a need to affiliate for social reasons in that pandemic semester, and many of the people that would've rushed in the fall were not on campus. My hypothesis for why fall of 202 was so low is that people had been away from campus for so long that they felt like they needed to get their barrings and didnt know hat to expect socially.
+```{r, echo=FALSE}
+ggplot(data = stat113BoxPlots, aes(x = Term, y = propGreek, color = postPandemic)) +
+geom_point() +
+  geom_errorbar(aes(ymin = l_se, ymax = u_se)) +
+  labs(y = "Percentage Greek",
+       title = "Male Sophmores Planning on Joining Greek") +
+   scale_color_discrete(name="") +
+  theme_bw()+
+  theme(axis.text.x=element_text(angle=90))
+```
+
+```{r,include=FALSE}
+##Side by side box plot grouped
+
+stat113BoxPlots2 <- stat113P2 %>% 
+  drop_na(Greek) %>% 
+  filter(Gender== "M",
+         Year == 2) %>%
+  group_by(Term, Greek) %>%
+  summarise(ncount = n()) %>%
+  ungroup() %>%
+  group_by(Term) %>%
+  mutate(total = sum(ncount)) %>% 
+  ungroup() %>%
+  mutate(propGreek = (ncount/total)*100,
+         se = sqrt(propGreek * (100 - propGreek) / total),
+         l_se = propGreek - se,
+         u_se = propGreek + se) %>%
+  filter(Greek == "Planning") %>%
+  mutate(postPandemic = if_else(Term %in% c("F_20","S_21", "F_21","S_22"),
+                                                   true = "Postpandemic",
+                                                   false = "Pretpandemic"
+                               ))
+```
+
+Finnally I compared the proportion of male sophmores planning to join a Fraternity in the semesters leading up with the proportion post pandemic and found that there was a difference in means at the 0.05938 signifcance level.
+```{r, echo=FALSE}
+ggplot(data = stat113BoxPlots2, aes(x = fct_rev(postPandemic), y = propGreek)) +
+  geom_boxplot(aes(fill = postPandemic)) +
+  scale_fill_viridis_d(option = "plasma", name = "Time Period") +
+  labs(caption = 
+      "The proportion of male sophmores planning to join a Fraternity in the
+      semesters leading up to the Covid-19 pandemic compared with 
+       the proportion from the four semesters following the pandemic",
+      x = "",
+      y = "Percentage Planning on Joing a Fraternity")+
+  theme_bw() +
+     theme(plot.caption = element_text(hjust = 0, face = "italic"))
+
+t.test(propGreek ~ postPandemic, var.equal=TRUE, data = stat113BoxPlots2)%>%
+  pander()
+```
+
+# Wrap-up
+In conclusion, there has been a consistant increase in the percentage of males planning or in greek life, in fact these past two semesters were the first time that percentage was higher than the percentage of females. The second semester post pandemic saw a large uptick in the number of sophmore males planning on joing greek, I hypothesize this is because the limited social life on campus created pressure to socially affiliate. For sophmore males there was an increase in planning on joing greek at the 0.059 signifcance level. In the future I hope to revisit this data to see if this was just a blip.

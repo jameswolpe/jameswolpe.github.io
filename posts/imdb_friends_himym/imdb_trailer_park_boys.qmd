@@ -2,7 +2,6 @@
 title: 'New York, New York: A Comparative Analysis of "Friends" and "How I Met Your Mother"'
 author: "James Wolpe"
 date: "5/11/2022"
-    toc: true
 ---
 
 ```{r, include=FALSE}
