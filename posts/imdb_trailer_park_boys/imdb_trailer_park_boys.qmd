@@ -13,9 +13,9 @@ library(pander)
 ```{r, include= FALSE}
 # decided to play around with tsv files instead of csv files
 # use the here package to make sure the file path is correct
-ratings <- read_tsv(here::here('posts/imdb_trailer_park_boys/data/title.ratings.popular.tsv.gz'))
+ratings <- read_tsv(here::here('posts/data/title.ratings.popular.tsv.gz'))
 
-episode <- read_tsv(here::here('posts/imdb_trailer_park_boys/data/title.episode.popular.tsv.gz'))
+episode <- read_tsv(here::here('posts/data/title.episode.popular.tsv.gz'))
 ```
 
 ```{r, include=FALSE}
