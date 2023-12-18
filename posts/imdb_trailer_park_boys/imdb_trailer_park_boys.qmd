@@ -12,8 +12,10 @@ library(pander)
 
 ```{r, include= FALSE}
 # decided to play around with tsv files instead of csv files
-ratings <- read_tsv('data/title.ratings.popular.tsv.gz')
-episode <- read_tsv('data/title.episode.popular.tsv.gz')
+# use the here package to make sure the file path is correct
+ratings <- read_tsv(here::here('posts/imdb_trailer_park_boys/data/title.ratings.popular.tsv.gz'))
+
+episode <- read_tsv(here::here('posts/imdb_trailer_park_boys/data/title.episode.popular.tsv.gz'))
 ```
 
 ```{r, include=FALSE}
@@ -35,19 +37,17 @@ TPBfull %>% summarise(n = n(),
 "Trailer Park Boys" is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got.
 
 ## Analysis
-1a)
 
 The distribution of Episode ratings in "Trailer Park Boys" appears to be normal as can be seen in Fig. 1. People tend to rate the episodes fairly high and the majority of the reviews are withing .6 of each other on the 10 point rating scale.
 
 
 ```{r, echo=FALSE}
 ggplot(data = TPBfull, aes(x = averageRating)) +
-  geom_histogram(bins = 20) +
-  geom_vline(xintercept = TPBfull$meanRating,
-             color = 'red3') +
+  geom_histogram(bins = 20, fill = 'transparent', linewidth = 1, color = 'grey20') +  # Updated to linewidth
+  geom_vline(xintercept = TPBfull$meanRating, color = 'red3', linetype = 'dashed', size = 1) +
   labs(x = 'Episode Rating',
        y = 'Count',
-       title = 'Analysis of Episode Ratings',
+       title = 'Episode Ratings',
        caption = 'A histogram of average Trailer Park Boys episode ratings on
        IMDB with a line representing the mean rating of the TV show.
        
@@ -62,16 +62,15 @@ summary(TPBfull$averageRating) %>%
 
 ```
 
-1b)
-
 The distribution of user votes appears to be right skewed as can be seen in Fig. 2. The median number of votes an episode gets is 360 while some episodes get more than double that number.
 
 ```{r, echo=FALSE}
+  
 ggplot(data = TPBfull, aes(x = numVotes)) +
-  geom_histogram(bins=18) +
+   geom_histogram(bins = 19, fill = 'transparent', linewidth = 1, color = 'grey20') +  # Updated to linewidth
   labs(x = 'Number of Votes',
        y = 'Count',
-       title = 'Analysis of Number of Votes',
+       title = 'Number of Votes',
        caption = 'A look at the distribution of the number of rating votes  
        by episode for the show Trailer Park Boys on IMDB
        
@@ -86,26 +85,26 @@ summary(TPBfull$numVotes) %>%
 ```
 
 
-2a)
 
 Looking at episode ratings by season in Fig. 3 some trends can be observed. The show started off with its first four seasons doing consistently well with means around an average rating of 8.5. Then following a poor rated season five, a downtrend began, bottoming out at season ten with an average rating of around 7.5. The next and final two seasons were rated slightly higher with the final season rating right around the overall show mean of 8.2. 
 ```{r, include=FALSE}
-TPBfull <- TPBfull %>% mutate(seasonNumber = as_factor(seasonNumber),
-                              seasonNumber = fct_inseq(seasonNumber),
+TPBfull <- TPBfull %>% mutate(seasonNumber = as.numeric(seasonNumber),
                               episodeNumber = as.numeric(episodeNumber)
                               )
 ```
 
 
 ```{r, echo=FALSE}
-ggplot(data = TPBfull,aes(x = fct_inorder(seasonNumber), y = averageRating, group = seasonNumber, color = seasonNumber) )+
+ggplot(data = TPBfull, aes(x = factor(seasonNumber, levels = sort(unique(seasonNumber))), y = averageRating, group = seasonNumber)) +
   geom_boxplot() +
   #geom_violin()+
-  geom_hline(yintercept = TPBfull$meanRating)+
+  geom_hline(yintercept = TPBfull$meanRating, 
+             color = 'red3',
+             linetype = 'dashed')+
   labs(x = 'Season Number',
        y = 'Average Rating',
        colour = 'Season Number',
-       title = 'Analysis of Trailer Park Boys 
+       title = 'Trailer Park Boys 
        Episode Rating by Season',
        caption = 'Episode ratings on IMDB of Trailer Park Boys grouped by season,
        analyzed using side-by-side violin plots with a line representing
@@ -117,8 +116,8 @@ ggplot(data = TPBfull,aes(x = fct_inorder(seasonNumber), y = averageRating, grou
 
 ```{r, include=FALSE}
 summary(TPBfull$numVotes)
+## get fibinochi number
 ```
-2b)
 
 A clear trend can be seen when looking at number of votes an episode got as a predictor of the rating of that episode as seen in Fig. 4. For every one vote increase in the number of votes a 0.001561 increase in episode rating was estimated.
 This positive trend becomes a little less clear with the very high number of votes, as there is an outlive that received 861 votes and had one of the four worst episode ratings.
@@ -130,7 +129,7 @@ ggplot(data = TPBfull, aes(x = numVotes, y = averageRating)) +
              color = 'red3')+
   labs(y = 'Average Rating',
        x = 'Number of Votes',
-       title = 'Analysis of Episode Rating by Number of Votes',
+       title = 'Episode Rating by Number of Votes',
        caption = 'A scattter plot of the relationship between IMDB Trailer Park Boys
        episode ratings and the number of votes that episode had, with a 
        horizontal line representing the mean rating of the TV show.
