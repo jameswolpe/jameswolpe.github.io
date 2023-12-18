@@ -32,7 +32,7 @@ listing:
   <br>
   `Summer 2022`
   
-Under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence, I played a pivotal role in developing business intelligence (BI) solutions, fostering data-driven decision-making. Additionally, I engineered a predictive machine learning model in Python utilizing XGBoost, leading to a remarkable 4.5x increase in conversion rates for the top 20% of leads. My responsibilities also involved synthesizing data from a warehouse using SQL, conducting extensive exploratory data analysis, and implementing feature engineering to identify key attributes for lead conversion among a vast pool of over 300 features.
+Engineered a machine learning model in Python utilizing XGBoost, to predict lead conversion. The models top 20% of scorers had a 4.5x higher conversion rate. ENGINEERED A PIPELINE 
 </div>
 :::
 
@@ -45,7 +45,7 @@ Under the guidance of the Principal Data Scientist and the Senior Director of Bu
   <br>
   `Summer 2023`
   
-I spearheaded a Go-to-Market (GTM) analysis, comparing a novel AI product with its traditional human-operated counterpart. Leveraging the insights gained, I defined key performance indicators (KPIs) crucial for decision-making. Additionally, I developed and maintained data-driven dashboards using Google Looker. In weekly meetings, I effectively communicated insights and updates from the analysis, ensuring clear understanding among both technical and non-technical stakeholders about the strategic implications of our findings.
+Performed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging the insights gained, I defined key performance indicators (KPIs) and developed data-driven dashboards using Google Looker.
 </div>
 :::
 
@@ -53,7 +53,7 @@ I spearheaded a Go-to-Market (GTM) analysis, comparing a novel AI product with i
 
 
 ::: {.feature-bottom}
-[Recommendations](recommendations.qmd){.btn .btn-secondary role="button"}
+[References](references.qmd){.btn .btn-secondary role="button"}
 :::
 
 

@@ -1,0 +1,158 @@
+---
+title: 'Analysis of IMDB Ratings in "Trailer Park Boys"'
+author: 'James Wolpe'
+date: '5/8/2022'
+---
+
+```{r, include=FALSE}
+library(tidyverse)
+library(pander)
+```
+
+
+```{r, include= FALSE}
+# decided to play around with tsv files instead of csv files
+ratings <- read_tsv('data/title.ratings.popular.tsv.gz')
+episode <- read_tsv('data/title.episode.popular.tsv.gz')
+```
+
+```{r, include=FALSE}
+TPBratings <- ratings %>% filter(tconst == 'tt0290988')
+TPBepisode <- episode %>% filter(parentTconst == 'tt0290988')
+
+TPBfull <- left_join(TPBepisode,ratings, by = ('tconst')) %>% 
+  mutate(meanRating = mean(averageRating))
+```
+
+
+```{r, include=FALSE}
+TPBfull %>% count(seasonNumber)
+
+TPBfull %>% summarise(n = n(),
+            avgRating = mean(averageRating))
+```
+## Inroduction
+"Trailer Park Boys" is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got.
+
+## Analysis
+1a)
+
+The distribution of Episode ratings in "Trailer Park Boys" appears to be normal as can be seen in Fig. 1. People tend to rate the episodes fairly high and the majority of the reviews are withing .6 of each other on the 10 point rating scale.
+
+
+```{r, echo=FALSE}
+ggplot(data = TPBfull, aes(x = averageRating)) +
+  geom_histogram(bins = 20) +
+  geom_vline(xintercept = TPBfull$meanRating,
+             color = 'red3') +
+  labs(x = 'Episode Rating',
+       y = 'Count',
+       title = 'Analysis of Episode Ratings',
+       caption = 'A histogram of average Trailer Park Boys episode ratings on
+       IMDB with a line representing the mean rating of the TV show.
+       
+       Fig. 1 ') +
+  theme_bw()
+```
+
+
+```{r, echo=FALSE}
+summary(TPBfull$averageRating) %>%
+  pander()
+
+```
+
+1b)
+
+The distribution of user votes appears to be right skewed as can be seen in Fig. 2. The median number of votes an episode gets is 360 while some episodes get more than double that number.
+
+```{r, echo=FALSE}
+ggplot(data = TPBfull, aes(x = numVotes)) +
+  geom_histogram(bins=18) +
+  labs(x = 'Number of Votes',
+       y = 'Count',
+       title = 'Analysis of Number of Votes',
+       caption = 'A look at the distribution of the number of rating votes  
+       by episode for the show Trailer Park Boys on IMDB
+       
+       Fig. 2')+
+  theme_bw()
+```
+
+
+```{r, echo=FALSE}
+summary(TPBfull$numVotes) %>%
+  pander() 
+```
+
+
+2a)
+
+Looking at episode ratings by season in Fig. 3 some trends can be observed. The show started off with its first four seasons doing consistently well with means around an average rating of 8.5. Then following a poor rated season five, a downtrend began, bottoming out at season ten with an average rating of around 7.5. The next and final two seasons were rated slightly higher with the final season rating right around the overall show mean of 8.2. 
+```{r, include=FALSE}
+TPBfull <- TPBfull %>% mutate(seasonNumber = as_factor(seasonNumber),
+                              seasonNumber = fct_inseq(seasonNumber),
+                              episodeNumber = as.numeric(episodeNumber)
+                              )
+```
+
+
+```{r, echo=FALSE}
+ggplot(data = TPBfull,aes(x = fct_inorder(seasonNumber), y = averageRating, group = seasonNumber, color = seasonNumber) )+
+  geom_boxplot() +
+  #geom_violin()+
+  geom_hline(yintercept = TPBfull$meanRating)+
+  labs(x = 'Season Number',
+       y = 'Average Rating',
+       colour = 'Season Number',
+       title = 'Analysis of Trailer Park Boys 
+       Episode Rating by Season',
+       caption = 'Episode ratings on IMDB of Trailer Park Boys grouped by season,
+       analyzed using side-by-side violin plots with a line representing
+       the mean rating of the TV show.
+       
+       Fig. 3') +
+  theme_bw()
+```
+
+```{r, include=FALSE}
+summary(TPBfull$numVotes)
+```
+2b)
+
+A clear trend can be seen when looking at number of votes an episode got as a predictor of the rating of that episode as seen in Fig. 4. For every one vote increase in the number of votes a 0.001561 increase in episode rating was estimated.
+This positive trend becomes a little less clear with the very high number of votes, as there is an outlive that received 861 votes and had one of the four worst episode ratings.
+```{r, echo=FALSE, message=FALSE}
+ggplot(data = TPBfull, aes(x = numVotes, y = averageRating)) +
+         geom_point() +
+  geom_smooth(method = lm, se = FALSE, color = 'black') +
+  geom_hline(yintercept = TPBfull$meanRating,
+             color = 'red3')+
+  labs(y = 'Average Rating',
+       x = 'Number of Votes',
+       title = 'Analysis of Episode Rating by Number of Votes',
+       caption = 'A scattter plot of the relationship between IMDB Trailer Park Boys
+       episode ratings and the number of votes that episode had, with a 
+       horizontal line representing the mean rating of the TV show.
+       
+       Fig. 4') +
+  theme_bw()
+```
+
+
+
+
+```{r, echo=FALSE}
+modB <- lm(averageRating ~ numVotes, data = TPBfull)
+summary(modB) %>% pander()
+```
+
+## Discussion
+
+When analyzing IMDB ratings of "Trailer Park Boys" some interesting trends were observed. The downward trend beginning around season four makes sense to any fan of the show as that is when the show got a bigger budget and got away from its low-budget, digital camera, homemade look. This all culminates to season ten, known by fans as the "Snoop Dogg season", which is regarded as the worst season but has likely the largest budget. It was surprising to see season five as an outlier from the general trend, rated considerably lower. I suspect this is due to the slightly darker theme of the season and the more cohesive plot. 
+
+## References
+<https://www.imdb.com/title/tt0290988/?ref_=ttep_ep_tt>
+
+
+
