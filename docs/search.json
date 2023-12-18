@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus.\nIn my free time, I like to play backgammon, watch movies, and cheer for the Celtics.\n\n\n\nOREO\n\n\nTESTO\n\n\n\nBlog\nLatest from the blog\n\n\n\n\n\n\n\n\ntest blog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntest2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntest2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDaily NBA Predictions using Bradley Terry Model\n\n\n\n\n\n\nJames Wolpe\n\n\nNov 25, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nPosts"
+    "text": "!(images/logos/website_basketball_animation.GIF)"
   },
   {
     "objectID": "index.html#education",
@@ -39,7 +39,7 @@
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "test blog post\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest2\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest2\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nDaily NBA Predictions using Bradley Terry Model\n\n\n\n\n\n\n\nNBA\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nNov 25, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\nNo matching items"
+    "text": "test blog post\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest2\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nDaily NBA Predictions using Bradley Terry Model\n\n\n\n\n\n\n\nNBA\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nNov 25, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html",
@@ -163,16 +163,16 @@
   {
     "objectID": "posts/test3/test3.html",
     "href": "posts/test3/test3.html",
-    "title": "test2",
+    "title": "Wolpe Final Project Part 1",
     "section": "",
-    "text": "wejrhfdshjnfshb test 3"
+    "text": "“Trailer Park Boys” is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got."
   },
   {
     "objectID": "index.html#work-experience",
     "href": "index.html#work-experience",
     "title": "",
     "section": "Work Experience",
-    "text": "Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nEngineered a machine learning model in Python utilizing XGBoost, to predict lead conversion. The models top 20% of scorers had a 4.5x higher conversion rate.\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nPerformed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging the insights gained, I defined key performance indicators (KPIs) and developed data-driven dashboards using Google Looker.\n\n\n\n\nReferences"
+    "text": "Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nEngineered a machine learning model in Python utilizing XGBoost, to predict lead conversion. The models top 20% of scorers had a 4.5x higher conversion rate. ENGINEERED A PIPELINE\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nPerformed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined key performance indicators (KPIs) and developed data-driven dashboards using Google Looker.\n\n\n\n\nReferences"
   },
   {
     "objectID": "index.html#section",
@@ -249,7 +249,7 @@
     "href": "index.html#tldr",
     "title": "",
     "section": "tldr;",
-    "text": "tldr;\nHi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics."
+    "text": "tldr;\nHi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics. ## Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nEngineered a machine learning model in Python utilizing XGBoost, to predict lead conversion. The models top 20% of scorers had a 4.5x higher conversion rate. ENGINEERED A PIPELINE\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nPerformed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined key performance indicators (KPIs) and developed data-driven dashboards using Google Looker.\n\n\n\n\nReferences"
   },
   {
     "objectID": "about.html#fa-hand-rock-o-work-experience",
@@ -334,5 +334,103 @@
     "title": "CV",
     "section": " Technical Skills",
     "text": "Technical Skills\n\n\nProgramming\n\n\nR (Tidyverse, ggplot2, Shiny), SQL (Snowflake, PostgreSQL), Java (Object-Oriented Programing), Python (Pandas, NumPy, Scikit-learn), Git, Google Looker Studio, Data Visualization\n\n\n\n\n\nMath & Statistics\n\n\nProbability, Calculus (Differential, Integral, Multivariable), A/B Testing, Regression Analysis, Linear Algebra, Statistical and Machine Learning, Time Series Analysis"
+  },
+  {
+    "objectID": "posts/test3/test3.html#inroduction",
+    "href": "posts/test3/test3.html#inroduction",
+    "title": "Wolpe Final Project Part 1",
+    "section": "",
+    "text": "“Trailer Park Boys” is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got."
+  },
+  {
+    "objectID": "posts/test3/test3.html#analysis",
+    "href": "posts/test3/test3.html#analysis",
+    "title": "Wolpe Final Project Part 1",
+    "section": "Analysis",
+    "text": "Analysis\n1a)\nThe distribution of Episode ratings in “Trailer Park Boys” appears to be normal as can be seen in Fig. 1. People tend to rate the episodes fairly high and the majority of the reviews are withing .6 of each other on the 10 point rating scale.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMin.\n1st Qu.\nMedian\nMean\n3rd Qu.\nMax.\n\n\n\n\n7.1\n7.9\n8.2\n8.217\n8.6\n9.2\n\n\n\n\n\n1b)\nThe distribution of user votes appears to be right skewed as can be seen in Fig. 2. The median number of votes an episode gets is 360 while some episodes get more than double that number.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMin.\n1st Qu.\nMedian\nMean\n3rd Qu.\nMax.\n\n\n\n\n178\n232\n360.5\n373.5\n489.8\n861\n\n\n\n\n\n2a)\nLooking at episode ratings by season in Fig. 3 some trends can be observed. The show started off with its first four seasons doing consistently well with means around an average rating of 8.5. Then following a poor rated season five, a downtrend began, bottoming out at season ten with an average rating of around 7.5. The next and final two seasons were rated slightly higher with the final season rating right around the overall show mean of 8.2.\n\n\n\n\n\n2b)\nA clear trend can be seen when looking at number of votes an episode got as a predictor of the rating of that episode as seen in Fig. 4. For every one vote increase in the number of votes a 0.001561 increase in episode rating was estimated. This positive trend becomes a little less clear with the very high number of votes, as there is an outlive that received 861 votes and had one of the four worst episode ratings.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nEstimate\nStd. Error\nt value\nPr(&gt;|t|)\n\n\n\n\n(Intercept)\n7.634\n0.09583\n79.66\n4.822e-95\n\n\nnumVotes\n0.001561\n0.0002368\n6.589\n1.859e-09\n\n\n\n\nFitting linear model: averageRating ~ numVotes\n\n\n\n\n\n\n\n\nObservations\nResidual Std. Error\n\\(R^2\\)\nAdjusted \\(R^2\\)\n\n\n\n\n106\n0.3795\n0.2945\n0.2877"
+  },
+  {
+    "objectID": "posts/test3/test3.html#discussion",
+    "href": "posts/test3/test3.html#discussion",
+    "title": "Wolpe Final Project Part 1",
+    "section": "Discussion",
+    "text": "Discussion\nWhen analyzing IMDB ratings of “Trailer Park Boys” some interesting trends were observed. The downward trend beginning around season four makes sense to any fan of the show as that is when the show got a bigger budget and got away from its low-budget, digital camera, homemade look. This all culminates to season ten, known by fans as the “Snoop Dogg season”, which is regarded as the worst season but has likely the largest budget. It was surprising to see season five as an outlier from the general trend, rated considerably lower. I suspect this is due to the slightly darker theme of the season and the more cohesive plot."
+  },
+  {
+    "objectID": "posts/test3/test3.html#references",
+    "href": "posts/test3/test3.html#references",
+    "title": "Wolpe Final Project Part 1",
+    "section": "References",
+    "text": "References\nhttps://www.imdb.com/title/tt0290988/?ref_=ttep_ep_tt"
+  },
+  {
+    "objectID": "posts/test3/imdb_trailer_park_boys.html",
+    "href": "posts/test3/imdb_trailer_park_boys.html",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "",
+    "text": "“Trailer Park Boys” is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got."
+  },
+  {
+    "objectID": "posts/test3/imdb_trailer_park_boys.html#inroduction",
+    "href": "posts/test3/imdb_trailer_park_boys.html#inroduction",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "",
+    "text": "“Trailer Park Boys” is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got."
+  },
+  {
+    "objectID": "posts/test3/imdb_trailer_park_boys.html#analysis",
+    "href": "posts/test3/imdb_trailer_park_boys.html#analysis",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "Analysis",
+    "text": "Analysis\n1a)\nThe distribution of Episode ratings in “Trailer Park Boys” appears to be normal as can be seen in Fig. 1. People tend to rate the episodes fairly high and the majority of the reviews are withing .6 of each other on the 10 point rating scale.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMin.\n1st Qu.\nMedian\nMean\n3rd Qu.\nMax.\n\n\n\n\n7.1\n7.9\n8.2\n8.217\n8.6\n9.2\n\n\n\n\n\n1b)\nThe distribution of user votes appears to be right skewed as can be seen in Fig. 2. The median number of votes an episode gets is 360 while some episodes get more than double that number.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMin.\n1st Qu.\nMedian\nMean\n3rd Qu.\nMax.\n\n\n\n\n178\n232\n360.5\n373.5\n489.8\n861\n\n\n\n\n\n2a)\nLooking at episode ratings by season in Fig. 3 some trends can be observed. The show started off with its first four seasons doing consistently well with means around an average rating of 8.5. Then following a poor rated season five, a downtrend began, bottoming out at season ten with an average rating of around 7.5. The next and final two seasons were rated slightly higher with the final season rating right around the overall show mean of 8.2.\n\n\n\n\n\n2b)\nA clear trend can be seen when looking at number of votes an episode got as a predictor of the rating of that episode as seen in Fig. 4. For every one vote increase in the number of votes a 0.001561 increase in episode rating was estimated. This positive trend becomes a little less clear with the very high number of votes, as there is an outlive that received 861 votes and had one of the four worst episode ratings.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nEstimate\nStd. Error\nt value\nPr(&gt;|t|)\n\n\n\n\n(Intercept)\n7.634\n0.09583\n79.66\n4.822e-95\n\n\nnumVotes\n0.001561\n0.0002368\n6.589\n1.859e-09\n\n\n\n\nFitting linear model: averageRating ~ numVotes\n\n\n\n\n\n\n\n\nObservations\nResidual Std. Error\n\\(R^2\\)\nAdjusted \\(R^2\\)\n\n\n\n\n106\n0.3795\n0.2945\n0.2877"
+  },
+  {
+    "objectID": "posts/test3/imdb_trailer_park_boys.html#discussion",
+    "href": "posts/test3/imdb_trailer_park_boys.html#discussion",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "Discussion",
+    "text": "Discussion\nWhen analyzing IMDB ratings of “Trailer Park Boys” some interesting trends were observed. The downward trend beginning around season four makes sense to any fan of the show as that is when the show got a bigger budget and got away from its low-budget, digital camera, homemade look. This all culminates to season ten, known by fans as the “Snoop Dogg season”, which is regarded as the worst season but has likely the largest budget. It was surprising to see season five as an outlier from the general trend, rated considerably lower. I suspect this is due to the slightly darker theme of the season and the more cohesive plot."
+  },
+  {
+    "objectID": "posts/test3/imdb_trailer_park_boys.html#references",
+    "href": "posts/test3/imdb_trailer_park_boys.html#references",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "References",
+    "text": "References\nhttps://www.imdb.com/title/tt0290988/?ref_=ttep_ep_tt"
+  },
+  {
+    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html",
+    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "",
+    "text": "“Trailer Park Boys” is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got."
+  },
+  {
+    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#inroduction",
+    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#inroduction",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "",
+    "text": "“Trailer Park Boys” is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got."
+  },
+  {
+    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#analysis",
+    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#analysis",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "Analysis",
+    "text": "Analysis\n1a)\nThe distribution of Episode ratings in “Trailer Park Boys” appears to be normal as can be seen in Fig. 1. People tend to rate the episodes fairly high and the majority of the reviews are withing .6 of each other on the 10 point rating scale.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMin.\n1st Qu.\nMedian\nMean\n3rd Qu.\nMax.\n\n\n\n\n7.1\n7.9\n8.2\n8.217\n8.6\n9.2\n\n\n\n\n\n1b)\nThe distribution of user votes appears to be right skewed as can be seen in Fig. 2. The median number of votes an episode gets is 360 while some episodes get more than double that number.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMin.\n1st Qu.\nMedian\nMean\n3rd Qu.\nMax.\n\n\n\n\n178\n232\n360.5\n373.5\n489.8\n861\n\n\n\n\n\n2a)\nLooking at episode ratings by season in Fig. 3 some trends can be observed. The show started off with its first four seasons doing consistently well with means around an average rating of 8.5. Then following a poor rated season five, a downtrend began, bottoming out at season ten with an average rating of around 7.5. The next and final two seasons were rated slightly higher with the final season rating right around the overall show mean of 8.2.\n\n\n\n\n\n2b)\nA clear trend can be seen when looking at number of votes an episode got as a predictor of the rating of that episode as seen in Fig. 4. For every one vote increase in the number of votes a 0.001561 increase in episode rating was estimated. This positive trend becomes a little less clear with the very high number of votes, as there is an outlive that received 861 votes and had one of the four worst episode ratings.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nEstimate\nStd. Error\nt value\nPr(&gt;|t|)\n\n\n\n\n(Intercept)\n7.634\n0.09583\n79.66\n4.822e-95\n\n\nnumVotes\n0.001561\n0.0002368\n6.589\n1.859e-09\n\n\n\n\nFitting linear model: averageRating ~ numVotes\n\n\n\n\n\n\n\n\nObservations\nResidual Std. Error\n\\(R^2\\)\nAdjusted \\(R^2\\)\n\n\n\n\n106\n0.3795\n0.2945\n0.2877"
+  },
+  {
+    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#discussion",
+    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#discussion",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "Discussion",
+    "text": "Discussion\nWhen analyzing IMDB ratings of “Trailer Park Boys” some interesting trends were observed. The downward trend beginning around season four makes sense to any fan of the show as that is when the show got a bigger budget and got away from its low-budget, digital camera, homemade look. This all culminates to season ten, known by fans as the “Snoop Dogg season”, which is regarded as the worst season but has likely the largest budget. It was surprising to see season five as an outlier from the general trend, rated considerably lower. I suspect this is due to the slightly darker theme of the season and the more cohesive plot."
+  },
+  {
+    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#references",
+    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#references",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "References",
+    "text": "References\nhttps://www.imdb.com/title/tt0290988/?ref_=ttep_ep_tt"
   }
 ]

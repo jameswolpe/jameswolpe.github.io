@@ -13,12 +13,14 @@ listing:
 ---
 
 ::: {#img-me .center}
-![](images/logos/jameswolpelogo.png)
+<div style="text-align: center;">
+  <img src="images/logos/website_basketball_animation.GIF" style="height: 500px; display: inline-block;">
+</div>
 :::
+
 ## tldr;
 
   Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men's Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics.
-
 ## Work Experience
 
 ::: {.side-by-side}
@@ -45,7 +47,7 @@ Engineered a machine learning model in Python utilizing XGBoost, to predict lead
   <br>
   `Summer 2023`
   
-Performed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging the insights gained, I defined key performance indicators (KPIs) and developed data-driven dashboards using Google Looker.
+Performed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined key performance indicators (KPIs) and developed data-driven dashboards using Google Looker.
 </div>
 :::
 
