@@ -6,7 +6,9 @@ toc: true
 ## Velocity Global:
 
 <iframe src="images/james_wolpe_velocity_global_rec.pdf" width="90%" height="400px"></iframe>
+<i>David Shaub, Principal Data Scientist</i>
 
 ## Attentive Mobile:
 
 <iframe src="images/james_wolpe_attentive_mobile_rec.pdf" width="90%" height="400px"></iframe>
+<i>(via LinkedIn) Aaron Hellman, Lead Data Analyst</i>
