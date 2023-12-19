@@ -4,6 +4,7 @@ project:
 
 website:
   #title: "James J. Wolpe"
+  favicon: images/logos/jw_logo.png
   navbar:
     title: false
     logo: images/logos/full_name_white.png
