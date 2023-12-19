@@ -39,7 +39,7 @@
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "test blog post\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\ntest2\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nDaily NBA Predictions using Bradley Terry Model\n\n\n\n\n\n\n\nNBA\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nNov 25, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nATP Directionals Shiny App\n\n\n\n\n\n\n\n\n\n\n\n\nMay 16, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\n\nR\n\n\ntidyverse\n\n\nggplot2\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\nNo matching items"
+    "text": "compr: An R package for Paired Competition Modeling\n\n\n\n\n\n\n\nR\n\n\ncompr\n\n\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nHorse Racing Market Prediction: Beat the Books\n\n\n\n\n\n\n\nData Science\n\n\n\n\n\n\n\n\n\n\n\nMay 7, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nDaily NBA Predictions using Bradley Terry Model\n\n\n\n\n\n\n\nNBA\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nNov 25, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nATP Directionals Shiny App\n\n\n\n\n\n\n\n\n\n\n\n\nMay 16, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\n\nR\n\n\ntidyverse\n\n\nggplot2\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html",
@@ -156,9 +156,9 @@
   {
     "objectID": "posts/test1/test_blog_post.html",
     "href": "posts/test1/test_blog_post.html",
-    "title": "test blog post",
+    "title": "Horse Racing Market Prediction: Beat the Books",
     "section": "",
-    "text": "Hello world, this is a test blog post."
+    "text": "Author: James Wolpe\nAffiliation: St. Lawrence University\nCourse: DATA 352: Statistical and Machine Learning\nInstructor: Dr. Michael Schuckers\nDate: May 7th, 2023\nSource: Wikipedia - Horse Racing"
   },
   {
     "objectID": "posts/test3/test3.html",
@@ -516,5 +516,117 @@
     "title": "New York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”",
     "section": "",
     "text": "Introduction\nThe following analysis compares two TV shows, “How I Met Your Mother” and “Friends”. The data for this project is from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got. “How I Met Your Mother” was a sitcom on CBS that aired for 9 seasons totaling 208 episodes from 2005-2014, over that span the average episode rating was 8.03. “Friends” was a sitcom that aired on NBC for 10 seasons from 1994-2004. Over that time it aired 235 episodes with an average IMDB episode rating of 8.33. These two sitcoms have many similarities primarily that they are both about adults in their 20’s living in New York City.\n\n\nAnalysis\nFigure one shows the average episode rating by season, “Friends” shows fairly steady ratings by season with season 5 and 10 (the final season) being the highest just under a rating of 8.5. “How I Met Your Mother” shows a consistent decline in ratings, with season 9 (the final season) having the lowest average rating. An interesting observation about season 9 is that it contains both the highest rated episode and the lowest rated episode, this will be investigated more later.\n\n\n\n\n\nFigure two compares the number of ratings votes each episode got grouped by season and analyzed using side-by-side box plots. It can be seen that the average number of votes per episode decline by season, however both see an uptick in the final season and both have one large outlier in that final season.\n\n\n\n\n\nFinal season\nBelow in figure 3 an analysis of number of votes by episode in the final season can be seen. The number of votes by episode for “Friends” in the final season is consistent with the average number of votes over the course of the series, up until the final episode which received 14633 votes and is the second highest rated episode ever with a rating of 9.6. The number of votes for “How I Met Your Mother” contain a few more points that stray for the rest of the data, episode 16 received 9,749 votes and is the shows highest rated episode with a rating of 9.5. The final two episodes received 9,894 and 18,527 votes respectively with the final episode of the show receiving a rating of 5.5 and taking the crown for worst rated episode.\n\n\n\n\n\nThe following figure shows the number of votes the final episode of “How I Met Your Mother” received was an outlier nearly four standard deviations from the expected value.\n\n\n3.965\n\n\nThe following figure shows the number of votes the final episode of “Friends” received was an outlier greater than three standard deviations from the expected value.\n\n\n3.843\n\n\nFigure 4 shows the average rating of each episode in the final season of both “How I Met Your Mother” and “Friends”. “Friends” has similar ratings of episodes in the final season around the 8.5 mark. The final episode of “Friends” has the highest rating in the season. While “How I Met Your Mother” has quite the spread of values, including the final episode which has the lowest rating of the season.\n\n\n\n\n\n\n\nDiscussion\nWhile similar in setting, genre, and plot the trends in average episode ratings of “How I Met Your Mother” and “Friends” differ quite a bit. “Friends” has consistently high episode ratings by season ultimately resulting in a high rated final season and a final episode that received the second highest overall rating. While “How I Met Your Mother” had steadily decreasing average episode ratings by season, finishing with a worst rated final season and a worst rated final episode. Both shows had final episodes that received an extremely high number of votes 3.843 standard deviations from the expected value from the final season for “Friends” and 3.965 for “How I Met Your Mother”, however those for “Friends” were mostly high ratings and those for “How I Met Your Mother” were mostly dismal.\n\n\nReferences\nhttps://www.imdb.com/title/tt0460649/?ref_=tt_ov_inf https://www.imdb.com/title/tt0108778/?ref_=nv_sr_srsg_0"
+  },
+  {
+    "objectID": "posts/test1/test_blog_post.html#introduction",
+    "href": "posts/test1/test_blog_post.html#introduction",
+    "title": "Horse Racing Market Prediction: Beat the Books",
+    "section": "Introduction",
+    "text": "Introduction\nAs the legalization of sports betting becomes more widespread, the significance and worth of predictive models that can forecast outcomes are increasingly crucial and valuable. This project explores the potential of outperforming oddsmakers and bettors in horse racing, given the hypothesis that horse race bettors make less informed bets compared to other sports."
+  },
+  {
+    "objectID": "posts/test1/test_blog_post.html#background",
+    "href": "posts/test1/test_blog_post.html#background",
+    "title": "Horse Racing Market Prediction: Beat the Books",
+    "section": "Background",
+    "text": "Background\nBill Benter’s success using computer software in horse race betting serves as inspiration for this project (source). While not betting real money, the goal is to identify inefficiencies in horse racing betting by creating a model that predicts which horses are most likely to place in a race."
+  },
+  {
+    "objectID": "posts/test1/test_blog_post.html#data-source",
+    "href": "posts/test1/test_blog_post.html#data-source",
+    "title": "Horse Racing Market Prediction: Beat the Books",
+    "section": "Data Source",
+    "text": "Data Source\nThe data used for training the models is sourced from Kaggle, specifically the Horse Racing Market Analysis and Prediction dataset. The comprehensive dataset contains over 43,000 observations from three months in the summer of 2016."
+  },
+  {
+    "objectID": "posts/test1/test_blog_post.html#data-preparation",
+    "href": "posts/test1/test_blog_post.html#data-preparation",
+    "title": "Horse Racing Market Prediction: Beat the Books",
+    "section": "Data Preparation",
+    "text": "Data Preparation\nOut of the total 139 features, 69 were selected as potentially valuable and free from data leakage. The dataset underwent preprocessing, including filtering out incorrectly populated races and races with too many missing values. One-hot encoding and engineering the target variable “top_3” were performed, resulting in a final dataset with 79 features and ~24,000 rows."
+  },
+  {
+    "objectID": "posts/test1/test_blog_post.html#exploratory-data-analysis",
+    "href": "posts/test1/test_blog_post.html#exploratory-data-analysis",
+    "title": "Horse Racing Market Prediction: Beat the Books",
+    "section": "Exploratory Data Analysis",
+    "text": "Exploratory Data Analysis\nInitial exploratory data analysis revealed that the performance of horses in their last three races had the highest correlation with whether or not the horse placed in the race."
+  },
+  {
+    "objectID": "posts/test1/test_blog_post.html#model-building",
+    "href": "posts/test1/test_blog_post.html#model-building",
+    "title": "Horse Racing Market Prediction: Beat the Books",
+    "section": "Model Building",
+    "text": "Model Building\nThree models were fitted: a Random Forest model, a Logistic Regression model, and a Neural Network. The Random Forest outperformed the others, achieving an accuracy score of 0.718398, beating seven of the eight tipsters.\n\nRandom Forest Model\nConfusion Matrix:"
+  },
+  {
+    "objectID": "posts/compr/compr.html",
+    "href": "posts/compr/compr.html",
+    "title": "compr: An R package for Paired Competition Modeling",
+    "section": "",
+    "text": "The compr package provides functionality to fit and interpret paired competition models in R.\nTo install and load the package, run"
+  },
+  {
+    "objectID": "posts/compr/compr.html#installation",
+    "href": "posts/compr/compr.html#installation",
+    "title": "compr: An R package for Paired Competition Modeling",
+    "section": "Installation",
+    "text": "Installation\nTo install and load the compr package, use the following commands:\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)"
+  },
+  {
+    "objectID": "posts/compr/compr.html#functionality",
+    "href": "posts/compr/compr.html#functionality",
+    "title": "compr: An R package for Paired Competition Modeling",
+    "section": "Functionality",
+    "text": "Functionality\nThe main function, comp_glm(), has the following arguments:\nformula: Specifies the response variable and contest-level predictors. data: The dataset to be used. p1: A string with the name of the column containing the first player. p2: A string with the name of the column containing the second player. p1_effects: A one-sided formula specifying player-level effects for p1. p2_effects: A one-sided formula specifying player-level effects for p2. ref_player: A string giving the name of the player to be used as the reference player (default is the first player in p1).\nHere is an example of using comp_glm():\ncomp_mod &lt;- comp_glm(point_winner ~ -1, data = tennis_point,\n                     p1 = \"player1\", p2 = \"player2\",\n                     p1_effects = ~ point_server1,\n                     p2_effects = ~ point_server2,\n                     ref_player = \"Milos Raonic\")\nFeel free to explore and leverage the compr package to enhance your paired competition modeling in R. For detailed information and usage examples, refer to the package documentation."
+  },
+  {
+    "objectID": "posts/horse_racing_prediction/horse_racing_prediction.html",
+    "href": "posts/horse_racing_prediction/horse_racing_prediction.html",
+    "title": "Horse Racing Market Prediction: Beat the Books",
+    "section": "",
+    "text": "Author: James Wolpe\nAffiliation: St. Lawrence University\nCourse: DATA 352: Statistical and Machine Learning\nInstructor: Dr. Michael Schuckers\nDate: May 7th, 2023\nSource: Wikipedia - Horse Racing"
+  },
+  {
+    "objectID": "posts/horse_racing_prediction/horse_racing_prediction.html#introduction",
+    "href": "posts/horse_racing_prediction/horse_racing_prediction.html#introduction",
+    "title": "Horse Racing Market Prediction: Beat the Books",
+    "section": "Introduction",
+    "text": "Introduction\nAs the legalization of sports betting becomes more widespread, the significance and worth of predictive models that can forecast outcomes are increasingly crucial and valuable. This project explores the potential of outperforming oddsmakers and bettors in horse racing, given the hypothesis that horse race bettors make less informed bets compared to other sports."
+  },
+  {
+    "objectID": "posts/horse_racing_prediction/horse_racing_prediction.html#background",
+    "href": "posts/horse_racing_prediction/horse_racing_prediction.html#background",
+    "title": "Horse Racing Market Prediction: Beat the Books",
+    "section": "Background",
+    "text": "Background\nBill Benter’s success using computer software in horse race betting serves as inspiration for this project (source). While not betting real money, the goal is to identify inefficiencies in horse racing betting by creating a model that predicts which horses are most likely to place in a race."
+  },
+  {
+    "objectID": "posts/horse_racing_prediction/horse_racing_prediction.html#data-source",
+    "href": "posts/horse_racing_prediction/horse_racing_prediction.html#data-source",
+    "title": "Horse Racing Market Prediction: Beat the Books",
+    "section": "Data Source",
+    "text": "Data Source\nThe data used for training the models is sourced from Kaggle, specifically the Horse Racing Market Analysis and Prediction dataset. The comprehensive dataset contains over 43,000 observations from three months in the summer of 2016."
+  },
+  {
+    "objectID": "posts/horse_racing_prediction/horse_racing_prediction.html#data-preparation",
+    "href": "posts/horse_racing_prediction/horse_racing_prediction.html#data-preparation",
+    "title": "Horse Racing Market Prediction: Beat the Books",
+    "section": "Data Preparation",
+    "text": "Data Preparation\nOut of the total 139 features, 69 were selected as potentially valuable and free from data leakage. The dataset underwent preprocessing, including filtering out incorrectly populated races and races with too many missing values. One-hot encoding and engineering the target variable “top_3” were performed, resulting in a final dataset with 79 features and ~24,000 rows."
+  },
+  {
+    "objectID": "posts/horse_racing_prediction/horse_racing_prediction.html#exploratory-data-analysis",
+    "href": "posts/horse_racing_prediction/horse_racing_prediction.html#exploratory-data-analysis",
+    "title": "Horse Racing Market Prediction: Beat the Books",
+    "section": "Exploratory Data Analysis",
+    "text": "Exploratory Data Analysis\nInitial exploratory data analysis revealed that the performance of horses in their last three races had the highest correlation with whether or not the horse placed in the race."
+  },
+  {
+    "objectID": "posts/horse_racing_prediction/horse_racing_prediction.html#model-building",
+    "href": "posts/horse_racing_prediction/horse_racing_prediction.html#model-building",
+    "title": "Horse Racing Market Prediction: Beat the Books",
+    "section": "Model Building",
+    "text": "Model Building\nThree models were fitted: a Random Forest model, a Logistic Regression model, and a Neural Network. The Random Forest outperformed the others, achieving an accuracy score of 0.718398, beating seven of the eight tipsters.\n\nRandom Forest Model\nConfusion Matrix:"
   }
 ]
