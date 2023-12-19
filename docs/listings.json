@@ -20,10 +20,9 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/homepage/imdb_friends_himym/imdb_friends_himym.html",
-      "/posts/homepage/imdb_friends_himym/imdb_trailer_park_boys.html",
-      "/posts/homepage/imdb_oscar_best_picture/imdb_oscar_best_picture.html",
-      "/posts/homepage/stat113_greek_life/stat113_greek_life.html"
+      "/posts/homepage/compr/compr.html",
+      "/posts/homepage/tennis_atp_directionals/atp_directionals.html",
+      "/posts/homepage/imdb_friends_himym/imdb_friends_himym.html"
     ]
   }
 ]

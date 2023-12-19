@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "!(images/logos/website_basketball_animation.GIF)"
+    "text": "tl;dr   Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics."
   },
   {
     "objectID": "index.html#education",
@@ -186,7 +186,7 @@
     "href": "index.html#blog",
     "title": "",
     "section": "Blog",
-    "text": "Blog\nLatest from the blog\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 10, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nPosts"
+    "text": "Blog\nLatest from the blog\n\n\n\n\n\n\n\n\n\n\ncompr: An R package for Paired Competition Modeling\n\n\n\n\n\n\nJames Wolpe\n\n\nDec 11, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nATP Directionals Shiny App\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nPosts"
   },
   {
     "objectID": "recommendations.html#attentive-mobile",
@@ -249,7 +249,7 @@
     "href": "index.html#tldr",
     "title": "",
     "section": "tldr;",
-    "text": "tldr;\nHi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics. ## Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nEngineered a machine learning model in Python utilizing XGBoost, to predict lead conversion. The models top 20% of scorers had a 4.5x higher conversion rate. ENGINEERED A PIPELINE\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nPerformed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined key performance indicators (KPIs) and developed data-driven dashboards using Google Looker.\n\n\n\n\nReferences"
+    "text": "tldr;\n\nHi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics."
   },
   {
     "objectID": "about.html#fa-hand-rock-o-work-experience",
@@ -628,5 +628,12 @@
     "title": "Horse Racing Market Prediction: Beat the Books",
     "section": "Model Building",
     "text": "Model Building\nThree models were fitted: a Random Forest model, a Logistic Regression model, and a Neural Network. The Random Forest outperformed the others, achieving an accuracy score of 0.718398, beating seven of the eight tipsters.\n\nRandom Forest Model\nConfusion Matrix:"
+  },
+  {
+    "objectID": "index.html#test",
+    "href": "index.html#test",
+    "title": "",
+    "section": "test",
+    "text": "test\nHi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics."
   }
 ]
