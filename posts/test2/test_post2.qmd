@@ -1,6 +1,0 @@
----
-title: "test2"
----
-
-
-test file #2 for testing purposes
