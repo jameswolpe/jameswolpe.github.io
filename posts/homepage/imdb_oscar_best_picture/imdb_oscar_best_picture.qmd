@@ -4,6 +4,7 @@ author: "James Wolpe"
 date: "5/11/2022"
 ---
 
+
 Look at box office, ratings, votes, etc.
 and compare with google trends for oscars search
 
