@@ -18,17 +18,21 @@ listing:
 </div>
 :::
 
-## tldr;
+<p class="large-text quote-text-bg center-text" style="text-align: center; font-size: 1em; color: #212529;">
+<span style="font-size: 30px;"><strong> tl;dr </strong></span> <br>
+Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men's Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics.
+</p>
 
-  Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men's Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics.
+
+
 ## Work Experience
 
 ::: {.side-by-side}
 
 ::: {.left-text}
-<div style="position: relative; background-image: url('images/velocity-global.png'); background-size: 30%; background-position: top right; background-repeat: no-repeat; text-align: left; padding: 20px;">
+<div style="position: relative; background-image: url('images/velocity-global.png'); background-size: 26%; background-position: top right; background-repeat: no-repeat; text-align: left; padding: 20px; color: #212529;">
 
-  <span style="font-size: 30pt;">**Velocity Global**</span>
+  <span style="font-size: 24pt; font-weight: bold; color: #212529;">Velocity Global</span>
   <br>
   <span style="font-size: 19.5pt;">Data Science Intern</span>
   <br>
@@ -39,9 +43,9 @@ Engineered a machine learning model in Python utilizing XGBoost, to predict lead
 :::
 
 ::: {.right-text}
-<div style="position: relative; background-image: url('images/attentive.png'); background-size: 30%; background-position: top right; background-repeat: no-repeat; height: 300px; text-align: left; padding: 20px;">
+<div style="position: relative; background-image: url('images/attentive.png'); background-size: 26%; background-position: top right; background-repeat: no-repeat; height: 300px; text-align: left; padding: 20px; color: #212529;">
 
-  <span style="font-size: 30pt;">**Attentive Mobile**</span>
+  <span style="font-size: 24pt; font-weight: bold; color: #212529;">Attentive Mobile</span>
   <br>
   <span style="font-size: 19.5pt;">Data Analyst Intern</span>
   <br>
