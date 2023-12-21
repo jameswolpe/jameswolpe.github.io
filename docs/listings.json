@@ -6,14 +6,12 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/compr/compr.html",
-      "/posts/horse_racing_prediction/horse_racing_prediction.html",
       "/posts/2023-11-nba-compr-site/daily_nba_compr.html",
-      "/posts/tennis_atp_directionals/atp_directionals.html",
+      "/posts/homepage/compr/compr.html",
+      "/posts/homepage/tennis_atp_directionals/atp_directionals.html",
       "/posts/homepage/imdb_friends_himym/imdb_friends_himym.html",
-      "/posts/homepage/imdb_friends_himym/imdb_trailer_park_boys.html",
-      "/posts/homepage/imdb_oscar_best_picture/imdb_oscar_best_picture.html",
-      "/posts/homepage/stat113_greek_life/stat113_greek_life.html",
+      "/posts/imdb_oscar_best_picture/imdb_oscar_best_picture.html",
+      "/posts/stat113_greek_life/stat113_greek_life.html",
       "/posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html"
     ]
   },

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "tl;dr   Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics."
+    "text": "Welcome to my personal website! If you have any questions, thoughts, or would like to connect, feel free to reach out ."
   },
   {
     "objectID": "index.html#education",
@@ -39,14 +39,14 @@
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "compr: An R package for Paired Competition Modeling\n\n\n\n\n\n\n\nR\n\n\ncompr\n\n\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nHorse Racing Market Prediction: Beat the Books\n\n\n\n\n\n\n\nData Science\n\n\n\n\n\n\n\n\n\n\n\nMay 7, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nDaily NBA Predictions using Bradley Terry Model\n\n\n\n\n\n\n\nNBA\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nNov 25, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nATP Directionals Shiny App\n\n\n\n\n\n\n\n\n\n\n\n\nMay 16, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\n\nR\n\n\ntidyverse\n\n\nggplot2\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\nNo matching items"
+    "text": "compr: An R package for Paired Competition Modeling\n\n\n\n\n\n\n\nR\n\n\ncompr\n\n\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nATP Directionals Shiny App\n\n\n\n\n\n\n\n\n\n\n\n\nMay 16, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\n\nR\n\n\ntidyverse\n\n\nggplot2\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html",
     "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html",
-    "title": "Building with Quarto",
+    "title": "",
     "section": "",
-    "text": "I spent a decent amount of time working on rebuilding my site with Quarto but the decision of should I rebuild my website was pretty impulsive. It’s not the first time I’ve hastily moved to a shiny new static site generator. Before that I was using Pelican and before that, Jykell; I suppose I love the process of trying to design something new and see how I can take advantage of something new to make it even easier to blog!\nI was going to make a joke about Field of Dreams and how I built it and the blog posts didn’t come. But that’s not the important part! The important part was that I went in the world wide web version of the yard to do my little project.\n\nWhat this post will not be is a complete end-to-end guide on building a website with Quarto. I think there are already a lot of great pieces of content and the docs are really well put together. I don’t want to just rehash what already exists. I thought it might be helpful to just document how I went about taking some things from the Quarto website and editing/altering for myself and really just focus on some of the aspects of using Quarto that were not initially clear and required some patience to work through.\n\n\n\n\n\n\n\nJust keep in mind\n\n\n\nI’m by no means a front-end professional and a lot of what I’ve discovered putting this site together was from reading the docs, looking for examples, and trying things out. If you notice something that isn’t right; feel free to create an issue on the repo. Thanks!"
+    "text": "#— #title: “Daily NBA Predictions using Bradley Terry Model” #author: “James Wolpe” #date: “2022-11-25” #categories: [NBA, R] #page-layout: article #toc: true #toc-location: left #code-copy: true #code-overflow: wrap #code-line-numbers: true #df-print: paged #—"
   },
   {
     "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#motivation-and-thoughts",
@@ -172,7 +172,7 @@
     "href": "index.html#work-experience",
     "title": "",
     "section": "Work Experience",
-    "text": "Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nEngineered a machine learning model in Python utilizing XGBoost, to predict lead conversion. The models top 20% of scorers had a 4.5x higher conversion rate. ENGINEERED A PIPELINE\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nPerformed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined key performance indicators (KPIs) and developed data-driven dashboards using Google Looker.\n\n\n\n\nReferences"
+    "text": "Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nEngineered a lead conversion prediction model in Python using XGBoost, covering ETL, data cleanup, feature engineering, imputation, and model selection. The top 20% of the model’s performers demonstrated a 4.5x higher conversion rate.\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nPerformed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined key performance indicators (KPIs) and developed data-driven dashboards using Google Looker.\n\n\n\n\nReferences"
   },
   {
     "objectID": "index.html#section",
@@ -635,5 +635,33 @@
     "title": "",
     "section": "test",
     "text": "test\nHi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics."
+  },
+  {
+    "objectID": "posts/homepage/tennis_atp_directionals/atp_directionals.html",
+    "href": "posts/homepage/tennis_atp_directionals/atp_directionals.html",
+    "title": "ATP Directionals Shiny App",
+    "section": "",
+    "text": "Need to optimize to include more data"
+  },
+  {
+    "objectID": "posts/homepage/compr/compr.html",
+    "href": "posts/homepage/compr/compr.html",
+    "title": "compr: An R package for Paired Competition Modeling",
+    "section": "",
+    "text": "The compr package provides functionality to fit and interpret paired competition models in R.\nTo install and load the package, run"
+  },
+  {
+    "objectID": "posts/homepage/compr/compr.html#installation",
+    "href": "posts/homepage/compr/compr.html#installation",
+    "title": "compr: An R package for Paired Competition Modeling",
+    "section": "Installation",
+    "text": "Installation\nTo install and load the compr package, use the following commands:\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)"
+  },
+  {
+    "objectID": "posts/homepage/compr/compr.html#functionality",
+    "href": "posts/homepage/compr/compr.html#functionality",
+    "title": "compr: An R package for Paired Competition Modeling",
+    "section": "Functionality",
+    "text": "Functionality\nThe main function, comp_glm(), has the following arguments:\nformula: Specifies the response variable and contest-level predictors. data: The dataset to be used. p1: A string with the name of the column containing the first player. p2: A string with the name of the column containing the second player. p1_effects: A one-sided formula specifying player-level effects for p1. p2_effects: A one-sided formula specifying player-level effects for p2. ref_player: A string giving the name of the player to be used as the reference player (default is the first player in p1).\nHere is an example of using comp_glm():\ncomp_mod &lt;- comp_glm(point_winner ~ -1, data = tennis_point,\n                     p1 = \"player1\", p2 = \"player2\",\n                     p1_effects = ~ point_server1,\n                     p2_effects = ~ point_server2,\n                     ref_player = \"Milos Raonic\")\nFeel free to explore and leverage the compr package to enhance your paired competition modeling in R. For detailed information and usage examples, refer to the package documentation."
   }
 ]
