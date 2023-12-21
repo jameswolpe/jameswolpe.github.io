@@ -7,7 +7,6 @@ toc: false
 listing: 
   - id: listing-blog
     contents: "posts/homepage"
-    #template: /ejs/most-recent-only.ejs
     sort: "date desc"
     type: grid
 ---
@@ -18,9 +17,8 @@ listing:
 </div>
 :::
 
-<p class="large-text quote-text-bg center-text" style="text-align: center; font-size: 1em; color: #212529;">
-<span style="font-size: 30px;"><strong> tl;dr </strong></span> <br>
-Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men's Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics.
+<p class="large-text quote-text-bg center-text" style="text-align: center; font-size: 24px; color: #212529;">
+{{< fa fa-hand-peace-o >}} Welcome to my personal website! If you have any questions, thoughts, or would like to connect, feel free to reach out {{< fa envelope >}}.
 </p>
 
 
@@ -38,7 +36,7 @@ Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently
   <br>
   `Summer 2022`
   
-Engineered a machine learning model in Python utilizing XGBoost, to predict lead conversion. The models top 20% of scorers had a 4.5x higher conversion rate. ENGINEERED A PIPELINE 
+Engineered a lead conversion prediction model in Python using XGBoost, covering ETL, data cleanup, feature engineering, imputation, and model selection. The top 20% of the model's performers demonstrated a 4.5x higher conversion rate.
 </div>
 :::
 
