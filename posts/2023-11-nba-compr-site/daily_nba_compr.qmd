@@ -1,14 +1,14 @@
----
-title: "Daily NBA Predictions using Bradley Terry Model"
-author: "James Wolpe"
-date: "2022-11-25"
-categories: [NBA, R]
-page-layout: article 
-toc: true
-toc-location: left
-code-copy: true
-code-overflow: wrap
-code-line-numbers: true
-df-print: paged
----
+#---
+#title: "Daily NBA Predictions using Bradley Terry Model"
+#author: "James Wolpe"
+#date: "2022-11-25"
+#categories: [NBA, R]
+#page-layout: article 
+#toc: true
+#toc-location: left
+#code-copy: true
+#code-overflow: wrap
+#code-line-numbers: true
+#df-print: paged
+#---
 
