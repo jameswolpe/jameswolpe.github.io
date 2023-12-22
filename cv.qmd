@@ -6,7 +6,7 @@ title: "CV"
 
 
 <ul>  
-  <h3>Attentive Mobile</h3>
+  <h3 style="border-bottom: none;">Attentive Mobile</h3>
   <h4>Data Analyst Intern | May 2023 – August 2023</h4>
   <ul>
   {{< fa caret-right >}} Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making
@@ -23,7 +23,7 @@ title: "CV"
 
 
 <ul>  
-  <h3>Velocity Global</h3>
+  <h3 style="border-bottom: none;">Velocity Global</h3>
   <h4>Data Science Intern | May 2022 – August 2022</h4>
   <ul>
   {{< fa caret-right >}} Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence
@@ -39,7 +39,7 @@ title: "CV"
 <br>
 
 <ul>  
-  <h3>Quantitative Resource Center (St. Lawrence University)</h3>
+  <h3 style="border-bottom: none;">Quantitative Resource Center (St. Lawrence University)</h3>
   <h4>Student Mentor | March 2022 – Present</h4>
   <ul>
   {{< fa caret-right >}} Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)
@@ -52,7 +52,7 @@ title: "CV"
 ## {{< fa university >}} Organizations
 
 <ul>  
-  <h3>St. Lawrence Men’s Varsity Tennis</h3>
+  <h3 style="border-bottom: none;">St. Lawrence Men’s Varsity Tennis</h3>
   <h4>Member (Team Captain Senior Year) | September 2019 – May 2023</h4>
   <ul>
   {{< fa caret-right >}} Led team as captain, chosen by coach and team members, responsible for conducting captain's practices during the offseason and fostering strong team culture; committed ~20 hours per week
@@ -65,8 +65,8 @@ title: "CV"
 <br>
 
 <ul>  
-  <h3>Commons College Theme House</h3>
-  <h4>Resident (Head of House Senior Year) | September 2019 – May 2023</h4>
+  <h3 style="border-bottom: none;">Commons College Theme House</h3>
+  <h4>Resident (Head of House Senior Year) | June 2021 – December 2023</h4>
   <ul>
   {{< fa caret-right >}} Elected by peers as Head of House of Commons College, a co-ed living and learning community of 24 residents taking a class beyond the traditional classroom and living together
   </ul>
@@ -78,8 +78,8 @@ title: "CV"
 ## {{< fa institution >}} Education
 
 <ul>  
-  <h3>St. Lawrence University</h3>
-  <h4>Bachelor of Science, Data Science | Graduating December 2023</h4>
+  <h3 style="border-bottom: none;">St. Lawrence University</h3>
+  <h4>Bachelor of Science, Data Science | August 2019 - December 2023</h4>
   <ul>
   {{< fa caret-right >}} Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship
   </ul>
@@ -88,27 +88,79 @@ title: "CV"
 <br>
 
 <ul>  
-  <h3>Dublin School</h3>
-  <h4>2015-2019</h4>
+  <h3 style="border-bottom: none;">Dublin School</h3>
+  <h4>September 2015 - June 2019</h4>
   <ul>
-  {{< fa caret-right >}} Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship
+  {{< fa caret-right >}} Activities and societies: Head Tour Guide, Day Student Proctor, Boys Varsity Tennis Captain, Boys Varsity Basketball Captain
   </ul>
 </ul>
 
 ## {{< fa code >}} Technical Skills
 
-<ul>  
-  <h3>Programming</h3>
-  <ul>
-  R (Tidyverse, ggplot2, Shiny), SQL (Snowflake, PostgreSQL), Java (Object-Oriented
-  Programing), Python (Pandas, NumPy, Scikit-learn), Git, Google Looker Studio, Data Visualization
-  </ul>
+<h3 style="border-bottom: none;">Programming</h3>
+<ul class="split-list">
+  <li class="split-list-column">
+    <ul>
+      {{< fa caret-right >}} R (Tidyverse, ggplot2, Shiny)
+      <br>
+      {{< fa caret-right >}} SQL (Snowflake, PostgreSQL)
+      <br>
+      {{< fa caret-right >}} Python (Pandas, NumPy, Scikit-learn)
+      <br>
+      {{< fa caret-right >}} Java
+      <br>
+      {{< fa caret-right >}} Google Looker Studio
+    </ul>
+  </li>
+  <li class="split-list-column">
+    <ul>
+      {{< fa caret-right >}} Data Visualization
+      <br>
+      {{< fa caret-right >}} Git (GitHub, GitLab)
+      <br>
+      {{< fa caret-right >}} Object-Oriented Programming
+      <br>
+      {{< fa caret-right >}} Database Management Systems (DBMS)
+    </ul>
+  </li>
 </ul>
 
 <br>
-<ul>  
-  <h3>Math & Statistics</h3>
-  <ul>
-  Probability, Calculus (Differential, Integral, Multivariable), A/B Testing, Regression Analysis, Linear Algebra, Statistical and Machine Learning, Time Series Analysis
-  </ul>
+<style>
+  .split-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+  }
+
+  .split-list-column {
+    flex-basis: 48%; /* Adjust as needed */
+  }
+</style>
+
+<h3 style="border-bottom: none;">Math & Statistics</h3>
+<ul class="split-list">
+  <li class="split-list-column">
+    <ul>
+      {{< fa caret-right >}} Probability
+      <br>
+      {{< fa caret-right >}} Calculus (Differential, Integral, Multivariable)
+      <br>
+      {{< fa caret-right >}} Statistical and Machine Learning
+      <br>
+      {{< fa caret-right >}} Time Series Analysis
+    </ul>
+  </li>
+  <li class="split-list-column">
+    <ul>
+      {{< fa caret-right >}} Regression Analysis
+      <br>
+      {{< fa caret-right >}} A/B Testing
+      <br>
+      {{< fa caret-right >}} Linear Algebra
+      <br>
+      {{< fa caret-right >}} Multi-level Modeling
+    </ul>
+  </li>
 </ul>
