@@ -3,7 +3,6 @@ project:
   output-dir: docs
 
 website:
-  #title: "James J. Wolpe"
   favicon: images/logos/jw_logo.png
   site-url: https://jameswolpe.github.io/
   google-analytics:
@@ -23,8 +22,10 @@ website:
     right:
       - icon: github
         href: https://github.com/jameswolpe/
+        target: _blank
       - icon: linkedin
         href: https://www.linkedin.com/in/jameswolpe/
+        target: _blank
       - icon: envelope
         href: mailto:jameswolpe@gmail.com
 #      - icon: reddit
@@ -33,12 +34,9 @@ website:
   page-footer:
     left: James Wolpe 2023
     right: This website is built with {{< fa heart title="a heart" >}} and [Quarto](https://quarto.org/)
-
 format:
   html:
     page-layout: full
     sidebar: false
     theme:
       - yellow_theme.scss
-    # css: styles.css
-    #toc: true
