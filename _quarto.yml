@@ -5,7 +5,9 @@ project:
 website:
   #title: "James J. Wolpe"
   favicon: images/logos/jw_logo.png
-  google-analytics: "G-H1P8FBJXVX"
+  site-url: https://jameswolpe.github.io/
+  google-analytics:
+    tracking-id: "G-H1P8FBJXVX"
   navbar:
     title: false
     logo: images/logos/full_name_white.png
