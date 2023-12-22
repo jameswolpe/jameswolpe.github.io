@@ -1,6 +1,6 @@
 ---
 title: "Posts"
-subtitle: "subtitle goes here"
+#subtitle: "subtitle goes here"
 listing:
   contents: posts
   sort: "date desc"

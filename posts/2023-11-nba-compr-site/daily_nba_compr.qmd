@@ -1,14 +1,123 @@
-#---
-#title: "Daily NBA Predictions using Bradley Terry Model"
-#author: "James Wolpe"
-#date: "2022-11-25"
-#categories: [NBA, R]
-#page-layout: article 
-#toc: true
-#toc-location: left
-#code-copy: true
-#code-overflow: wrap
-#code-line-numbers: true
-#df-print: paged
-#---
+---
+title: "Daily NBA Predictions using Bradley Terry Model"
+author: "James Wolpe"
+date: "2022-11-25"
+categories: [NBA, R]
+page-layout: article 
+toc: true
+toc-location: left
+code-copy: true
+code-overflow: wrap
+code-line-numbers: true
+df-print: paged
+---
+
+```{r}
+#devtools::install_github(repo = "https://github.com/jameswolpe/compr")
+library(compr)
+library(broom)
+library(rvest)
+library(tidyverse)
+
+# Define the list of URLs
+urls <- c(
+  "https://www.basketball-reference.com/leagues/NBA_2024_games-october.html",
+  "https://www.basketball-reference.com/leagues/NBA_2024_games-november.html",
+  "https://www.basketball-reference.com/leagues/NBA_2024_games-december.html",
+  "https://www.basketball-reference.com/leagues/NBA_2024_games-january.html",
+  "https://www.basketball-reference.com/leagues/NBA_2024_games-february.html",
+  "https://www.basketball-reference.com/leagues/NBA_2024_games-march.html",
+  "https://www.basketball-reference.com/leagues/NBA_2024_games-april.html"
+  
+)
+
+# Initialize an empty list to store DataFrames
+dfs <- list()
+
+# Loop through the URLs and scrape data
+for (url in urls) {
+  page_html <- url %>%
+    read_html()
+  
+  df <- page_html %>%
+    html_nodes("table") %>%
+    .[[1]] %>%
+    html_table(header = TRUE)
+  
+  dfs[[url]] <- df
+}
+
+# Combine the DataFrames into one
+nba_df <- do.call(rbind, dfs)
+rownames(nba_df) <- NULL
+```
+
+
+```{r}
+nba_df <- nba_df[1:1230, ]
+nba_df <- nba_df[, -c(2, 7, 9, 10, 11)]
+
+nba_df <- nba_df %>%
+  rename(
+    date = 1,       
+    away = 2,       
+    away_pts = 3,   
+    home = 4,       
+    home_pts = 5,   
+    OT = 6          
+  )
+
+nba_season <- nba_df %>% #there are both OT and 2OT
+  mutate(OT = ifelse(OT == "", FALSE, TRUE),
+         home_winner = ifelse(home_pts > away_pts, TRUE, FALSE),
+         pts_diff = home_pts - away_pts)
+# convert date to date format
+nba_season$date <- as.Date(nba_season$date, format = "%a, %b %d, %Y")
+
+#get todays date
+today <- Sys.Date()
+
+# split up nba_season 2 df's one before today and one after
+nba_season_before <- nba_season %>%
+  filter(date < today)
+
+#get all of todays games
+todays_games <- nba_season %>%
+  filter(date == today) %>%
+  select(-date, -away_pts, -home_pts, -OT, -home_winner, -pts_diff)
+
+#FIXME it needs a ref_player?
+current_nba_pred <- comp_glm(formula = home_winner ~ 1,
+         data = nba_season_before,
+         p1 = "home", 
+         p2 = "away",
+         p1_effects = ~ 1,
+         p2_effects = ~ 1,
+         ref_player = "Boston Celtics",
+         family = "binomial")
+
+# FIXME compr needs to load augment in broom
+todays_pred <- aug_mod(todays_games, current_nba_pred)
+
+output_table <- todays_pred |> 
+  mutate( 
+    h_win_perc = exp(.fitted)/ (1+exp(.fitted)),
+    a_win_perc = 1 - h_win_perc,
+    u_bound = exp(.fitted + .se.fit)/ (1+ exp(.fitted + .se.fit)),
+    l_bound = exp(.fitted - .se.fit)/ (1+ exp(.fitted - .se.fit))
+  ) |>
+  select(home, away, h_win_perc, a_win_perc) |>
+  pivot_longer(cols = c(h_win_perc, a_win_perc), names_to = "win_type", values_to = "win_perc") %>%
+  mutate(team = if_else(str_detect(win_type, "h_win_perc"), home, away)) %>%
+  select(team, win_perc)
+  
+select(home, away, h_win_perc, a_win_perc) |>
+  group_by(row_number()) |> pivot_longer(cols = c(h_win_perc, a_win_perc), names_to = "team", values_to = "win_perc")
+
+# make a plot that is a table of away and home teams name
+
+```
+
+
+
 
