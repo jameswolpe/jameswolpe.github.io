@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "Welcome to my personal website! If you have any questions, thoughts, or would like to connect, feel free to reach out ."
+    "text": "###Hello   Welcome to my personal website! If you have any questions, thoughts, or would like to connect, feel free to reach out ."
   },
   {
     "objectID": "index.html#education",
@@ -172,7 +172,7 @@
     "href": "index.html#work-experience",
     "title": "",
     "section": "Work Experience",
-    "text": "Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nEngineered a lead conversion prediction model in Python using XGBoost, covering ETL, data cleanup, feature engineering, imputation, and model selection. The top 20% of the model’s performers demonstrated a 4.5x higher conversion rate.\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nPerformed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined key performance indicators (KPIs) and developed data-driven dashboards using Google Looker.\n\n\n\n\nReferences"
+    "text": "Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nEngineered a lead conversion prediction model in Python using XGBoost, covering ETL, data cleanup, feature engineering, imputation, and model selection. The top 20% of the model’s performers demonstrated a 4.5x higher conversion rate.\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nPerformed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined key performance indicators (KPIs) and developed data-driven dashboards using Google Looker.\n\n\n\n\nReferences CV"
   },
   {
     "objectID": "index.html#section",
@@ -255,8 +255,8 @@
     "objectID": "about.html#fa-hand-rock-o-work-experience",
     "href": "about.html#fa-hand-rock-o-work-experience",
     "title": "CV",
-    "section": "",
-    "text": "Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
+    "section": " Work Experience",
+    "text": "Work Experience\n\n\nAttentive Mobile\n\n\nData Analyst Intern | May 2023 – August 2023\n\n\n Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\nVelocity Global\n\n\nData Science Intern | May 2022 – August 2022\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\nQuantitative Resource Center (St. Lawrence University)\n\n\nStudent Mentor | March 2022 – Present\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
   },
   {
     "objectID": "about.html#fa-institution-education-1",
@@ -305,7 +305,7 @@
     "href": "cv.html#fa-institution-education",
     "title": "CV",
     "section": " Education",
-    "text": "Education\n\n\nSt. Lawrence University\n\n\nBachelor of Science, Data Science | Graduating December 2023\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship\n\n\n\n\n\nDublin School\n\n\n2015-2019\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship"
+    "text": "Education\n\n\nSt. Lawrence University\n\n\nBachelor of Science, Data Science | August 2019 - December 2023\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship\n\n\n\n\n\nDublin School\n\n\nSeptember 2015 - June 2019\n\n\n Activities and societies: Head Tour Guide, Day Student Proctor, Boys Varsity Tennis Captain, Boys Varsity Basketball Captain"
   },
   {
     "objectID": "cv.html#fa-institution-technical-skills",
@@ -326,14 +326,14 @@
     "href": "cv.html#fa-university-organizations",
     "title": "CV",
     "section": " Organizations",
-    "text": "Organizations\n\n\nSt. Lawrence Men’s Varsity Tennis\n\n\nMember (Team Captain Senior Year) | September 2019 – May 2023\n\n\n Led team as captain, chosen by coach and team members, responsible for conducting captain’s practices during the offseason and fostering strong team culture; committed ~20 hours per week\n\n\n Served as a member of Student-Athlete Advisory Committee as an underclassman, addressing student-athlete concerns, and coordinating team participation in philanthropy events\n\n\n\n\n\nCommons College Theme House\n\n\nResident (Head of House Senior Year) | September 2019 – May 2023\n\n\n Elected by peers as Head of House of Commons College, a co-ed living and learning community of 24 residents taking a class beyond the traditional classroom and living together\n\n\n Facilitated weekly house meetings, served as liaison to school administration, coordinated class with the house professor (current course is on having difficult conversations)"
+    "text": "Organizations\n\n\nSt. Lawrence Men’s Varsity Tennis\n\n\nMember (Team Captain Senior Year) | September 2019 – May 2023\n\n\n Led team as captain, chosen by coach and team members, responsible for conducting captain’s practices during the offseason and fostering strong team culture; committed ~20 hours per week\n\n\n Served as a member of Student-Athlete Advisory Committee as an underclassman, addressing student-athlete concerns, and coordinating team participation in philanthropy events\n\n\n\n\n\nCommons College Theme House\n\n\nResident (Head of House Senior Year) | June 2021 – December 2023\n\n\n Elected by peers as Head of House of Commons College, a co-ed living and learning community of 24 residents taking a class beyond the traditional classroom and living together\n\n\n Facilitated weekly house meetings, served as liaison to school administration, coordinated class with the house professor (current course is on having difficult conversations)"
   },
   {
     "objectID": "cv.html#fa-code-technical-skills",
     "href": "cv.html#fa-code-technical-skills",
     "title": "CV",
     "section": " Technical Skills",
-    "text": "Technical Skills\n\n\nProgramming\n\n\nR (Tidyverse, ggplot2, Shiny), SQL (Snowflake, PostgreSQL), Java (Object-Oriented Programing), Python (Pandas, NumPy, Scikit-learn), Git, Google Looker Studio, Data Visualization\n\n\n\n\n\nMath & Statistics\n\n\nProbability, Calculus (Differential, Integral, Multivariable), A/B Testing, Regression Analysis, Linear Algebra, Statistical and Machine Learning, Time Series Analysis"
+    "text": "Technical Skills\n\nProgramming\n\n\n\n\n R (Tidyverse, ggplot2, Shiny)   SQL (Snowflake, PostgreSQL)   Python (Pandas, NumPy, Scikit-learn)   Java   Google Looker Studio\n\n\n\n\n Data Visualization   Git (GitHub, GitLab)   Object-Oriented Programming   Database Management Systems (DBMS)\n\n\n\n\n\n\nMath & Statistics\n\n\n\n\n Probability   Calculus (Differential, Integral, Multivariable)   Statistical and Machine Learning   Time Series Analysis\n\n\n\n\n Regression Analysis   A/B Testing   Linear Algebra   Multi-level Modeling"
   },
   {
     "objectID": "posts/test3/test3.html#inroduction",
@@ -663,5 +663,33 @@
     "title": "compr: An R package for Paired Competition Modeling",
     "section": "Functionality",
     "text": "Functionality\nThe main function, comp_glm(), has the following arguments:\nformula: Specifies the response variable and contest-level predictors. data: The dataset to be used. p1: A string with the name of the column containing the first player. p2: A string with the name of the column containing the second player. p1_effects: A one-sided formula specifying player-level effects for p1. p2_effects: A one-sided formula specifying player-level effects for p2. ref_player: A string giving the name of the player to be used as the reference player (default is the first player in p1).\nHere is an example of using comp_glm():\ncomp_mod &lt;- comp_glm(point_winner ~ -1, data = tennis_point,\n                     p1 = \"player1\", p2 = \"player2\",\n                     p1_effects = ~ point_server1,\n                     p2_effects = ~ point_server2,\n                     ref_player = \"Milos Raonic\")\nFeel free to explore and leverage the compr package to enhance your paired competition modeling in R. For detailed information and usage examples, refer to the package documentation."
+  },
+  {
+    "objectID": "about.html#fa-institution-organizations-1",
+    "href": "about.html#fa-institution-organizations-1",
+    "title": "CV",
+    "section": " Organizations",
+    "text": "Organizations\n\n\nSt. Lawrence Men’s Varsity Tennis\n\n\nMember (Team Captain Senior Year) | September 2019 – May 2023\n\n\n Led team as captain, chosen by coach and team members, responsible for conducting captain’s practices during the offseason and fostering strong team culture; committed ~20 hours per week\n\n\n Served as a member of Student-Athlete Advisory Committee as an underclassman, addressing student-athlete concerns, and coordinating team participation in philanthropy events\n\n\n\n\n\nCommons College Theme House\n\n\nResident (Head of House Senior Year) | September 2019 – May 2023\n\n\n Elected by peers as Head of House of Commons College, a co-ed living and learning community of 24 residents taking a class beyond the traditional classroom and living together\n\n\n Facilitated weekly house meetings, served as liaison to school administration, coordinated class with the house professor (current course is on having difficult conversations)"
+  },
+  {
+    "objectID": "cv.html#fa-hand-rock-o-work-experience",
+    "href": "cv.html#fa-hand-rock-o-work-experience",
+    "title": "CV",
+    "section": " Work Experience",
+    "text": "Work Experience\n\n\nAttentive Mobile\n\n\nData Analyst Intern | May 2023 – August 2023\n\n\n Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\nVelocity Global\n\n\nData Science Intern | May 2022 – August 2022\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\nQuantitative Resource Center (St. Lawrence University)\n\n\nStudent Mentor | March 2022 – Present\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
+  },
+  {
+    "objectID": "cv.html#fa-institution-education-1",
+    "href": "cv.html#fa-institution-education-1",
+    "title": "CV",
+    "section": " Education",
+    "text": "Education\n\n\nSt. Lawrence University\n\n\nBachelor of Science, Data Science | Graduating December 2023\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship\n\n\n\n\n\nDublin School\n\n\n2015-2019\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship"
+  },
+  {
+    "objectID": "index.html#posts",
+    "href": "index.html#posts",
+    "title": "",
+    "section": "Posts",
+    "text": "Posts\nSome of my work\n\n\n\n\n\n\n\n\n\n\ncompr: An R package for Paired Competition Modeling\n\n\n\n\n\n\nJames Wolpe\n\n\nDec 11, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nATP Directionals Shiny App\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nPosts"
   }
 ]
