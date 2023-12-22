@@ -17,9 +17,12 @@ listing:
 </div>
 :::
 
-<p class="large-text quote-text-bg center-text" style="text-align: center; font-size: 24px; color: #212529;">
-{{< fa fa-hand-peace-o >}} Welcome to my personal website! If you have any questions, thoughts, or would like to connect, feel free to reach out {{< fa envelope >}}.
-</p>
+<div class="large-text quote-text-bg center-text" style="text-align: center; font-size: 24px; color: #212529;">
+  <h3 style="border-bottom: none;">{{< fa bolt >}} Hello! {{< fa bolt >}}</h3>
+  <p>
+    Welcome to my personal website! I am a recent graduate with a degree in Data Science from St. Lawrence University, where I also played on the men's tennis team. I primarily code in R (and made this website with it) and am currently most interested in data storytelling and visualization. In my free time, I enjoy playing backgammon, hiking, and cheering on the Celtics. Feel free to explore, and don't hesitate to reach out! {{< fa envelope >}}
+  </p>
+</div>
 
 
 
@@ -58,12 +61,13 @@ Performed Go-to-Market analysis, comparing a novel AI product with its human-ope
 
 ::: {.feature-bottom}
 [References](references.qmd){.btn .btn-secondary role="button"}
+[CV](cv.qmd){.btn .btn-secondary role="button"}
 :::
 
 
-## Blog
+## Posts
 
-Latest from the blog
+Some of my work
 
 ::: {#listing-blog}
 :::
