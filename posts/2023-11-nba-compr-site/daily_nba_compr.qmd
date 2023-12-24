@@ -3,12 +3,13 @@ title: "Daily NBA Predictions using Pairwise Competition model"
 author: "James Wolpe"
 date: "2023-12-20"
 categories: [NBA, R]
-page-layout: article 
+#page-layout: article 
 code-copy: true
 code-overflow: wrap
 code-line-numbers: true
 df-print: paged
 output: html_document
+image: jt_nba_photo.png
 ---
 
 ```{r, include = FALSE}
