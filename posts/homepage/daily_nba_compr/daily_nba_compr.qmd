@@ -426,6 +426,7 @@ if (1 <= length(individual_games_list_3)){
 if (1 <= length(individual_games_list_3)){
     loli_plot(individual_games_list_3, 1)
 }
+
 if (2 <= length(individual_games_list_3)){
     table_output(individual_games_list_3, 2)
 }
@@ -524,11 +525,13 @@ if (15 <= length(individual_games_list_3)){
   loli_plot(individual_games_list_3, 15)
 }
 ```
+
 ---
 
 
-
+Data retrieved from [Basketball Reference](https://www.basketball-reference.com/leagues/NBA_2024_games.html).
 Code used to fit the model:
+
 ```{r, eval=FALSE}
 devtools::install_github(repo = "https://github.com/jameswolpe/compr")
 library(compr)
