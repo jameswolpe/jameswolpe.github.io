@@ -2,8 +2,9 @@
 title: 'ATP Directionals Shiny App'
 author: 'James Wolpe'
 date: "5/16/2022"
+image: directionals_image.jpg
 ---
 
-<iframe src="https://jameswolpe.shinyapps.io/directionals_app/" width="1000" height="1600" frameborder="0"></iframe>
+<iframe src="https://jameswolpe.shinyapps.io/directionals_app/" width="1000" height="1000" frameborder="0"></iframe>
 
 Need to optimize to include more data
