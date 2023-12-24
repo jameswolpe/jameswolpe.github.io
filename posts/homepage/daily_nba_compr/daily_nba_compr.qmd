@@ -1,5 +1,5 @@
 ---
-title: "Daily NBA Predictions using Pairwise Competition model"
+title: "Daily NBA Predictions Using a Pairwise Competition Model"
 author: "James Wolpe"
 date: "2023-12-20"
 categories: [NBA, R]
@@ -10,6 +10,7 @@ code-line-numbers: true
 df-print: paged
 output: html_document
 image: jt_nba_photo.png
+description: "Daily NBA Predictions using 'compr': A Pairwise Competition Model Developed by Dr. Matt Higham and Myself"
 ---
 
 ```{r, include = FALSE}
@@ -69,7 +70,7 @@ nba_season$date <- as.Date(nba_season$date, format = "%a, %b %d, %Y")
 
 
 ```{r, include = FALSE}
-#get todays date
+#get today's date
 today <- Sys.Date()
 tmrw <- Sys.Date() + 1
 day_after_tmrw <- Sys.Date() + 2
@@ -78,7 +79,7 @@ day_after_tmrw <- Sys.Date() + 2
 nba_season_before <- nba_season |>
   filter(date < today)
 
-#get all of todays games
+#get all of today's games
 todays_games <- nba_season |>
   filter(date == today) |>
   select(-date, -away_pts, -home_pts, -OT, -home_winner, -pts_diff)
@@ -103,7 +104,6 @@ current_nba_pred <- comp_glm(formula = home_winner ~ 1,
          p2_effects = ~ 1,
          ref_player = "New York Knicks",
          family = "binomial")
-
 # FIXME compr needs to load augment from broom
 todays_pred <- aug_mod(todays_games, current_nba_pred)
 tmrw_pred <- aug_mod(tmrw_games, current_nba_pred)
@@ -191,7 +191,7 @@ table_output <- function(individual_games_list, i) {
 ```
 
 
-## Todays Games (`r format(Sys.Date(), "%A, %B %d")`)
+## Today's Games (`r format(Sys.Date(), "%A, %B %d")`)
 ```{r fig.height = 1.5, fig.width = 8, echo = FALSE}
 if (0 == length(individual_games_list_1)){
   cat("No scheduled games")
@@ -524,3 +524,21 @@ if (15 <= length(individual_games_list_3)){
   loli_plot(individual_games_list_3, 15)
 }
 ```
+---
+
+
+
+Code used to fit the model:
+```{r, eval=FALSE}
+devtools::install_github(repo = "https://github.com/jameswolpe/compr")
+library(compr)
+current_nba_pred <- comp_glm(formula = home_winner ~ 1,
+         data = nba_season_before,
+         p1 = "home", 
+         p2 = "away",
+         p1_effects = ~ 1,
+         p2_effects = ~ 1,
+         ref_player = "New York Knicks",
+         family = "binomial")
+```
+
