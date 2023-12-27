@@ -39,7 +39,7 @@
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "Daily NBA Predictions Using a Pairwise Competition Model\n\n\n\n\n\n\n\nNBA\n\n\nR\n\n\n\n\nDaily NBA Predictions using ‘compr’: A Pairwise Competition Model Developed by Dr. Matt Higham and Myself\n\n\n\n\n\n\nDec 20, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\ncompr: An R package for Paired Competition Modeling\n\n\n\n\n\n\n\nR\n\n\ncompr\n\n\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nATP Directionals Shiny App\n\n\n\n\n\n\n\n\n\n\n\n\nMay 16, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\n\nR\n\n\ntidyverse\n\n\nggplot2\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\nNo matching items"
+    "text": "Daily NBA Predictions Using a Pairwise Competition Model\n\n\n\n\n\n\n\nNBA\n\n\nR\n\n\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\n\n\n\nDec 20, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\ncompr: An R package for Paired Competition Modeling\n\n\n\n\n\n\n\nR\n\n\ncompr\n\n\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nATP Directionals Shiny App\n\n\n\n\n\n\n\n\n\n\n\n\nMay 16, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\n\nR\n\n\ntidyverse\n\n\nggplot2\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html",
@@ -690,7 +690,7 @@
     "href": "index.html#posts",
     "title": "",
     "section": "Posts",
-    "text": "Posts\nSome of my work\n\n\n\n\n\n\n\n\n\n\nDaily NBA Predictions Using a Pairwise Competition Model\n\n\nDaily NBA Predictions using ‘compr’: A Pairwise Competition Model Developed by Dr. Matt Higham and Myself\n\n\n\nJames Wolpe\n\n\nDec 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nATP Directionals Shiny App\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nPosts"
+    "text": "Posts\nSome of my work\n\n\n\n\n\n\n\n\n\n\nDaily NBA Predictions Using a Pairwise Competition Model\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\nJames Wolpe\n\n\nDec 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nATP Directionals Shiny App\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nPosts"
   },
   {
     "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#todays-games",
@@ -760,7 +760,7 @@
     "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html",
     "title": "Daily NBA Predictions Using a Pairwise Competition Model",
     "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n46.7%\n\n\nNew York Knicks\n53.3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n64%\n\n\nLos Angeles Clippers\n36%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n85%\n\n\nCharlotte Hornets\n15%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n54.9%\n\n\nIndiana Pacers\n45.1%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nHouston Rockets\n35%\n\n\nNew Orleans Pelicans\n65%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n23%\n\n\nAtlanta Hawks\n77%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n4%\n\n\nBrooklyn Nets\n96%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nUtah Jazz\n37%\n\n\nToronto Raptors\n63%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n55%\n\n\nChicago Bulls\n45%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n22%\n\n\nOklahoma City Thunder\n78%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n8%\n\n\nDallas Mavericks\n92%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPortland Trail Blazers\n11%\n\n\nGolden State Warriors\n89%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMinnesota Timberwolves\n57%\n\n\nSacramento Kings\n43%"
+    "text": "Team\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n45%\n\n\nOrlando Magic\n55%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n68%\n\n\nWashington Wizards\n32%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n64%\n\n\nBrooklyn Nets\n36%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhoenix Suns\n28%\n\n\nHouston Rockets\n72%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n31%\n\n\nOklahoma City Thunder\n69%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n40%\n\n\nDallas Mavericks\n60%"
   },
   {
     "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-saturday-december-23",
@@ -782,5 +782,47 @@
     "title": "Daily NBA Predictions Using a Pairwise Competition Model",
     "section": "Games Monday, December 25",
     "text": "Games Monday, December 25\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n46.7%\n\n\nNew York Knicks\n53.3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nGolden State Warriors\n25%\n\n\nDenver Nuggets\n75%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n72%\n\n\nLos Angeles Lakers\n28%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n55%\n\n\nMiami Heat\n45%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n53.2%\n\n\nPhoenix Suns\n46.8%\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_season_before,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
+  },
+  {
+    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-monday-december-25",
+    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-monday-december-25",
+    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
+    "section": "",
+    "text": "Team\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n53.4%\n\n\nNew York Knicks\n46.6%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nGolden State Warriors\n26%\n\n\nDenver Nuggets\n74%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n72%\n\n\nLos Angeles Lakers\n28%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n57%\n\n\nMiami Heat\n43%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n55%\n\n\nPhoenix Suns\n45%"
+  },
+  {
+    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-tuesday-december-26",
+    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-tuesday-december-26",
+    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
+    "section": "Games Tuesday, December 26",
+    "text": "Games Tuesday, December 26\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBrooklyn Nets\n92%\n\n\nDetroit Pistons\n8%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n87%\n\n\nWashington Wizards\n13%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nAtlanta Hawks\n41%\n\n\nChicago Bulls\n59%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nIndiana Pacers\n26%\n\n\nHouston Rockets\n74%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n16%\n\n\nNew Orleans Pelicans\n84%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMinnesota Timberwolves\n57%\n\n\nOklahoma City Thunder\n43%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nUtah Jazz\n69%\n\n\nSan Antonio Spurs\n31%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSacramento Kings\n84%\n\n\nPortland Trail Blazers\n16%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n10%\n\n\nLos Angeles Clippers\n90%"
+  },
+  {
+    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-wednesday-december-27",
+    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-wednesday-december-27",
+    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
+    "section": "Games Wednesday, December 27",
+    "text": "Games Wednesday, December 27\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n49.2%\n\n\nOrlando Magic\n50.8%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n68%\n\n\nWashington Wizards\n32%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n66%\n\n\nBrooklyn Nets\n34%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhoenix Suns\n27%\n\n\nHouston Rockets\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n31%\n\n\nOklahoma City Thunder\n69%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n42%\n\n\nDallas Mavericks\n58%\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_season_before,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
+  },
+  {
+    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-wednesday-december-27",
+    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-wednesday-december-27",
+    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
+    "section": "",
+    "text": "Team\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n45%\n\n\nOrlando Magic\n55%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n68%\n\n\nWashington Wizards\n32%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n64%\n\n\nBrooklyn Nets\n36%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhoenix Suns\n28%\n\n\nHouston Rockets\n72%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n31%\n\n\nOklahoma City Thunder\n69%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n40%\n\n\nDallas Mavericks\n60%"
+  },
+  {
+    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-thursday-december-28",
+    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-thursday-december-28",
+    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
+    "section": "Games Thursday, December 28",
+    "text": "Games Thursday, December 28\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n1%\n\n\nBoston Celtics\n99%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nIndiana Pacers\n46.3%\n\n\nChicago Bulls\n53.7%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n21%\n\n\nMinnesota Timberwolves\n79%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nUtah Jazz\n26%\n\n\nNew Orleans Pelicans\n74%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n11%\n\n\nDenver Nuggets\n89%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMiami Heat\n44%\n\n\nGolden State Warriors\n56%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n27%\n\n\nPortland Trail Blazers\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n13%\n\n\nLos Angeles Lakers\n87%"
+  },
+  {
+    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-friday-december-29",
+    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-friday-december-29",
+    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
+    "section": "Games Friday, December 29",
+    "text": "Games Friday, December 29\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n39%\n\n\nOrlando Magic\n61%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBrooklyn Nets\n79%\n\n\nWashington Wizards\n21%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSacramento Kings\n65%\n\n\nAtlanta Hawks\n35%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n7%\n\n\nBoston Celtics\n93%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n53%\n\n\nCleveland Cavaliers\n47%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n52%\n\n\nHouston Rockets\n48%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOklahoma City Thunder\n40%\n\n\nDenver Nuggets\n60%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n20%\n\n\nPhoenix Suns\n80%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n27%\n\n\nPortland Trail Blazers\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n17%\n\n\nLos Angeles Clippers\n83%\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_season_before,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
   }
 ]

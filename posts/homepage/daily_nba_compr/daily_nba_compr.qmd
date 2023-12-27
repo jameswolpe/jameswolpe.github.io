@@ -10,7 +10,7 @@ code-line-numbers: true
 df-print: paged
 output: html_document
 image: jt_nba_photo.png
-description: "Daily NBA Predictions using 'compr': A Pairwise Competition Model Developed by Dr. Matt Higham and Myself"
+description: "Daily NBA Predictions using 'compr': An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself"
 ---
 
 ```{r, include = FALSE}
