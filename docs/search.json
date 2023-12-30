@@ -760,7 +760,7 @@
     "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html",
     "title": "Daily NBA Predictions Using a Pairwise Competition Model",
     "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n45%\n\n\nOrlando Magic\n55%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n68%\n\n\nWashington Wizards\n32%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n64%\n\n\nBrooklyn Nets\n36%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhoenix Suns\n28%\n\n\nHouston Rockets\n72%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n31%\n\n\nOklahoma City Thunder\n69%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n40%\n\n\nDallas Mavericks\n60%"
+    "text": "Team\nWin Prob.\n\n\n\n\nMiami Heat\n65%\n\n\nUtah Jazz\n35%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n89%\n\n\nDetroit Pistons\n11%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n53.7%\n\n\nIndiana Pacers\n46.3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n71%\n\n\nChicago Bulls\n29%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n18%\n\n\nMinnesota Timberwolves\n82%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n45.2%\n\n\nGolden State Warriors\n54.8%"
   },
   {
     "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-saturday-december-23",
@@ -823,6 +823,41 @@
     "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-friday-december-29",
     "title": "Daily NBA Predictions Using a Pairwise Competition Model",
     "section": "Games Friday, December 29",
-    "text": "Games Friday, December 29\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n39%\n\n\nOrlando Magic\n61%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBrooklyn Nets\n79%\n\n\nWashington Wizards\n21%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSacramento Kings\n65%\n\n\nAtlanta Hawks\n35%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n7%\n\n\nBoston Celtics\n93%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n53%\n\n\nCleveland Cavaliers\n47%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n52%\n\n\nHouston Rockets\n48%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOklahoma City Thunder\n40%\n\n\nDenver Nuggets\n60%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n20%\n\n\nPhoenix Suns\n80%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n27%\n\n\nPortland Trail Blazers\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n17%\n\n\nLos Angeles Clippers\n83%\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_season_before,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
+    "text": "Games Friday, December 29\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n41%\n\n\nOrlando Magic\n59%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBrooklyn Nets\n80%\n\n\nWashington Wizards\n20%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSacramento Kings\n66%\n\n\nAtlanta Hawks\n34%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n7%\n\n\nBoston Celtics\n93%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n52.9%\n\n\nCleveland Cavaliers\n47.1%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n59%\n\n\nHouston Rockets\n41%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOklahoma City Thunder\n43%\n\n\nDenver Nuggets\n57%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n18%\n\n\nPhoenix Suns\n82%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n27%\n\n\nPortland Trail Blazers\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n18%\n\n\nLos Angeles Clippers\n82%"
+  },
+  {
+    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-thursday-december-28",
+    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-thursday-december-28",
+    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
+    "section": "",
+    "text": "Team\nWin Prob.\n\n\n\n\nDetroit Pistons\n1%\n\n\nBoston Celtics\n99%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nIndiana Pacers\n46.8%\n\n\nChicago Bulls\n53.2%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n19%\n\n\nMinnesota Timberwolves\n81%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nUtah Jazz\n26%\n\n\nNew Orleans Pelicans\n74%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n12%\n\n\nDenver Nuggets\n88%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMiami Heat\n44%\n\n\nGolden State Warriors\n56%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n27%\n\n\nPortland Trail Blazers\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n13%\n\n\nLos Angeles Lakers\n87%"
+  },
+  {
+    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-saturday-december-30",
+    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-saturday-december-30",
+    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
+    "section": "Games Saturday, December 30",
+    "text": "Games Saturday, December 30\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMiami Heat\n61%\n\n\nUtah Jazz\n39%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n88%\n\n\nDetroit Pistons\n12%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n56%\n\n\nIndiana Pacers\n44%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n70%\n\n\nChicago Bulls\n30%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n18%\n\n\nMinnesota Timberwolves\n82%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n43%\n\n\nGolden State Warriors\n57%\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_season_before,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
+  },
+  {
+    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-saturday-december-30",
+    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-saturday-december-30",
+    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
+    "section": "",
+    "text": "Team\nWin Prob.\n\n\n\n\nMiami Heat\n65%\n\n\nUtah Jazz\n35%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n89%\n\n\nDetroit Pistons\n11%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n53.7%\n\n\nIndiana Pacers\n46.3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n71%\n\n\nChicago Bulls\n29%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n18%\n\n\nMinnesota Timberwolves\n82%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n45.2%\n\n\nGolden State Warriors\n54.8%"
+  },
+  {
+    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-sunday-december-31",
+    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-sunday-december-31",
+    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
+    "section": "Games Sunday, December 31",
+    "text": "Games Sunday, December 31\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nAtlanta Hawks\n74%\n\n\nWashington Wizards\n26%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n41%\n\n\nNew Orleans Pelicans\n59%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBrooklyn Nets\n20%\n\n\nOklahoma City Thunder\n80%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n95%\n\n\nSan Antonio Spurs\n5%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSacramento Kings\n72%\n\n\nMemphis Grizzlies\n28%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n59%\n\n\nPhoenix Suns\n41%"
+  },
+  {
+    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-monday-january-01",
+    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-monday-january-01",
+    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
+    "section": "Games Monday, January 01",
+    "text": "Games Monday, January 01\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMinnesota Timberwolves\n65%\n\n\nNew York Knicks\n35%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n67%\n\n\nToronto Raptors\n33%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n3%\n\n\nHouston Rockets\n97%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nIndiana Pacers\n22%\n\n\nMilwaukee Bucks\n78%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n7%\n\n\nDenver Nuggets\n93%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPortland Trail Blazers\n20%\n\n\nPhoenix Suns\n80%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n61%\n\n\nUtah Jazz\n39%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMiami Heat\n41%\n\n\nLos Angeles Clippers\n59%\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_season_before,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
   }
 ]
