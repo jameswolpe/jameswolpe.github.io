@@ -39,7 +39,7 @@
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "Daily NBA Predictions Using a Pairwise Competition Model\n\n\n\n\n\n\n\nNBA\n\n\nR\n\n\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\n\n\n\nDec 20, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\ncompr: An R package for Paired Competition Modeling\n\n\n\n\n\n\n\nR\n\n\ncompr\n\n\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nTennis Directionals Visualization Made With Shiny\n\n\n\n\n\n\n\n\n\n\n\n\nMay 16, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\n\nR\n\n\ntidyverse\n\n\nggplot2\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\nNo matching items"
+    "text": "Daily NBA Predictions Using a Pairwise Competition Model\n\n\n\n\n\n\n\nNBA\n\n\nR\n\n\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\n\n\n\nDec 20, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\ncompr: An R package for Paired Competition Modeling\n\n\n\n\n\n\n\nR\n\n\ncompr\n\n\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nShiny App to Visualize Tennis Directionals\n\n\n\n\n\nBased on the “Wardlaw Directionals”, this is a Shiny app designed to visualize the directional tendencies of ATP tennis players\n\n\n\n\n\n\nMay 16, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\n\nR\n\n\ntidyverse\n\n\nggplot2\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html",
@@ -639,9 +639,9 @@
   {
     "objectID": "posts/homepage/tennis_atp_directionals/atp_directionals.html",
     "href": "posts/homepage/tennis_atp_directionals/atp_directionals.html",
-    "title": "ATP Directionals Shiny App",
+    "title": "Shiny App to Visualize Tennis Directionals",
     "section": "",
-    "text": "Need to optimize to include more data"
+    "text": "Crowdsourced shot-by-shot professional tennis data by The Tennis Abstract Match Charting Project is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Based on a work at https://github.com/JeffSackmann/tennis_MatchChartingProject"
   },
   {
     "objectID": "posts/homepage/compr/compr.html",
@@ -690,7 +690,7 @@
     "href": "index.html#posts",
     "title": "",
     "section": "Posts",
-    "text": "Posts\nSome of my work\n\n\n\n\n\n\n\n\n\n\nDaily NBA Predictions Using a Pairwise Competition Model\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\nJames Wolpe\n\n\nDec 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTennis Directionals Visualization Made With Shiny\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nPosts"
+    "text": "Posts\nSome of my work\n\n\n\n\n\n\n\n\n\n\nDaily NBA Predictions Using a Pairwise Competition Model\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\nJames Wolpe\n\n\nDec 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShiny App to Visualize Tennis Directionals\n\n\nBased on the “Wardlaw Directionals”, this is a Shiny app designed to visualize the directional tendencies of ATP tennis players\n\n\n\nJames Wolpe\n\n\nMay 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nPosts"
   },
   {
     "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#todays-games",

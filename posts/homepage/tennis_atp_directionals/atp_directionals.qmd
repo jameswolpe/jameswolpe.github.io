@@ -1,8 +1,12 @@
 ---
-title: 'Tennis Directionals Visualization Made With Shiny'
+title: 'Shiny App to Visualize Tennis Directionals'
 author: 'James Wolpe'
 date: "5/16/2022"
 image: directionals_image.jpg
+description: 'Based on the "Wardlaw Directionals", this is a Shiny app designed to visualize the directional tendencies of ATP tennis players'
 ---
 
-<iframe src="https://jameswolpe.shinyapps.io/directionals_app/" width="1000" height="1000" frameborder="0"></iframe>
+<iframe src="https://jameswolpe.shinyapps.io/directionals_app/" width="800" height="1000" frameborder="0"></iframe>
+---
+Crowdsourced shot-by-shot professional tennis data by [The Tennis Abstract Match Charting Project](https://www.tennisabstract.com/charting/meta.html) is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Based on a work at [https://github.com/JeffSackmann/tennis_MatchChartingProject](https://github.com/JeffSackmann/tennis_MatchChartingProject)
