@@ -191,7 +191,7 @@ table_output <- function(individual_games_list, i) {
 ```
 
 
-## Today's Games (`r format(Sys.Date(), "%A, %B %d")`)
+## Today's Games (`r format(Sys.Date(), "%B %e, %Y")`)
 ```{r fig.height = 1.5, fig.width = 8, echo = FALSE}
 if (0 == length(individual_games_list_1)){
   cat("No scheduled games")
@@ -303,7 +303,7 @@ if (15 <= length(individual_games_list_1)){
 
 
 
-## Games `r format(Sys.Date() + 1, "%A, %B %d")`
+## Games `r format(Sys.Date() + 1, "%B %e, %Y")`
 
 ```{r fig.height = 1.5, fig.width = 8, echo = FALSE}
 if (0 == length(individual_games_list_2)){
@@ -414,7 +414,7 @@ if (15 <= length(individual_games_list_2)){
 }
 ```
 
-## Games `r format(Sys.Date() + 2, "%A, %B %d")`
+## Games `r format(Sys.Date() + 2, "%B %e, %Y")`
 
 ```{r fig.height = 1.5, fig.width = 8, echo = FALSE}
 if (0 == length(individual_games_list_3)){
@@ -536,7 +536,7 @@ Code used to fit the model:
 devtools::install_github(repo = "https://github.com/jameswolpe/compr")
 library(compr)
 current_nba_pred <- comp_glm(formula = home_winner ~ 1,
-         data = nba_season_before,
+         data = nba_results_df,
          p1 = "home", 
          p2 = "away",
          p1_effects = ~ 1,
