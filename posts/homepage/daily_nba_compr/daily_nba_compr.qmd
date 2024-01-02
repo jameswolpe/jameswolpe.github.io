@@ -12,7 +12,7 @@ output: html_document
 image: jt_nba_photo.png
 description: "Daily NBA Predictions using 'compr': An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself"
 ---
-
+::: {.panel-tabset}
 ```{r, include = FALSE}
 #devtools::install_github(repo = "https://github.com/jameswolpe/compr")
 library(compr)
@@ -525,6 +525,7 @@ if (15 <= length(individual_games_list_3)){
   loli_plot(individual_games_list_3, 15)
 }
 ```
+:::
 
 ---
 
