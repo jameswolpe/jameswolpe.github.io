@@ -1,10 +1,8 @@
 ---
-title: 'ATP Directionals Shiny App'
+title: 'Tennis Directionals Visualization Made With Shiny'
 author: 'James Wolpe'
 date: "5/16/2022"
 image: directionals_image.jpg
 ---
 
 <iframe src="https://jameswolpe.shinyapps.io/directionals_app/" width="1000" height="1000" frameborder="0"></iframe>
-
-Need to optimize to include more data
