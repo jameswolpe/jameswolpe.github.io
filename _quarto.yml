@@ -28,12 +28,10 @@ website:
         target: _blank
       - icon: envelope
         href: mailto:jameswolpe@gmail.com
-#      - icon: reddit
-#        href: https://www.reddit.com/user/josephjjames
 
   page-footer:
-    left: James Wolpe 2023
-    right: This website is built with {{< fa heart title="a heart" >}} and [Quarto](https://quarto.org/)
+    left: "{{< fa copyright >}} 2024, James Wolpe"
+    right: This website is built with {{< fa heart title="a heart" >}}, {{< fa brands r-project title="R Project" >}}, and [Quarto](https://quarto.org/)
 format:
   html:
     page-layout: full
