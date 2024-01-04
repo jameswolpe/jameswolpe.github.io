@@ -1,5 +1,5 @@
 ---
-title: 'Shiny App to Visualize Tennis Directionals'
+title: 'Shiny App to Visualize ATP Tennis Players Directional Tendencies'
 author: 'James Wolpe'
 date: "5/16/2022"
 image: directionals_image.jpg
