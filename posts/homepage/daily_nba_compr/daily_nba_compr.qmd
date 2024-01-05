@@ -1,7 +1,7 @@
 ---
 title: "Daily NBA Predictions Using a Pairwise Competition Model"
 author: "James Wolpe"
-date: Sys.Date()
+date: "12/15/2023"
 categories: [NBA, R]
 #page-layout: article 
 code-copy: true
