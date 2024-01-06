@@ -24,7 +24,17 @@ listing:
   </p>
 </div>
 
+## Posts
 
+Some of my work
+
+::: {#listing-blog}
+:::
+
+
+::: {.feature-bottom}
+[Posts](posts.qmd){.btn .btn-secondary role="button"}
+:::
 
 ## Work Experience
 
@@ -52,7 +62,7 @@ Engineered a lead conversion prediction model in Python using XGBoost, covering 
   <br>
   `Summer 2023`
   
-Performed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined key performance indicators (KPIs) and developed data-driven dashboards using Google Looker.
+Performed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined KPIs and developed data-driven dashboards using Google Looker.
 </div>
 :::
 
@@ -65,14 +75,3 @@ Performed Go-to-Market analysis, comparing a novel AI product with its human-ope
 :::
 
 
-## Posts
-
-Some of my work
-
-::: {#listing-blog}
-:::
-
-
-::: {.feature-bottom}
-[Posts](posts.qmd){.btn .btn-secondary role="button"}
-:::
