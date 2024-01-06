@@ -3,7 +3,7 @@ title: 'Shiny App to Visualize ATP Tennis Players Directional Tendencies'
 author: 'James Wolpe'
 date: "5/16/2022"
 image: directionals_image.jpg
-description: 'Based on the "Wardlaw Directionals", this is a Shiny app designed to visualize the directional tendencies of ATP tennis players'
+description: 'Based on "Wardlaw Directionals", this is a Shiny app designed to visualize the directional tendencies of ATP tennis players'
 ---
 
 <iframe src="https://jameswolpe.shinyapps.io/directionals_app/" width="800" height="1000" frameborder="0"></iframe>
