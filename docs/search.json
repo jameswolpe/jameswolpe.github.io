@@ -1,269 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "",
-    "section": "",
-    "text": "###Hello   Welcome to my personal website! If you have any questions, thoughts, or would like to connect, feel free to reach out ."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "James J. Wolpe",
-    "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "James J. Wolpe",
-    "section": "",
-    "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog , Posts",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "CV",
-    "section": "",
-    "text": "Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Posts",
-    "section": "",
-    "text": "Daily NBA Predictions Using a Pairwise Competition Model\n\n\n\n\n\n\n\nNBA\n\n\nR\n\n\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\n\n\n\nDec 15, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\ncompr: An R package for Paired Competition Modeling\n\n\n\n\n\n\n\nR\n\n\ncompr\n\n\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nShiny App to Visualize ATP Tennis Players Directional Tendencies\n\n\n\n\n\nBased on “Wardlaw Directionals”, this is a Shiny app designed to visualize the directional tendencies of ATP tennis players\n\n\n\n\n\n\nMay 16, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\n\nR\n\n\ntidyverse\n\n\nggplot2\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html",
-    "title": "Daily NBA Predictions using Pairwise Competition model",
-    "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n46.7%\n\n\nNew York Knicks\n53.3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n64%\n\n\nLos Angeles Clippers\n36%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n85%\n\n\nCharlotte Hornets\n15%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n54.9%\n\n\nIndiana Pacers\n45.1%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nHouston Rockets\n35%\n\n\nNew Orleans Pelicans\n65%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n23%\n\n\nAtlanta Hawks\n77%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n4%\n\n\nBrooklyn Nets\n96%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nUtah Jazz\n37%\n\n\nToronto Raptors\n63%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n55%\n\n\nChicago Bulls\n45%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n22%\n\n\nOklahoma City Thunder\n78%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n8%\n\n\nDallas Mavericks\n92%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPortland Trail Blazers\n11%\n\n\nGolden State Warriors\n89%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMinnesota Timberwolves\n57%\n\n\nSacramento Kings\n43%"
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#motivation-and-thoughts",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#motivation-and-thoughts",
-    "title": "Building with Quarto",
-    "section": "",
-    "text": "I spent a decent amount of time working on rebuilding my site with Quarto but the decision of should I rebuild my website was pretty impulsive. It’s not the first time I’ve hastily moved to a shiny new static site generator. Before that I was using Pelican and before that, Jykell; I suppose I love the process of trying to design something new and see how I can take advantage of something new to make it even easier to blog!\nI was going to make a joke about Field of Dreams and how I built it and the blog posts didn’t come. But that’s not the important part! The important part was that I went in the world wide web version of the yard to do my little project.\n\nWhat this post will not be is a complete end-to-end guide on building a website with Quarto. I think there are already a lot of great pieces of content and the docs are really well put together. I don’t want to just rehash what already exists. I thought it might be helpful to just document how I went about taking some things from the Quarto website and editing/altering for myself and really just focus on some of the aspects of using Quarto that were not initially clear and required some patience to work through.\n\n\n\n\n\n\n\nJust keep in mind\n\n\n\nI’m by no means a front-end professional and a lot of what I’ve discovered putting this site together was from reading the docs, looking for examples, and trying things out. If you notice something that isn’t right; feel free to create an issue on the repo. Thanks!"
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#quarto-how-to-start",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#quarto-how-to-start",
-    "title": "Building with Quarto",
-    "section": "Quarto, how to start?",
-    "text": "Quarto, how to start?\n\nSo we have four different options above. When inspecting the plain text within the .Rproj file itself (something like vim name.Rproj), there isn’t any magic happening under the hood in connection to Quarto. However, each of these options correspond to different commands that you could also run via the cli. Remember, Quarto is a tool that is built on top of and extends Pandoc, which also is a cli, so don’t be afraid to run things that way too. Initially I thought that if I decided to do a Quarto Website instead of a Quarto Blog I’d be locked into something and that is not the case at all! So don’t worry too much at this stage.\n\n\n\n\n\n\n\n\nUse the source (code)\n\n\n\nIf you want to examine Quarto’s source code on GitHub, it’s under quarto-cli. If you want to see the source code for the Quarto website itself, it’s under quarto-web. So if there’s something you see on the main website that you like, check the GitHub repo to see how they’re doing it."
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#building-blocks",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#building-blocks",
-    "title": "Building with Quarto",
-    "section": "Building blocks",
-    "text": "Building blocks\n\nAs an example, I borrowed a design pattern from the index.qmd file from Quarto’s landing page for my landing page; here’s the original:\n::: {.content-block}\n::: {.features}\n\n::: {.feature}\n### Dynamic Documents\nGenerate dynamic output using Python, R, Julia, and Observable. \nCreate reproducible documents that can be regenerated when \nunderlying assumptions or data change.\n\n::: {.learn-more}\n[Learn more »](docs/computations/python.qmd)\n:::\n:::\n\n::: {.feature}\n### Beautiful Publications\nPublish high-quality articles, reports, presentations, \nwebsites, and books in HTML, PDF, MS Word, ePub, and \nmore. Use a single source document to target multiple \nformats.\n\n::: {.learn-more}\n[Learn more »](docs/output-formats/all-formats.qmd)\n:::\n:::\n\n::: {.feature}\n### Scientific Markdown\nPandoc markdown has excellent support for LaTeX equations \nand citations. Quarto adds extensions for cross-references, \nfigure panels, callouts, advanced page layout, and more.\n\n::: {.learn-more}\n[Learn more »](docs/authoring/markdown-basics.qmd)\n:::\n:::\n\n::: {.feature}\n### Authoring Tools\nUse your favorite tools including VS Code, RStudio, \nJupyter Lab, or any text editor. Use the Quarto visual \nmarkdown editor for long-form documents.\n\n::: {.learn-more}\n[Learn more »](docs/tools/jupyter-lab.qmd)\n:::\n:::\n\n::: {.feature}\n### Interactivity\nEngage readers by adding interactive data exploration \nto your documents using Jupyter Widgets, htmlwidgets for \nR, Observable JS, and Shiny.\n\n::: {.learn-more}\n[Learn more »](docs/interactive/)\n:::\n:::\n\n::: {.feature}\n### Websites and Books\nPublish collections of documents as a blog or full \nwebsite. Create books and manuscripts in both print \nformats (PDF and MS Word) and online formats (HTML \nand ePub).\n\n::: {.learn-more}\n[Learn more »](docs/websites/)\n:::\n:::\n\n:::\n:::"
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#divs-and-spans",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#divs-and-spans",
-    "title": "Building with Quarto",
-    "section": "<div>s and <span>s",
-    "text": "&lt;div&gt;s and &lt;span&gt;s\n\nFirst, let’s talk about what’s going on here. If you’re new to this syntax of ::: {.some-class} ::: then take a bit of time to read the Quarto docs on divs and spans to gain a good foundation. In Pandoc these are called fenced divs.\nOnce you understand the syntax, it might not be apparent at first, but these fenced divs are extraordinarily flexible! Let’s break down the above code chunk:\nThe ::: {.content-block}::: is a &lt;div&gt; defining the padding for the top and bottom and the margin for the left and the right; here is the CSS from index.css:\n.content-block {\n  padding-top: 20px;\n  padding-bottom: 10px;\n  margin-left: 30px;\n  margin-right: 30px;\n}\nThis creates space on the page for the two main components:\n\n\n\n\nThe container\n\n\n::: {.features} :::\nSimilarly to the .content-block, this is like a row for the other content elements. On the Bootstrap 5 [page] you’ll see lots of examples of something like container -&gt; row -&gt; col.\n\n\n\n\nThe flexbox\n\n\n::: {.feature} :::\nThese are the individual elements of content. They’re like post-its with info on them. Each .feature is contained within the .features container.\n\n\n\n\n\n\n\n\n\n\n\nPutting it together\n\n\n\nYou can think of the .container like a board you want to hang on the wall–the .features is like a sticky adhesive and the .feature the squares with notes on them that you stick to your board.\n\n\n\nFrom the docs, Bootstrap 5 uses a mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, six default responsive tiers, Sass variables and mixins, and dozens of predefined classes. It can definitely be confusing if you haven’t ever written HTML before, so don’t worry if it isn’t clicking right away. Learning more about Bootstrap 5 will only enhance your Quarto experience if you’re interested. The better you understand the grid the more flexible you will be when thinking of how you want to arrange components on your site and what is available to you as ways to do that."
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#so-how-did-i-alter-the-example",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#so-how-did-i-alter-the-example",
-    "title": "Building with Quarto",
-    "section": "So how did I alter the example?",
-    "text": "So how did I alter the example?\n\nWhat I liked was the ability to just create a simple grid for some content–but I also wanted to have a button and I wanted those buttons to line up. So this was my way to make that happen:\n::: {.content-block}\n::: {.features}\n\n::: {.feature}\n::: {.feature-top}\n### Blog\n\nLatest from the blog\n\n::: {#listing-blog}\n:::\n:::\n\n::: {.feature-bottom}\n[Blog](blog.qmd){.btn .btn-secondary role=\"button\"}\n:::\n:::\n\n::: {.feature}\n::: {.feature-top}\n### Talks\n\nLatest talk I've done\n\n::: {#listing-talks}\n:::\n:::\n\n::: {.feature-bottom}\n[Talks](talks.qmd){.btn .btn-secondary role=\"button\"}\n:::\n:::\n\n::: {.feature}\n::: {.feature-top}\n### Projects\n\nLatest tinkering\n\n::: {#listing-projects}\n:::\n:::\n\n::: {.feature-bottom}\n[Projects](projects.qmd){.btn .btn-secondary role=\"button\"}\n:::\n:::\n\n:::\n:::\nYou’ll notice some new things here; a couple of new classes and some document listings. Let’s start with the new classes first and then talk about the document listings.\n\n\n\n\n\n\n\nLinks to buttons\n\n\n\nTo turn a regular link into a button you can add a helpful Bootstrap 5 class to the link: .btn and then adding the role=\"button\"! So simple and it looks really nice too. I’m also using .btn-secondary to use the secondary color specified in the Sass file to make it pop"
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#new-classes",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#new-classes",
-    "title": "Building with Quarto",
-    "section": "New classes",
-    "text": "New classes\n\nThe .content-block has not changed. So we don’t need to focus on that. There is a new addition to the .features class’ CSS though:\n.features {\n  padding-bottom: 2em;\n  height: calc(100% + 250px);\n}\nSo what is this height: calc(100% + 250px); doing? Well, it’s saying, whatever 100% of the height is for this normally, add an additional 250 pixels. Why we want to do this will become apparent with the next two classes:\n\n\n\n\n.feature-top\n\n\n.feature-top {\n  height: 75%;\n}\nWe want this &lt;div&gt; to take up 75% of .features’s height.\n\n\n\n\n.feature-bottom\n\n\n.feature-bottom {\n  height: 25%;\n}\nWe want this &lt;div&gt; to take up 25% of .features’s height\n\n\n\n\nThe goal is to have the .feature divisible by two but in a way that allows for the bottom portion to align across .features rather than have the button in different positions based on the length of the document being highlighted by the document listing.\nNow, this may not be the best solution–I imagine that for someone that is an experienced front-end dev or someone that knows Lua could potentially do something much more elegant. This seemed to me to be the best way to accomplish this for myself. I see the buttons align and that makes me happy"
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#document-listings",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#document-listings",
-    "title": "Building with Quarto",
-    "section": "Document listings",
-    "text": "Document listings\n\nI linked it earlier but ICYMI, document listings are something very new to me via Quarto. Read the docs on document listings first to gain a bit more familiarity and then I’ll explain what I’m doing here.\nMy index.qmd is using multiple custom listings. Make sure to read the docs to get a feel for what’s different between altering/editing the available document listing vs creating a custom listing."
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#ejs",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#ejs",
-    "title": "Building with Quarto",
-    "section": "EJS",
-    "text": "EJS\n\nThe custom listings are written in Embedded JavaScript templating (EJS), which was very confusing for me. I’ll try to share what limited clarity I’ve been able to obtain but if this isn’t something you’ll want to do you can feel free to skip.\nI followed the example from quarto-web and created an ejs directory and then put my custom listing .ejs file in that directory. Before threading everything together, let’s just look at how the custom listing is working:\n&lt;!-- attributes for item --&gt;\n&lt;!--  freeze,\n      title-block-banner,\n      title,\n      author,\n      date,\n      categories,\n      image,\n      path,\n      image-alt,\n      description,\n      filename,\n      file-modified,\n      reading-time,\n      sortableValues --&gt;\n&lt;% for (const item of items.slice(0, 1)) { %&gt;\n  &lt;h4&gt;&lt;a href=\"&lt;%- item.path %&gt;\"&gt;&lt;%= item.title %&gt;&lt;/a&gt;&lt;/h4&gt;\n  &lt;small&gt;{{&lt; fa calendar &gt;}} &lt;%= item.date %&gt;&lt;/small&gt;\n&lt;% } %&gt; \nFirst, please excuse the low quality but high effort JavaScript. Second, notice the comment I added for the attributes available to us through the initial for loop. I wanted to keep these readily available in the event I need to create some other custom listing. Based on what it is you want to highlight you can change or alter this to see if it works for your purposes as well. What I wanted was just the most recent listing from a document list, so I only want one listing. That is the purpose of the .slice(0, 1) method. The goal is to not have to update the index.qmd ever–even when there are new blog posts, talks, or projects. I’m slicing this list for the very first (most recent) listing and just grabbing a minimal amount of attributes: its location, the title, and the date."
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#connecting-it-all-together",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#connecting-it-all-together",
-    "title": "Building with Quarto",
-    "section": "Connecting it all together",
-    "text": "Connecting it all together\n\nTo connect the custom listing you’ll need to add it in your .qmd file’s YAML header. Here’s an example from my index.qmd:\n---\ntitle: \"\"\npage-layout: full\ntitle-block-banner: true\nlisting: \n  - id: listing-blog\n    contents: \"blog/\"\n    template: /ejs/most-recent-only.ejs\n    sort: \"date desc\"\n  - id: listing-talks\n    contents: \"talks/\"\n    template: /ejs/most-recent-only.ejs\n    sort: \"date desc\"\n  - id: listing-projects\n    contents: \"projects/\"\n    template: /ejs/most-recent-only.ejs\n    sort: \"date desc\"\n---\nWhat this is saying is that Quarto will create an ID that can be used to know where on the page to have this listing display its listing and how to sort the listing. By setting sort: \"date desc\" in conjunction with the .slice method in the EJS template, that is how we’re able to get the most recent piece of content from these three categories.\nThen it’s as simple as adding the ID you specified in the YAML in a &lt;div&gt;, e.g.:\n::: {#listing-blog}\n:::\nIt took me a little bit of time to get a feel for how this all comes together so I’d recommend playing around with this a bit to build an intuition."
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#conclusion",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#conclusion",
-    "title": "Building with Quarto",
-    "section": "Conclusion",
-    "text": "Conclusion\n\nI think this is probably a good place to end things. There is obviously more I could cover in connection to publishing, custom domains, etc, but as I mentioned at the outset–I just wanted to sort of focus on the parts that were exciting and new to me via Quarto. Feel free to get in touch with me if you have any questions or comments. Again, if something isn’t correct, feel free to create an issue on the repo."
-  },
-  {
-    "objectID": "index.html#fa-hand-peace-hello-there-this-is-a-website-i-dont-always-have-a-chance-to-update-but-it-has-a-few-posts-and-some-ways-to-get-in-touch-with-me-if-you-need-to-cheers-fa-champagne-glasses",
-    "href": "index.html#fa-hand-peace-hello-there-this-is-a-website-i-dont-always-have-a-chance-to-update-but-it-has-a-few-posts-and-some-ways-to-get-in-touch-with-me-if-you-need-to-cheers-fa-champagne-glasses",
-    "title": "",
-    "section": " hello there! this is a website I don’t always have a chance to update but it has a few posts and some ways to get in touch with me if you need to; cheers ",
-    "text": "hello there! this is a website I don’t always have a chance to update but it has a few posts and some ways to get in touch with me if you need to; cheers"
-  },
-  {
-    "objectID": "recommendations.html",
-    "href": "recommendations.html",
-    "title": "Recommendations",
-    "section": "",
-    "text": "Velocity Global:\n\n\n\n\nAttentive Mobile:"
-  },
-  {
-    "objectID": "about.html#fa-compass-personal-philosophy",
-    "href": "about.html#fa-compass-personal-philosophy",
-    "title": "About",
-    "section": "",
-    "text": "I believe that the 21st century requires a more multifaceted toolkit if we hope to solve complex challenges–process and task oriented approaches balanced within a framework that fosters strategic thinking. That interdisciplinary relationships can be strengthened through active community participation–working toward something with the shared value of doing good.\n I bring a lot of energy and enthusiasm to the projects that I become involved in. I thrive in situations that require imagination and innovation. My interests are varied; among my passions I would list: academic inquiry, classical and contemporary thought, the music and cuisine of other cultures, the arts, traveling, languages, and social justice. I believe that our most vulnerable deserve respect and to be treated with dignity and fairness.\n Ultimately I hope that the work I do is helpful–that it enables discovery or provides clarity. I hope to bring together practical and principled approaches and I hope to further grow as this philosophy guides me."
-  },
-  {
-    "objectID": "posts/test_blog_post.html",
-    "href": "posts/test_blog_post.html",
-    "title": "test blog post",
-    "section": "",
-    "text": "Hello world, this is a test blog post."
-  },
-  {
-    "objectID": "posts/test2/test_post2.html",
-    "href": "posts/test2/test_post2.html",
-    "title": "test2",
-    "section": "",
-    "text": "test file #2 for testing purposes"
-  },
-  {
-    "objectID": "posts/test1/test_blog_post.html",
-    "href": "posts/test1/test_blog_post.html",
-    "title": "Horse Racing Market Prediction: Beat the Books",
-    "section": "",
-    "text": "Author: James Wolpe\nAffiliation: St. Lawrence University\nCourse: DATA 352: Statistical and Machine Learning\nInstructor: Dr. Michael Schuckers\nDate: May 7th, 2023\nSource: Wikipedia - Horse Racing"
-  },
-  {
-    "objectID": "posts/test3/test3.html",
-    "href": "posts/test3/test3.html",
-    "title": "Wolpe Final Project Part 1",
-    "section": "",
-    "text": "“Trailer Park Boys” is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got."
-  },
-  {
-    "objectID": "index.html#work-experience",
-    "href": "index.html#work-experience",
-    "title": "",
-    "section": "Work Experience",
-    "text": "Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nEngineered a lead conversion prediction model in Python using XGBoost, covering ETL, data cleanup, feature engineering, imputation, and model selection. The top 20% of the model’s performers demonstrated a 4.5x higher conversion rate.\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nPerformed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined KPIs and developed data-driven dashboards using Google Looker.\n\n\n\n\nReferences CV"
-  },
-  {
-    "objectID": "index.html#section",
-    "href": "index.html#section",
-    "title": "",
-    "section": "",
-    "text": "Hi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics."
-  },
-  {
-    "objectID": "index.html#blog",
-    "href": "index.html#blog",
-    "title": "",
-    "section": "Blog",
-    "text": "Blog\nLatest from the blog\n\n\n\n\n\n\n\n\n\n\ncompr: An R package for Paired Competition Modeling\n\n\n\n\n\n\nJames Wolpe\n\n\nDec 11, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nATP Directionals Shiny App\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nPosts"
-  },
-  {
-    "objectID": "recommendations.html#attentive-mobile",
-    "href": "recommendations.html#attentive-mobile",
+    "objectID": "references.html",
+    "href": "references.html",
     "title": "References",
-    "section": "Attentive Mobile:",
-    "text": "Attentive Mobile:"
-  },
-  {
-    "objectID": "about.html#fa-institution-work-experience",
-    "href": "about.html#fa-institution-work-experience",
-    "title": "Full CV",
     "section": "",
-    "text": "Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
+    "text": "David Shaub, Principal Data Scientist"
   },
   {
-    "objectID": "about.html#fa-institution-organizations",
-    "href": "about.html#fa-institution-organizations",
-    "title": "CV",
-    "section": " Organizations",
-    "text": "Organizations\n\n\nSt. Lawrence Men’s Varsity Tennis\n\n\nMember (Team Captain Senior Year) | September 2019 – May 2023\n\n\n Led team as captain, chosen by coach and team members, responsible for conducting captain’s practices during the offseason and fostering strong team culture; committed ~20 hours per week\n\n\n Served as a member of Student-Athlete Advisory Committee as an underclassman, addressing student-athlete concerns, and coordinating team participation in philanthropy events\n\n\n\n\n\nCommons College Theme House\n\n\nResident (Head of House Senior Year) | September 2019 – May 2023\n\n\n Elected by peers as Head of House of Commons College, a co-ed living and learning community of 24 residents taking a class beyond the traditional classroom and living together\n\n\n Facilitated weekly house meetings, served as liaison to school administration, coordinated class with the house professor (current course is on having difficult conversations)"
-  },
-  {
-    "objectID": "about.html#fa-institution-education",
-    "href": "about.html#fa-institution-education",
-    "title": "CV",
-    "section": " Education",
-    "text": "Education\n\n\nSt. Lawrence University\n\n\nBachelor of Science, Data Science | Graduating December 2023\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship\n\n\n\n\n\nDublin School\n\n\n2015-2019\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship"
-  },
-  {
-    "objectID": "index.html#data-analyst-intern-may-2023-august-2023",
-    "href": "index.html#data-analyst-intern-may-2023-august-2023",
-    "title": "Attentive Mobile",
-    "section": "Data Analyst Intern | May 2023 – August 2023",
-    "text": "Data Analyst Intern | May 2023 – August 2023\n\nPoint 1\nPoint 2\nPoint 3"
-  },
-  {
-    "objectID": "index.html#data-analyst-intern-may-2023-august-2023-1",
-    "href": "index.html#data-analyst-intern-may-2023-august-2023-1",
-    "title": "Attentive Mobile",
-    "section": "Data Analyst Intern | May 2023 – August 2023",
-    "text": "Data Analyst Intern | May 2023 – August 2023\n\nPoint 1\nPoint 2\nPoint 3"
-  },
-  {
-    "objectID": "posts/homepage/test2/test_post2.html",
-    "href": "posts/homepage/test2/test_post2.html",
-    "title": "test2",
+    "objectID": "references.html#velocity-global",
+    "href": "references.html#velocity-global",
+    "title": "References",
     "section": "",
-    "text": "test file #2 for testing purposes"
-  },
-  {
-    "objectID": "posts/homepage/test1/test_blog_post.html",
-    "href": "posts/homepage/test1/test_blog_post.html",
-    "title": "test blog post",
-    "section": "",
-    "text": "Hello world, this is a test blog post."
-  },
-  {
-    "objectID": "index.html#tldr",
-    "href": "index.html#tldr",
-    "title": "",
-    "section": "tldr;",
-    "text": "tldr;\n\nHi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics."
-  },
-  {
-    "objectID": "about.html#fa-hand-rock-o-work-experience",
-    "href": "about.html#fa-hand-rock-o-work-experience",
-    "title": "CV",
-    "section": " Work Experience",
-    "text": "Work Experience\n\n\nAttentive Mobile\n\n\nData Analyst Intern | May 2023 – August 2023\n\n\n Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\nVelocity Global\n\n\nData Science Intern | May 2022 – August 2022\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\nQuantitative Resource Center (St. Lawrence University)\n\n\nStudent Mentor | March 2022 – Present\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
-  },
-  {
-    "objectID": "about.html#fa-institution-education-1",
-    "href": "about.html#fa-institution-education-1",
-    "title": "CV",
-    "section": " Education",
-    "text": "Education"
+    "text": "David Shaub, Principal Data Scientist"
   },
   {
     "objectID": "references.html#attentive-mobile",
@@ -273,130 +21,46 @@
     "text": "Attentive Mobile:\n\n\n(via LinkedIn) Aaron Hellman, Lead Data Analyst"
   },
   {
-    "objectID": "about.html#fa-institution-technical-skills",
-    "href": "about.html#fa-institution-technical-skills",
-    "title": "CV",
-    "section": " Technical Skills",
-    "text": "Technical Skills\n\n\nProgramming\n\n\nR (Tidyverse, ggplot2, Shiny), SQL (Snowflake, PostgreSQL), Java (Object-Oriented Programing), Python (Pandas, NumPy, Scikit-learn), Git, Google Looker Studio, Data Visualization\n\n\n\n\n\nMath & Statistics\n\n\nProbability, Calculus (Differential, Integral, Multivariable), A/B Testing, Regression Analysis, Linear Algebra, Statistical and Machine Learning, Time Series Analysis"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
     "section": "",
-    "text": "Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
+    "text": "Daily NBA Predictions Using a Pairwise Competition Model\n\n\n\n\n\n\n\nNBA\n\n\nR\n\n\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\n\n\n\nDec 15, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\ncompr: An R package for Paired Competition Modeling\n\n\n\n\n\n\n\nR\n\n\ncompr\n\n\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nShiny App to Visualize ATP Tennis Players Directional Tendencies\n\n\n\n\n\nBased on “Wardlaw Directionals”, this is a Shiny app designed to visualize the directional tendencies of ATP tennis players\n\n\n\n\n\n\nMay 16, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\n\nR\n\n\ntidyverse\n\n\nggplot2\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nMay 10, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n  \n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "cv.html#fa-fa-briefcase-work-experience",
-    "href": "cv.html#fa-fa-briefcase-work-experience",
-    "title": "CV",
+    "objectID": "index.html#posts",
+    "href": "index.html#posts",
+    "title": "",
+    "section": "Posts",
+    "text": "Posts\nSome of my work\n\n\n\n\n\n\n\n\n\n\nDaily NBA Predictions Using a Pairwise Competition Model\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\nJames Wolpe\n\n\nDec 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShiny App to Visualize ATP Tennis Players Directional Tendencies\n\n\nBased on “Wardlaw Directionals”, this is a Shiny app designed to visualize the directional tendencies of ATP tennis players\n\n\n\nJames Wolpe\n\n\nMay 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nPosts"
+  },
+  {
+    "objectID": "index.html#work-experience",
+    "href": "index.html#work-experience",
+    "title": "",
+    "section": "Work Experience",
+    "text": "Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nEngineered a lead conversion prediction model in Python using XGBoost, covering ETL, data cleanup, feature engineering, imputation, and model selection. The top 20% of the model’s performers demonstrated a 4.5x higher conversion rate.\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nPerformed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined KPIs and developed data-driven dashboards using Google Looker.\n\n\n\n\nReferences CV"
+  },
+  {
+    "objectID": "posts/compr/compr.html",
+    "href": "posts/compr/compr.html",
+    "title": "compr: An R package for Paired Competition Modeling",
     "section": "",
-    "text": "Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
+    "text": "The compr package provides functionality to fit and interpret paired competition models in R.\nTo install and load the package, run"
   },
   {
-    "objectID": "cv.html#fa-institution-organizations",
-    "href": "cv.html#fa-institution-organizations",
-    "title": "CV",
-    "section": " Organizations",
-    "text": "Organizations\n\n\nSt. Lawrence Men’s Varsity Tennis\n\n\nMember (Team Captain Senior Year) | September 2019 – May 2023\n\n\n Led team as captain, chosen by coach and team members, responsible for conducting captain’s practices during the offseason and fostering strong team culture; committed ~20 hours per week\n\n\n Served as a member of Student-Athlete Advisory Committee as an underclassman, addressing student-athlete concerns, and coordinating team participation in philanthropy events\n\n\n\n\n\nCommons College Theme House\n\n\nResident (Head of House Senior Year) | September 2019 – May 2023\n\n\n Elected by peers as Head of House of Commons College, a co-ed living and learning community of 24 residents taking a class beyond the traditional classroom and living together\n\n\n Facilitated weekly house meetings, served as liaison to school administration, coordinated class with the house professor (current course is on having difficult conversations)"
+    "objectID": "posts/compr/compr.html#installation",
+    "href": "posts/compr/compr.html#installation",
+    "title": "compr: An R package for Paired Competition Modeling",
+    "section": "Installation",
+    "text": "Installation\nTo install and load the compr package, use the following commands:\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)"
   },
   {
-    "objectID": "cv.html#fa-institution-education",
-    "href": "cv.html#fa-institution-education",
-    "title": "CV",
-    "section": " Education",
-    "text": "Education\n\n\nSt. Lawrence University\n\n\nBachelor of Science, Data Science | August 2019 - December 2023\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship\n\n\n\n\n\nDublin School\n\n\nSeptember 2015 - June 2019\n\n\n Activities and societies: Head Tour Guide, Day Student Proctor, Boys Varsity Tennis Captain, Boys Varsity Basketball Captain"
-  },
-  {
-    "objectID": "cv.html#fa-institution-technical-skills",
-    "href": "cv.html#fa-institution-technical-skills",
-    "title": "CV",
-    "section": " Technical Skills",
-    "text": "Technical Skills\n\n\nProgramming\n\n\nR (Tidyverse, ggplot2, Shiny), SQL (Snowflake, PostgreSQL), Java (Object-Oriented Programing), Python (Pandas, NumPy, Scikit-learn), Git, Google Looker Studio, Data Visualization\n\n\n\n\n\nMath & Statistics\n\n\nProbability, Calculus (Differential, Integral, Multivariable), A/B Testing, Regression Analysis, Linear Algebra, Statistical and Machine Learning, Time Series Analysis"
-  },
-  {
-    "objectID": "cv.html#fa-briefcase-work-experience",
-    "href": "cv.html#fa-briefcase-work-experience",
-    "title": "CV",
-    "section": "",
-    "text": "Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
-  },
-  {
-    "objectID": "cv.html#fa-university-organizations",
-    "href": "cv.html#fa-university-organizations",
-    "title": "CV",
-    "section": " Organizations",
-    "text": "Organizations\n\n\nSt. Lawrence Men’s Varsity Tennis\n\n\nMember (Team Captain Senior Year) | September 2019 – May 2023\n\n\n Led team as captain, chosen by coach and team members, responsible for conducting captain’s practices during the offseason and fostering strong team culture; committed ~20 hours per week\n\n\n Served as a member of Student-Athlete Advisory Committee as an underclassman, addressing student-athlete concerns, and coordinating team participation in philanthropy events\n\n\n\n\n\nCommons College Theme House\n\n\nResident (Head of House Senior Year) | June 2021 – December 2023\n\n\n Elected by peers as Head of House of Commons College, a co-ed living and learning community of 24 residents taking a class beyond the traditional classroom and living together\n\n\n Facilitated weekly house meetings, served as liaison to school administration, coordinated class with the house professor (current course is on having difficult conversations)"
-  },
-  {
-    "objectID": "cv.html#fa-code-technical-skills",
-    "href": "cv.html#fa-code-technical-skills",
-    "title": "CV",
-    "section": " Technical Skills",
-    "text": "Technical Skills\n\nProgramming\n\n\n\n\n R (Tidyverse, ggplot2, Shiny)   SQL (Snowflake, PostgreSQL)   Python (Pandas, NumPy, Scikit-learn)   Java   Google Looker Studio\n\n\n\n\n Data Visualization   Git (GitHub, GitLab)   Object-Oriented Programming   Database Management Systems (DBMS)\n\n\n\n\n\n\nMath & Statistics\n\n\n\n\n Probability   Calculus (Differential, Integral, Multivariable)   Statistical and Machine Learning   Time Series Analysis\n\n\n\n\n Regression Analysis   A/B Testing   Linear Algebra   Multi-level Modeling"
-  },
-  {
-    "objectID": "posts/test3/test3.html#inroduction",
-    "href": "posts/test3/test3.html#inroduction",
-    "title": "Wolpe Final Project Part 1",
-    "section": "",
-    "text": "“Trailer Park Boys” is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got."
-  },
-  {
-    "objectID": "posts/test3/test3.html#analysis",
-    "href": "posts/test3/test3.html#analysis",
-    "title": "Wolpe Final Project Part 1",
-    "section": "Analysis",
-    "text": "Analysis\n1a)\nThe distribution of Episode ratings in “Trailer Park Boys” appears to be normal as can be seen in Fig. 1. People tend to rate the episodes fairly high and the majority of the reviews are withing .6 of each other on the 10 point rating scale.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMin.\n1st Qu.\nMedian\nMean\n3rd Qu.\nMax.\n\n\n\n\n7.1\n7.9\n8.2\n8.217\n8.6\n9.2\n\n\n\n\n\n1b)\nThe distribution of user votes appears to be right skewed as can be seen in Fig. 2. The median number of votes an episode gets is 360 while some episodes get more than double that number.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMin.\n1st Qu.\nMedian\nMean\n3rd Qu.\nMax.\n\n\n\n\n178\n232\n360.5\n373.5\n489.8\n861\n\n\n\n\n\n2a)\nLooking at episode ratings by season in Fig. 3 some trends can be observed. The show started off with its first four seasons doing consistently well with means around an average rating of 8.5. Then following a poor rated season five, a downtrend began, bottoming out at season ten with an average rating of around 7.5. The next and final two seasons were rated slightly higher with the final season rating right around the overall show mean of 8.2.\n\n\n\n\n\n2b)\nA clear trend can be seen when looking at number of votes an episode got as a predictor of the rating of that episode as seen in Fig. 4. For every one vote increase in the number of votes a 0.001561 increase in episode rating was estimated. This positive trend becomes a little less clear with the very high number of votes, as there is an outlive that received 861 votes and had one of the four worst episode ratings.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nEstimate\nStd. Error\nt value\nPr(&gt;|t|)\n\n\n\n\n(Intercept)\n7.634\n0.09583\n79.66\n4.822e-95\n\n\nnumVotes\n0.001561\n0.0002368\n6.589\n1.859e-09\n\n\n\n\nFitting linear model: averageRating ~ numVotes\n\n\n\n\n\n\n\n\nObservations\nResidual Std. Error\n\\(R^2\\)\nAdjusted \\(R^2\\)\n\n\n\n\n106\n0.3795\n0.2945\n0.2877"
-  },
-  {
-    "objectID": "posts/test3/test3.html#discussion",
-    "href": "posts/test3/test3.html#discussion",
-    "title": "Wolpe Final Project Part 1",
-    "section": "Discussion",
-    "text": "Discussion\nWhen analyzing IMDB ratings of “Trailer Park Boys” some interesting trends were observed. The downward trend beginning around season four makes sense to any fan of the show as that is when the show got a bigger budget and got away from its low-budget, digital camera, homemade look. This all culminates to season ten, known by fans as the “Snoop Dogg season”, which is regarded as the worst season but has likely the largest budget. It was surprising to see season five as an outlier from the general trend, rated considerably lower. I suspect this is due to the slightly darker theme of the season and the more cohesive plot."
-  },
-  {
-    "objectID": "posts/test3/test3.html#references",
-    "href": "posts/test3/test3.html#references",
-    "title": "Wolpe Final Project Part 1",
-    "section": "References",
-    "text": "References\nhttps://www.imdb.com/title/tt0290988/?ref_=ttep_ep_tt"
-  },
-  {
-    "objectID": "posts/test3/imdb_trailer_park_boys.html",
-    "href": "posts/test3/imdb_trailer_park_boys.html",
-    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
-    "section": "",
-    "text": "“Trailer Park Boys” is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got."
-  },
-  {
-    "objectID": "posts/test3/imdb_trailer_park_boys.html#inroduction",
-    "href": "posts/test3/imdb_trailer_park_boys.html#inroduction",
-    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
-    "section": "",
-    "text": "“Trailer Park Boys” is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got."
-  },
-  {
-    "objectID": "posts/test3/imdb_trailer_park_boys.html#analysis",
-    "href": "posts/test3/imdb_trailer_park_boys.html#analysis",
-    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
-    "section": "Analysis",
-    "text": "Analysis\n1a)\nThe distribution of Episode ratings in “Trailer Park Boys” appears to be normal as can be seen in Fig. 1. People tend to rate the episodes fairly high and the majority of the reviews are withing .6 of each other on the 10 point rating scale.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMin.\n1st Qu.\nMedian\nMean\n3rd Qu.\nMax.\n\n\n\n\n7.1\n7.9\n8.2\n8.217\n8.6\n9.2\n\n\n\n\n\n1b)\nThe distribution of user votes appears to be right skewed as can be seen in Fig. 2. The median number of votes an episode gets is 360 while some episodes get more than double that number.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMin.\n1st Qu.\nMedian\nMean\n3rd Qu.\nMax.\n\n\n\n\n178\n232\n360.5\n373.5\n489.8\n861\n\n\n\n\n\n2a)\nLooking at episode ratings by season in Fig. 3 some trends can be observed. The show started off with its first four seasons doing consistently well with means around an average rating of 8.5. Then following a poor rated season five, a downtrend began, bottoming out at season ten with an average rating of around 7.5. The next and final two seasons were rated slightly higher with the final season rating right around the overall show mean of 8.2.\n\n\n\n\n\n2b)\nA clear trend can be seen when looking at number of votes an episode got as a predictor of the rating of that episode as seen in Fig. 4. For every one vote increase in the number of votes a 0.001561 increase in episode rating was estimated. This positive trend becomes a little less clear with the very high number of votes, as there is an outlive that received 861 votes and had one of the four worst episode ratings.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nEstimate\nStd. Error\nt value\nPr(&gt;|t|)\n\n\n\n\n(Intercept)\n7.634\n0.09583\n79.66\n4.822e-95\n\n\nnumVotes\n0.001561\n0.0002368\n6.589\n1.859e-09\n\n\n\n\nFitting linear model: averageRating ~ numVotes\n\n\n\n\n\n\n\n\nObservations\nResidual Std. Error\n\\(R^2\\)\nAdjusted \\(R^2\\)\n\n\n\n\n106\n0.3795\n0.2945\n0.2877"
-  },
-  {
-    "objectID": "posts/test3/imdb_trailer_park_boys.html#discussion",
-    "href": "posts/test3/imdb_trailer_park_boys.html#discussion",
-    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
-    "section": "Discussion",
-    "text": "Discussion\nWhen analyzing IMDB ratings of “Trailer Park Boys” some interesting trends were observed. The downward trend beginning around season four makes sense to any fan of the show as that is when the show got a bigger budget and got away from its low-budget, digital camera, homemade look. This all culminates to season ten, known by fans as the “Snoop Dogg season”, which is regarded as the worst season but has likely the largest budget. It was surprising to see season five as an outlier from the general trend, rated considerably lower. I suspect this is due to the slightly darker theme of the season and the more cohesive plot."
-  },
-  {
-    "objectID": "posts/test3/imdb_trailer_park_boys.html#references",
-    "href": "posts/test3/imdb_trailer_park_boys.html#references",
-    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
-    "section": "References",
-    "text": "References\nhttps://www.imdb.com/title/tt0290988/?ref_=ttep_ep_tt"
+    "objectID": "posts/compr/compr.html#functionality",
+    "href": "posts/compr/compr.html#functionality",
+    "title": "compr: An R package for Paired Competition Modeling",
+    "section": "Functionality",
+    "text": "Functionality\nThe main function, comp_glm(), has the following arguments:\nformula: Specifies the response variable and contest-level predictors. data: The dataset to be used. p1: A string with the name of the column containing the first player. p2: A string with the name of the column containing the second player. p1_effects: A one-sided formula specifying player-level effects for p1. p2_effects: A one-sided formula specifying player-level effects for p2. ref_player: A string giving the name of the player to be used as the reference player (default is the first player in p1).\nHere is an example of using comp_glm():\ncomp_mod &lt;- comp_glm(point_winner ~ -1, data = tennis_point,\n                     p1 = \"player1\", p2 = \"player2\",\n                     p1_effects = ~ point_server1,\n                     p2_effects = ~ point_server2,\n                     ref_player = \"Milos Raonic\")\nFeel free to explore and leverage the compr package to enhance your paired competition modeling in R. For detailed information and usage examples, refer to the package documentation."
   },
   {
     "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html",
@@ -434,11 +98,25 @@
     "text": "References\nhttps://www.imdb.com/title/tt0290988/?ref_=ttep_ep_tt"
   },
   {
-    "objectID": "posts/imdb_friends_himym/imdb_trailer_park_boys.html",
-    "href": "posts/imdb_friends_himym/imdb_trailer_park_boys.html",
+    "objectID": "posts/homepage/tennis_atp_directionals/atp_directionals.html",
+    "href": "posts/homepage/tennis_atp_directionals/atp_directionals.html",
+    "title": "Shiny App to Visualize ATP Tennis Players Directional Tendencies",
+    "section": "",
+    "text": "Crowdsourced shot-by-shot professional tennis data by The Tennis Abstract Match Charting Project is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Based on a work at https://github.com/JeffSackmann/tennis_MatchChartingProject"
+  },
+  {
+    "objectID": "posts/homepage/imdb_friends_himym/imdb_friends_himym.html",
+    "href": "posts/homepage/imdb_friends_himym/imdb_friends_himym.html",
     "title": "New York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”",
     "section": "",
     "text": "Introduction\nThe following analysis compares two TV shows, “How I Met Your Mother” and “Friends”. The data for this project is from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got. “How I Met Your Mother” was a sitcom on CBS that aired for 9 seasons totaling 208 episodes from 2005-2014, over that span the average episode rating was 8.03. “Friends” was a sitcom that aired on NBC for 10 seasons from 1994-2004. Over that time it aired 235 episodes with an average IMDB episode rating of 8.33. These two sitcoms have many similarities primarily that they are both about adults in their 20’s living in New York City.\n\n\nAnalysis\nFigure one shows the average episode rating by season, “Friends” shows fairly steady ratings by season with season 5 and 10 (the final season) being the highest just under a rating of 8.5. “How I Met Your Mother” shows a consistent decline in ratings, with season 9 (the final season) having the lowest average rating. An interesting observation about season 9 is that it contains both the highest rated episode and the lowest rated episode, this will be investigated more later.\n\n\n\n\n\nFigure two compares the number of ratings votes each episode got grouped by season and analyzed using side-by-side box plots. It can be seen that the average number of votes per episode decline by season, however both see an uptick in the final season and both have one large outlier in that final season.\n\n\n\n\n\nFinal season\nBelow in figure 3 an analysis of number of votes by episode in the final season can be seen. The number of votes by episode for “Friends” in the final season is consistent with the average number of votes over the course of the series, up until the final episode which received 14633 votes and is the second highest rated episode ever with a rating of 9.6. The number of votes for “How I Met Your Mother” contain a few more points that stray for the rest of the data, episode 16 received 9,749 votes and is the shows highest rated episode with a rating of 9.5. The final two episodes received 9,894 and 18,527 votes respectively with the final episode of the show receiving a rating of 5.5 and taking the crown for worst rated episode.\n\n\n\n\n\nThe following figure shows the number of votes the final episode of “How I Met Your Mother” received was an outlier nearly four standard deviations from the expected value.\n\n\n3.965\n\n\nThe following figure shows the number of votes the final episode of “Friends” received was an outlier greater than three standard deviations from the expected value.\n\n\n3.843\n\n\nFigure 4 shows the average rating of each episode in the final season of both “How I Met Your Mother” and “Friends”. “Friends” has similar ratings of episodes in the final season around the 8.5 mark. The final episode of “Friends” has the highest rating in the season. While “How I Met Your Mother” has quite the spread of values, including the final episode which has the lowest rating of the season.\n\n\n\n\n\n\n\nDiscussion\nWhile similar in setting, genre, and plot the trends in average episode ratings of “How I Met Your Mother” and “Friends” differ quite a bit. “Friends” has consistently high episode ratings by season ultimately resulting in a high rated final season and a final episode that received the second highest overall rating. While “How I Met Your Mother” had steadily decreasing average episode ratings by season, finishing with a worst rated final season and a worst rated final episode. Both shows had final episodes that received an extremely high number of votes 3.843 standard deviations from the expected value from the final season for “Friends” and 3.965 for “How I Met Your Mother”, however those for “Friends” were mostly high ratings and those for “How I Met Your Mother” were mostly dismal.\n\n\nReferences\nhttps://www.imdb.com/title/tt0460649/?ref_=tt_ov_inf https://www.imdb.com/title/tt0108778/?ref_=nv_sr_srsg_0"
+  },
+  {
+    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html",
+    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html",
+    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
+    "section": "",
+    "text": "Today’s Games (January 15, 2024)Games January 16, 2024Games January 17, 2024\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nHouston Rockets\n30%\n\n\nPhiladelphia 76ers\n70%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew Orleans Pelicans\n47.3%\n\n\nDallas Mavericks\n52.7%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n35%\n\n\nNew York Knicks\n65%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n19%\n\n\nWashington Wizards\n81%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n19%\n\n\nAtlanta Hawks\n81%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nGolden State Warriors\n53%\n\n\nMemphis Grizzlies\n47%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nChicago Bulls\n27%\n\n\nCleveland Cavaliers\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMiami Heat\n59%\n\n\nBrooklyn Nets\n41%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n84%\n\n\nToronto Raptors\n16%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nIndiana Pacers\n48%\n\n\nUtah Jazz\n52%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOklahoma City Thunder\n66%\n\n\nLos Angeles Lakers\n34%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n47.5%\n\n\nPhiladelphia 76ers\n52.5%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSacramento Kings\n54.8%\n\n\nPhoenix Suns\n45.2%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOklahoma City Thunder\n48.2%\n\n\nLos Angeles Clippers\n51.8%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMinnesota Timberwolves\n97%\n\n\nDetroit Pistons\n3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n62%\n\n\nAtlanta Hawks\n38%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n3%\n\n\nBoston Celtics\n97%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n50.44%\n\n\nCleveland Cavaliers\n49.56%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nHouston Rockets\n29%\n\n\nNew York Knicks\n71%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMiami Heat\n63%\n\n\nToronto Raptors\n37%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n8%\n\n\nNew Orleans Pelicans\n92%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n48.5%\n\n\nLos Angeles Lakers\n51.5%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nGolden State Warriors\n37%\n\n\nUtah Jazz\n63%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBrooklyn Nets\n58%\n\n\nPortland Trail Blazers\n42%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_results_df,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
   },
   {
     "objectID": "posts/imdb_oscar_best_picture/imdb_oscar_best_picture.html",
@@ -455,451 +133,45 @@
     "text": "Introduction\nFor this project I used the Stat 113 data set which contains survey data from Stat 113 students. The variables of interest are weather or not a student is in or planning on joing Greek life, the students school year, the students gender, and a new variable I created that evaluates weather the semester was pre or postpandemic.\nIn my first semester back (last spring) since the Covid-19 pandemic I noticed that it was hard to meet new people and have a social scene. It also felt like most of my grade joined greek life. To investigate this I looked at the general trend of greek life participation and if there were more males rushing fraternaties postpandemic.\n\n\nData Exploration\nFirst I looked at the trends in males and females who were either in, or planning on joining greek life. A steady increase in the percent of males in, or planning on joining greek life can be seen. In fact, these most recent two semesters are the first time a higher percent of males than females in Stat 113 or in or planning on joining greek life.\n\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'\n\n\n\n\n\n\nstat113FSmale &lt;-\nstat113P2 %&gt;% drop_na(Greek) %&gt;%\n  mutate(Year=as_factor(Year))%&gt;%\n  filter(Gender== \"M\",\n         Year == 1 | Year == 2) %&gt;%\n   group_by(Term, Greek, Year) %&gt;%\n  summarise(ncount = n()) %&gt;%\n  ungroup() %&gt;%\n  group_by(Term, Year) %&gt;%\n  mutate(total = sum(ncount)) %&gt;% \n  ungroup() %&gt;%\n  mutate(propGreek = (ncount/total)*100) %&gt;%\n  filter(Greek == \"Planning\") %&gt;%\n    mutate(Year = factor(Year, levels = c(\"1\", \"2\"), \n              labels = c(\"Freshman\", \"Sophmore\")))\n\n`summarise()` has grouped output by 'Term', 'Greek'. You can override using the\n`.groups` argument.\n\n\nNext I looked to see where all those males were coming from. Both freshman and sophmores males have been increasing in perctage planning on joining greek life, however, in the past few semesters there has been a jump in sophmore males; especially that last spring semester I spoke about in my introduction.\n\n\n\n\n\nTo investigate Sophmore males planning on joining greek further I ploted them individually with standard error bars and colored by weather it was pre or post pandemic. Last spring was by far the highest percentage of Sophmore males planning on joining greek, my hypothesis for this is that there was a need to affiliate for social reasons in that pandemic semester, and many of the people that would’ve rushed in the fall were not on campus. My hypothesis for why fall of 202 was so low is that people had been away from campus for so long that they felt like they needed to get their barrings and didnt know hat to expect socially.\n\n\n\n\n\nFinnally I compared the proportion of male sophmores planning to join a Fraternity in the semesters leading up with the proportion post pandemic and found that there was a difference in means at the 0.05938 signifcance level.\n\n\n\n\n\n\nTwo Sample t-test: propGreek by postPandemic (continued below)\n\n\n\n\n\n\n\n\nTest statistic\ndf\nP value\nAlternative hypothesis\n\n\n\n\n1.983\n23\n0.05938\ntwo.sided\n\n\n\n\n\n\n\n\n\n\nmean in group Postpandemic\nmean in group Pretpandemic\n\n\n\n\n20.07\n11.6\n\n\n\n\n\n\n\nWrap-up\nIn conclusion, there has been a consistant increase in the percentage of males planning or in greek life, in fact these past two semesters were the first time that percentage was higher than the percentage of females. The second semester post pandemic saw a large uptick in the number of sophmore males planning on joing greek, I hypothesize this is because the limited social life on campus created pressure to socially affiliate. For sophmore males there was an increase in planning on joing greek at the 0.059 signifcance level. In the future I hope to revisit this data to see if this was just a blip."
   },
   {
-    "objectID": "posts/tennis_atp_directionals/UntitledQMD.html",
-    "href": "posts/tennis_atp_directionals/UntitledQMD.html",
-    "title": "Old Faithful",
-    "section": "",
-    "text": "── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\nNew names:\nRows: 867135 Columns: 54\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (24): player, stroke, depth, stroke_after, depth_after, match_id, Pts, G...\ndbl (23): ...1, Pt, shot_in_seq, direction, direction_after, id, Set1, Set2,...\nlgl  (7): isUnret, isRallyWinner, isForced, isUnforced, ultimate_shot, penul...\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\nScale for x is already present.\nAdding another scale for x, which will replace the existing scale.\n\n\nShiny applications not supported in static R Markdown documents"
-  },
-  {
-    "objectID": "posts/tennis_atp_directionals/directionals_app.html",
-    "href": "posts/tennis_atp_directionals/directionals_app.html",
-    "title": "Our first r-shinylive Quarto document!",
-    "section": "",
-    "text": "#| standalone: true\n\nlibrary(shiny)\n\n# Define your Shiny UI here\nui &lt;- fluidPage(\n  # Your UI components go here\n)\n\n# Define your Shiny server logic here\nserver &lt;- function(input, output, session) {\n  # Your server code goes here\n}\n\n# Create and launch the Shiny app\nshinyApp(ui, server)"
-  },
-  {
-    "objectID": "posts/homepage/imdb_friends_himym/imdb_trailer_park_boys.html",
-    "href": "posts/homepage/imdb_friends_himym/imdb_trailer_park_boys.html",
-    "title": "New York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”",
-    "section": "",
-    "text": "Introduction\nThe following analysis compares two TV shows, “How I Met Your Mother” and “Friends”. The data for this project is from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got. “How I Met Your Mother” was a sitcom on CBS that aired for 9 seasons totaling 208 episodes from 2005-2014, over that span the average episode rating was 8.03. “Friends” was a sitcom that aired on NBC for 10 seasons from 1994-2004. Over that time it aired 235 episodes with an average IMDB episode rating of 8.33. These two sitcoms have many similarities primarily that they are both about adults in their 20’s living in New York City.\n\n\nAnalysis\nFigure one shows the average episode rating by season, “Friends” shows fairly steady ratings by season with season 5 and 10 (the final season) being the highest just under a rating of 8.5. “How I Met Your Mother” shows a consistent decline in ratings, with season 9 (the final season) having the lowest average rating. An interesting observation about season 9 is that it contains both the highest rated episode and the lowest rated episode, this will be investigated more later.\n\n\n\n\n\nFigure two compares the number of ratings votes each episode got grouped by season and analyzed using side-by-side box plots. It can be seen that the average number of votes per episode decline by season, however both see an uptick in the final season and both have one large outlier in that final season.\n\n\n\n\n\nFinal season\nBelow in figure 3 an analysis of number of votes by episode in the final season can be seen. The number of votes by episode for “Friends” in the final season is consistent with the average number of votes over the course of the series, up until the final episode which received 14633 votes and is the second highest rated episode ever with a rating of 9.6. The number of votes for “How I Met Your Mother” contain a few more points that stray for the rest of the data, episode 16 received 9,749 votes and is the shows highest rated episode with a rating of 9.5. The final two episodes received 9,894 and 18,527 votes respectively with the final episode of the show receiving a rating of 5.5 and taking the crown for worst rated episode.\n\n\n\n\n\nThe following figure shows the number of votes the final episode of “How I Met Your Mother” received was an outlier nearly four standard deviations from the expected value.\n\n\n3.965\n\n\nThe following figure shows the number of votes the final episode of “Friends” received was an outlier greater than three standard deviations from the expected value.\n\n\n3.843\n\n\nFigure 4 shows the average rating of each episode in the final season of both “How I Met Your Mother” and “Friends”. “Friends” has similar ratings of episodes in the final season around the 8.5 mark. The final episode of “Friends” has the highest rating in the season. While “How I Met Your Mother” has quite the spread of values, including the final episode which has the lowest rating of the season.\n\n\n\n\n\n\n\nDiscussion\nWhile similar in setting, genre, and plot the trends in average episode ratings of “How I Met Your Mother” and “Friends” differ quite a bit. “Friends” has consistently high episode ratings by season ultimately resulting in a high rated final season and a final episode that received the second highest overall rating. While “How I Met Your Mother” had steadily decreasing average episode ratings by season, finishing with a worst rated final season and a worst rated final episode. Both shows had final episodes that received an extremely high number of votes 3.843 standard deviations from the expected value from the final season for “Friends” and 3.965 for “How I Met Your Mother”, however those for “Friends” were mostly high ratings and those for “How I Met Your Mother” were mostly dismal.\n\n\nReferences\nhttps://www.imdb.com/title/tt0460649/?ref_=tt_ov_inf https://www.imdb.com/title/tt0108778/?ref_=nv_sr_srsg_0"
-  },
-  {
-    "objectID": "posts/homepage/stat113_greek_life/stat113_greek_life.html",
-    "href": "posts/homepage/stat113_greek_life/stat113_greek_life.html",
-    "title": "Exploring Greek Life Trends: A Stat 113 Survey Analysis",
-    "section": "",
-    "text": "Introduction\nFor this project I used the Stat 113 data set which contains survey data from Stat 113 students. The variables of interest are weather or not a student is in or planning on joing Greek life, the students school year, the students gender, and a new variable I created that evaluates weather the semester was pre or postpandemic.\nIn my first semester back (last spring) since the Covid-19 pandemic I noticed that it was hard to meet new people and have a social scene. It also felt like most of my grade joined greek life. To investigate this I looked at the general trend of greek life participation and if there were more males rushing fraternaties postpandemic.\n\n\nData Exploration\nFirst I looked at the trends in males and females who were either in, or planning on joining greek life. A steady increase in the percent of males in, or planning on joining greek life can be seen. In fact, these most recent two semesters are the first time a higher percent of males than females in Stat 113 or in or planning on joining greek life.\n\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'\n\n\n\n\n\n\nstat113FSmale &lt;-\nstat113P2 %&gt;% drop_na(Greek) %&gt;%\n  mutate(Year=as_factor(Year))%&gt;%\n  filter(Gender== \"M\",\n         Year == 1 | Year == 2) %&gt;%\n   group_by(Term, Greek, Year) %&gt;%\n  summarise(ncount = n()) %&gt;%\n  ungroup() %&gt;%\n  group_by(Term, Year) %&gt;%\n  mutate(total = sum(ncount)) %&gt;% \n  ungroup() %&gt;%\n  mutate(propGreek = (ncount/total)*100) %&gt;%\n  filter(Greek == \"Planning\") %&gt;%\n    mutate(Year = factor(Year, levels = c(\"1\", \"2\"), \n              labels = c(\"Freshman\", \"Sophmore\")))\n\n`summarise()` has grouped output by 'Term', 'Greek'. You can override using the\n`.groups` argument.\n\n\nNext I looked to see where all those males were coming from. Both freshman and sophmores males have been increasing in perctage planning on joining greek life, however, in the past few semesters there has been a jump in sophmore males; especially that last spring semester I spoke about in my introduction.\n\n\n\n\n\nTo investigate Sophmore males planning on joining greek further I ploted them individually with standard error bars and colored by weather it was pre or post pandemic. Last spring was by far the highest percentage of Sophmore males planning on joining greek, my hypothesis for this is that there was a need to affiliate for social reasons in that pandemic semester, and many of the people that would’ve rushed in the fall were not on campus. My hypothesis for why fall of 202 was so low is that people had been away from campus for so long that they felt like they needed to get their barrings and didnt know hat to expect socially.\n\n\n\n\n\nFinnally I compared the proportion of male sophmores planning to join a Fraternity in the semesters leading up with the proportion post pandemic and found that there was a difference in means at the 0.05938 signifcance level.\n\n\n\n\n\n\nTwo Sample t-test: propGreek by postPandemic (continued below)\n\n\n\n\n\n\n\n\nTest statistic\ndf\nP value\nAlternative hypothesis\n\n\n\n\n1.983\n23\n0.05938\ntwo.sided\n\n\n\n\n\n\n\n\n\n\nmean in group Postpandemic\nmean in group Pretpandemic\n\n\n\n\n20.07\n11.6\n\n\n\n\n\n\n\nWrap-up\nIn conclusion, there has been a consistant increase in the percentage of males planning or in greek life, in fact these past two semesters were the first time that percentage was higher than the percentage of females. The second semester post pandemic saw a large uptick in the number of sophmore males planning on joing greek, I hypothesize this is because the limited social life on campus created pressure to socially affiliate. For sophmore males there was an increase in planning on joing greek at the 0.059 signifcance level. In the future I hope to revisit this data to see if this was just a blip."
-  },
-  {
-    "objectID": "posts/homepage/imdb_oscar_best_picture/imdb_oscar_best_picture.html",
-    "href": "posts/homepage/imdb_oscar_best_picture/imdb_oscar_best_picture.html",
-    "title": "The Art and Popularity Paradox: Trends in Oscar Best Picture Movies",
-    "section": "",
-    "text": "Look at box office, ratings, votes, etc. and compare with google trends for oscars search\n\nIntroduction\nOver the last 30 years it seems that the movie that wins best picture at the Oscars has gotten more “artsy” and less “popular”. To investigate this question I will be using data pulled from the IMDB website, specifically the variables that count the number of ratings votes, the average rating, and the run time of movies for best picture winning movies over the last 30 years.\nIt is important to note that the last two best picture winners, “CODA” and “Nomadland” were not included in the data set as well as the 1996 film “The English Patient”\n\n\nAnalysis\nFigure 1 below shows a consistent decline in the number of votes the best picture received on IMDB by year. For each one year increase, the number of votes received by the best picture winner decreases by an estimated 21826 (p-value 0.027). This shows a steady decline in the popularity of the best picture winning movie.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nEstimate\nStd. Error\nt value\nPr(&gt;|t|)\n\n\n\n\n(Intercept)\n44548158\n19073568\n2.336\n0.02719\n\n\nstartYear\n-21826\n9514\n-2.294\n0.02979\n\n\n\n\nFitting linear model: numVotes ~ startYear\n\n\n\n\n\n\n\n\nObservations\nResidual Std. Error\n\\(R^2\\)\nAdjusted \\(R^2\\)\n\n\n\n\n29\n443470\n0.1631\n0.1321\n\n\n\n\n\nFigure 2 shows a decrease in the average rating the best picture received on IMDB by year. For each one year increase the average rating of the movie is estimated to decrease by 0.02 points. However the data points for this analysis are quite spread out and the p-value of that estimate is 0.0616 putting it above the .05 significance level.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nEstimate\nStd. Error\nt value\nPr(&gt;|t|)\n\n\n\n\n(Intercept)\n47.69\n20.31\n2.348\n0.02645\n\n\nstartYear\n-0.01976\n0.01013\n-1.95\n0.0616\n\n\n\n\nFitting linear model: averageRating ~ startYear\n\n\n\n\n\n\n\n\nObservations\nResidual Std. Error\n\\(R^2\\)\nAdjusted \\(R^2\\)\n\n\n\n\n29\n0.4722\n0.1235\n0.09101\n\n\n\n\n\nFigure 3 looks the average run time of best picture winning movies over the last 30 years. I expected a steady increase as the have become more “artsy” and less popular but was surprised to see a negative trend line. For each one year increase, the run time of the best picture winner decreases by an estimated 1.5 minutes (p-value 0.00556).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nEstimate\nStd. Error\nt value\nPr(&gt;|t|)\n\n\n\n\n(Intercept)\n3149\n1045\n3.013\n0.005561\n\n\nstartYear\n-1.502\n0.5213\n-2.882\n0.007651\n\n\n\n\nFitting linear model: runtimeMinutes ~ startYear\n\n\n\n\n\n\n\n\nObservations\nResidual Std. Error\n\\(R^2\\)\nAdjusted \\(R^2\\)\n\n\n\n\n29\n24.3\n0.2353\n0.207\n\n\n\n\n\n\n\nDiscussion\nAs a fan of the Oscars, in recent years it has felt like the best picture is going to more and more obscure movies and that less of my friends have seen or heard of them. To analyze this I looked at IMDB data of the Oscar winners of the last 30 years and made multiple plots to visualize trends looking at number of votes and average rating. The results from the graphs of number of votes and average ratings showed a decline in both the number of people seeing the Oscar nominated movie over recent years and how much they liked the movie. Hopefully the Academy can change its ways and award films more popular among everyday people the best picture award and we can get more films like “Forrest Gump”.\n\n\nReferences\nhttps://www.imdb.com/search/title/?count=100&groups=oscar_best_picture_winners&sort=year%2Cdesc"
-  },
-  {
-    "objectID": "posts/tennis_atp_directionals/atp_directionals.html",
-    "href": "posts/tennis_atp_directionals/atp_directionals.html",
-    "title": "ATP Directionals Shiny App",
-    "section": "",
-    "text": "Need to optimize to include more data"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
+    "objectID": "recommendations.html#attentive-mobile",
+    "href": "recommendations.html#attentive-mobile",
     "title": "References",
+    "section": "Attentive Mobile:",
+    "text": "Attentive Mobile:"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
     "section": "",
-    "text": "David Shaub, Principal Data Scientist"
+    "text": "Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
   },
   {
-    "objectID": "references.html#velocity-global",
-    "href": "references.html#velocity-global",
-    "title": "References",
+    "objectID": "cv.html#fa-briefcase-work-experience",
+    "href": "cv.html#fa-briefcase-work-experience",
+    "title": "CV",
     "section": "",
-    "text": "David Shaub, Principal Data Scientist"
+    "text": "Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
   },
   {
-    "objectID": "posts/homepage/imdb_friends_himym/imdb_friends_himym.html",
-    "href": "posts/homepage/imdb_friends_himym/imdb_friends_himym.html",
-    "title": "New York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”",
-    "section": "",
-    "text": "Introduction\nThe following analysis compares two TV shows, “How I Met Your Mother” and “Friends”. The data for this project is from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got. “How I Met Your Mother” was a sitcom on CBS that aired for 9 seasons totaling 208 episodes from 2005-2014, over that span the average episode rating was 8.03. “Friends” was a sitcom that aired on NBC for 10 seasons from 1994-2004. Over that time it aired 235 episodes with an average IMDB episode rating of 8.33. These two sitcoms have many similarities primarily that they are both about adults in their 20’s living in New York City.\n\n\nAnalysis\nFigure one shows the average episode rating by season, “Friends” shows fairly steady ratings by season with season 5 and 10 (the final season) being the highest just under a rating of 8.5. “How I Met Your Mother” shows a consistent decline in ratings, with season 9 (the final season) having the lowest average rating. An interesting observation about season 9 is that it contains both the highest rated episode and the lowest rated episode, this will be investigated more later.\n\n\n\n\n\nFigure two compares the number of ratings votes each episode got grouped by season and analyzed using side-by-side box plots. It can be seen that the average number of votes per episode decline by season, however both see an uptick in the final season and both have one large outlier in that final season.\n\n\n\n\n\nFinal season\nBelow in figure 3 an analysis of number of votes by episode in the final season can be seen. The number of votes by episode for “Friends” in the final season is consistent with the average number of votes over the course of the series, up until the final episode which received 14633 votes and is the second highest rated episode ever with a rating of 9.6. The number of votes for “How I Met Your Mother” contain a few more points that stray for the rest of the data, episode 16 received 9,749 votes and is the shows highest rated episode with a rating of 9.5. The final two episodes received 9,894 and 18,527 votes respectively with the final episode of the show receiving a rating of 5.5 and taking the crown for worst rated episode.\n\n\n\n\n\nThe following figure shows the number of votes the final episode of “How I Met Your Mother” received was an outlier nearly four standard deviations from the expected value.\n\n\n3.965\n\n\nThe following figure shows the number of votes the final episode of “Friends” received was an outlier greater than three standard deviations from the expected value.\n\n\n3.843\n\n\nFigure 4 shows the average rating of each episode in the final season of both “How I Met Your Mother” and “Friends”. “Friends” has similar ratings of episodes in the final season around the 8.5 mark. The final episode of “Friends” has the highest rating in the season. While “How I Met Your Mother” has quite the spread of values, including the final episode which has the lowest rating of the season.\n\n\n\n\n\n\n\nDiscussion\nWhile similar in setting, genre, and plot the trends in average episode ratings of “How I Met Your Mother” and “Friends” differ quite a bit. “Friends” has consistently high episode ratings by season ultimately resulting in a high rated final season and a final episode that received the second highest overall rating. While “How I Met Your Mother” had steadily decreasing average episode ratings by season, finishing with a worst rated final season and a worst rated final episode. Both shows had final episodes that received an extremely high number of votes 3.843 standard deviations from the expected value from the final season for “Friends” and 3.965 for “How I Met Your Mother”, however those for “Friends” were mostly high ratings and those for “How I Met Your Mother” were mostly dismal.\n\n\nReferences\nhttps://www.imdb.com/title/tt0460649/?ref_=tt_ov_inf https://www.imdb.com/title/tt0108778/?ref_=nv_sr_srsg_0"
-  },
-  {
-    "objectID": "posts/test1/test_blog_post.html#introduction",
-    "href": "posts/test1/test_blog_post.html#introduction",
-    "title": "Horse Racing Market Prediction: Beat the Books",
-    "section": "Introduction",
-    "text": "Introduction\nAs the legalization of sports betting becomes more widespread, the significance and worth of predictive models that can forecast outcomes are increasingly crucial and valuable. This project explores the potential of outperforming oddsmakers and bettors in horse racing, given the hypothesis that horse race bettors make less informed bets compared to other sports."
-  },
-  {
-    "objectID": "posts/test1/test_blog_post.html#background",
-    "href": "posts/test1/test_blog_post.html#background",
-    "title": "Horse Racing Market Prediction: Beat the Books",
-    "section": "Background",
-    "text": "Background\nBill Benter’s success using computer software in horse race betting serves as inspiration for this project (source). While not betting real money, the goal is to identify inefficiencies in horse racing betting by creating a model that predicts which horses are most likely to place in a race."
-  },
-  {
-    "objectID": "posts/test1/test_blog_post.html#data-source",
-    "href": "posts/test1/test_blog_post.html#data-source",
-    "title": "Horse Racing Market Prediction: Beat the Books",
-    "section": "Data Source",
-    "text": "Data Source\nThe data used for training the models is sourced from Kaggle, specifically the Horse Racing Market Analysis and Prediction dataset. The comprehensive dataset contains over 43,000 observations from three months in the summer of 2016."
-  },
-  {
-    "objectID": "posts/test1/test_blog_post.html#data-preparation",
-    "href": "posts/test1/test_blog_post.html#data-preparation",
-    "title": "Horse Racing Market Prediction: Beat the Books",
-    "section": "Data Preparation",
-    "text": "Data Preparation\nOut of the total 139 features, 69 were selected as potentially valuable and free from data leakage. The dataset underwent preprocessing, including filtering out incorrectly populated races and races with too many missing values. One-hot encoding and engineering the target variable “top_3” were performed, resulting in a final dataset with 79 features and ~24,000 rows."
-  },
-  {
-    "objectID": "posts/test1/test_blog_post.html#exploratory-data-analysis",
-    "href": "posts/test1/test_blog_post.html#exploratory-data-analysis",
-    "title": "Horse Racing Market Prediction: Beat the Books",
-    "section": "Exploratory Data Analysis",
-    "text": "Exploratory Data Analysis\nInitial exploratory data analysis revealed that the performance of horses in their last three races had the highest correlation with whether or not the horse placed in the race."
-  },
-  {
-    "objectID": "posts/test1/test_blog_post.html#model-building",
-    "href": "posts/test1/test_blog_post.html#model-building",
-    "title": "Horse Racing Market Prediction: Beat the Books",
-    "section": "Model Building",
-    "text": "Model Building\nThree models were fitted: a Random Forest model, a Logistic Regression model, and a Neural Network. The Random Forest outperformed the others, achieving an accuracy score of 0.718398, beating seven of the eight tipsters.\n\nRandom Forest Model\nConfusion Matrix:"
-  },
-  {
-    "objectID": "posts/compr/compr.html",
-    "href": "posts/compr/compr.html",
-    "title": "compr: An R package for Paired Competition Modeling",
-    "section": "",
-    "text": "The compr package provides functionality to fit and interpret paired competition models in R.\nTo install and load the package, run"
-  },
-  {
-    "objectID": "posts/compr/compr.html#installation",
-    "href": "posts/compr/compr.html#installation",
-    "title": "compr: An R package for Paired Competition Modeling",
-    "section": "Installation",
-    "text": "Installation\nTo install and load the compr package, use the following commands:\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)"
-  },
-  {
-    "objectID": "posts/compr/compr.html#functionality",
-    "href": "posts/compr/compr.html#functionality",
-    "title": "compr: An R package for Paired Competition Modeling",
-    "section": "Functionality",
-    "text": "Functionality\nThe main function, comp_glm(), has the following arguments:\nformula: Specifies the response variable and contest-level predictors. data: The dataset to be used. p1: A string with the name of the column containing the first player. p2: A string with the name of the column containing the second player. p1_effects: A one-sided formula specifying player-level effects for p1. p2_effects: A one-sided formula specifying player-level effects for p2. ref_player: A string giving the name of the player to be used as the reference player (default is the first player in p1).\nHere is an example of using comp_glm():\ncomp_mod &lt;- comp_glm(point_winner ~ -1, data = tennis_point,\n                     p1 = \"player1\", p2 = \"player2\",\n                     p1_effects = ~ point_server1,\n                     p2_effects = ~ point_server2,\n                     ref_player = \"Milos Raonic\")\nFeel free to explore and leverage the compr package to enhance your paired competition modeling in R. For detailed information and usage examples, refer to the package documentation."
-  },
-  {
-    "objectID": "posts/horse_racing_prediction/horse_racing_prediction.html",
-    "href": "posts/horse_racing_prediction/horse_racing_prediction.html",
-    "title": "Horse Racing Market Prediction: Beat the Books",
-    "section": "",
-    "text": "Author: James Wolpe\nAffiliation: St. Lawrence University\nCourse: DATA 352: Statistical and Machine Learning\nInstructor: Dr. Michael Schuckers\nDate: May 7th, 2023\nSource: Wikipedia - Horse Racing"
-  },
-  {
-    "objectID": "posts/horse_racing_prediction/horse_racing_prediction.html#introduction",
-    "href": "posts/horse_racing_prediction/horse_racing_prediction.html#introduction",
-    "title": "Horse Racing Market Prediction: Beat the Books",
-    "section": "Introduction",
-    "text": "Introduction\nAs the legalization of sports betting becomes more widespread, the significance and worth of predictive models that can forecast outcomes are increasingly crucial and valuable. This project explores the potential of outperforming oddsmakers and bettors in horse racing, given the hypothesis that horse race bettors make less informed bets compared to other sports."
-  },
-  {
-    "objectID": "posts/horse_racing_prediction/horse_racing_prediction.html#background",
-    "href": "posts/horse_racing_prediction/horse_racing_prediction.html#background",
-    "title": "Horse Racing Market Prediction: Beat the Books",
-    "section": "Background",
-    "text": "Background\nBill Benter’s success using computer software in horse race betting serves as inspiration for this project (source). While not betting real money, the goal is to identify inefficiencies in horse racing betting by creating a model that predicts which horses are most likely to place in a race."
-  },
-  {
-    "objectID": "posts/horse_racing_prediction/horse_racing_prediction.html#data-source",
-    "href": "posts/horse_racing_prediction/horse_racing_prediction.html#data-source",
-    "title": "Horse Racing Market Prediction: Beat the Books",
-    "section": "Data Source",
-    "text": "Data Source\nThe data used for training the models is sourced from Kaggle, specifically the Horse Racing Market Analysis and Prediction dataset. The comprehensive dataset contains over 43,000 observations from three months in the summer of 2016."
-  },
-  {
-    "objectID": "posts/horse_racing_prediction/horse_racing_prediction.html#data-preparation",
-    "href": "posts/horse_racing_prediction/horse_racing_prediction.html#data-preparation",
-    "title": "Horse Racing Market Prediction: Beat the Books",
-    "section": "Data Preparation",
-    "text": "Data Preparation\nOut of the total 139 features, 69 were selected as potentially valuable and free from data leakage. The dataset underwent preprocessing, including filtering out incorrectly populated races and races with too many missing values. One-hot encoding and engineering the target variable “top_3” were performed, resulting in a final dataset with 79 features and ~24,000 rows."
-  },
-  {
-    "objectID": "posts/horse_racing_prediction/horse_racing_prediction.html#exploratory-data-analysis",
-    "href": "posts/horse_racing_prediction/horse_racing_prediction.html#exploratory-data-analysis",
-    "title": "Horse Racing Market Prediction: Beat the Books",
-    "section": "Exploratory Data Analysis",
-    "text": "Exploratory Data Analysis\nInitial exploratory data analysis revealed that the performance of horses in their last three races had the highest correlation with whether or not the horse placed in the race."
-  },
-  {
-    "objectID": "posts/horse_racing_prediction/horse_racing_prediction.html#model-building",
-    "href": "posts/horse_racing_prediction/horse_racing_prediction.html#model-building",
-    "title": "Horse Racing Market Prediction: Beat the Books",
-    "section": "Model Building",
-    "text": "Model Building\nThree models were fitted: a Random Forest model, a Logistic Regression model, and a Neural Network. The Random Forest outperformed the others, achieving an accuracy score of 0.718398, beating seven of the eight tipsters.\n\nRandom Forest Model\nConfusion Matrix:"
-  },
-  {
-    "objectID": "index.html#test",
-    "href": "index.html#test",
-    "title": "",
-    "section": "test",
-    "text": "test\nHi there 👋! I am a student at St. Lawrence University in Canton, NY currently pursuing a major in data science with a minor in film & representation studies. At St. Lawrence, I am a member of the Men’s Tennis Team and a part of a living and learning theme community on campus. In my free time, I like to play backgammon, watch movies, and cheer for the Celtics."
-  },
-  {
-    "objectID": "posts/homepage/tennis_atp_directionals/atp_directionals.html",
-    "href": "posts/homepage/tennis_atp_directionals/atp_directionals.html",
-    "title": "Shiny App to Visualize ATP Tennis Players Directional Tendencies",
-    "section": "",
-    "text": "Crowdsourced shot-by-shot professional tennis data by The Tennis Abstract Match Charting Project is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Based on a work at https://github.com/JeffSackmann/tennis_MatchChartingProject"
-  },
-  {
-    "objectID": "posts/homepage/compr/compr.html",
-    "href": "posts/homepage/compr/compr.html",
-    "title": "compr: An R package for Paired Competition Modeling",
-    "section": "",
-    "text": "The compr package provides functionality to fit and interpret paired competition models in R.\nTo install and load the package, run"
-  },
-  {
-    "objectID": "posts/homepage/compr/compr.html#installation",
-    "href": "posts/homepage/compr/compr.html#installation",
-    "title": "compr: An R package for Paired Competition Modeling",
-    "section": "Installation",
-    "text": "Installation\nTo install and load the compr package, use the following commands:\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)"
-  },
-  {
-    "objectID": "posts/homepage/compr/compr.html#functionality",
-    "href": "posts/homepage/compr/compr.html#functionality",
-    "title": "compr: An R package for Paired Competition Modeling",
-    "section": "Functionality",
-    "text": "Functionality\nThe main function, comp_glm(), has the following arguments:\nformula: Specifies the response variable and contest-level predictors. data: The dataset to be used. p1: A string with the name of the column containing the first player. p2: A string with the name of the column containing the second player. p1_effects: A one-sided formula specifying player-level effects for p1. p2_effects: A one-sided formula specifying player-level effects for p2. ref_player: A string giving the name of the player to be used as the reference player (default is the first player in p1).\nHere is an example of using comp_glm():\ncomp_mod &lt;- comp_glm(point_winner ~ -1, data = tennis_point,\n                     p1 = \"player1\", p2 = \"player2\",\n                     p1_effects = ~ point_server1,\n                     p2_effects = ~ point_server2,\n                     ref_player = \"Milos Raonic\")\nFeel free to explore and leverage the compr package to enhance your paired competition modeling in R. For detailed information and usage examples, refer to the package documentation."
-  },
-  {
-    "objectID": "about.html#fa-institution-organizations-1",
-    "href": "about.html#fa-institution-organizations-1",
+    "objectID": "cv.html#fa-university-organizations",
+    "href": "cv.html#fa-university-organizations",
     "title": "CV",
     "section": " Organizations",
-    "text": "Organizations\n\n\nSt. Lawrence Men’s Varsity Tennis\n\n\nMember (Team Captain Senior Year) | September 2019 – May 2023\n\n\n Led team as captain, chosen by coach and team members, responsible for conducting captain’s practices during the offseason and fostering strong team culture; committed ~20 hours per week\n\n\n Served as a member of Student-Athlete Advisory Committee as an underclassman, addressing student-athlete concerns, and coordinating team participation in philanthropy events\n\n\n\n\n\nCommons College Theme House\n\n\nResident (Head of House Senior Year) | September 2019 – May 2023\n\n\n Elected by peers as Head of House of Commons College, a co-ed living and learning community of 24 residents taking a class beyond the traditional classroom and living together\n\n\n Facilitated weekly house meetings, served as liaison to school administration, coordinated class with the house professor (current course is on having difficult conversations)"
+    "text": "Organizations\n\n\nSt. Lawrence Men’s Varsity Tennis\n\n\nMember (Team Captain Senior Year) | September 2019 – May 2023\n\n\n Led team as captain, chosen by coach and team members, responsible for conducting captain’s practices during the offseason and fostering strong team culture; committed ~20 hours per week\n\n\n Served as a member of Student-Athlete Advisory Committee as an underclassman, addressing student-athlete concerns, and coordinating team participation in philanthropy events\n\n\n\n\n\nCommons College Theme House\n\n\nResident (Head of House Senior Year) | June 2021 – December 2023\n\n\n Elected by peers as Head of House of Commons College, a co-ed living and learning community of 24 residents taking a class beyond the traditional classroom and living together\n\n\n Facilitated weekly house meetings, served as liaison to school administration, coordinated class with the house professor (current course is on having difficult conversations)"
   },
   {
-    "objectID": "cv.html#fa-hand-rock-o-work-experience",
-    "href": "cv.html#fa-hand-rock-o-work-experience",
-    "title": "CV",
-    "section": " Work Experience",
-    "text": "Work Experience\n\n\nAttentive Mobile\n\n\nData Analyst Intern | May 2023 – August 2023\n\n\n Conducted comprehensive Go-to-Market (GTM) analysis to evaluate a new AI product in comparison to a legacy human-operated product, utilizing the findings to define KPIs and inform decision-making\n\n\n Developed and maintained data-driven dashboards using Google Looker to track and visualize key performance metrics for the AI product, enabling real-time decision-making and strategic planning\n\n\n Participated in weekly meetings, delivering insights and updates on the analysis and its strategic implications, effectively communicating with both technical and non-technical stakeholders\n\n\n\n\n\nVelocity Global\n\n\nData Science Intern | May 2022 – August 2022\n\n\n Developed business intelligence (BI) solutions that enabled data-driven decision-making under the guidance of the Principal Data Scientist and the Senior Director of Business Intelligence\n\n\n Engineered a predictive machine learning model in Python using XGBoost to evaluate new leads, resulting in an increase of 4.5x in conversion rate for the top 20% of scorers\n\n\n Synthesized queried data from a data warehouse using SQL, identified key attributes for lead conversion from 300+ features through extensive exploratory data analysis and feature engineering\n\n\n\n\n\nQuantitative Resource Center (St. Lawrence University)\n\n\nStudent Mentor | March 2022 – Present\n\n\n Tutored peers in a variety of quantitative coursework including computer science (R, Python, Java), statistics (probability, hypothesis testing), and mathematics (linear algebra, calculus)\n\n\n Translated technical concepts to students using clear explanations, visual aids, and hands-on demonstrations, resulting in improved understanding of the subject matter"
-  },
-  {
-    "objectID": "cv.html#fa-institution-education-1",
-    "href": "cv.html#fa-institution-education-1",
+    "objectID": "cv.html#fa-institution-education",
+    "href": "cv.html#fa-institution-education",
     "title": "CV",
     "section": " Education",
-    "text": "Education\n\n\nSt. Lawrence University\n\n\nBachelor of Science, Data Science | Graduating December 2023\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship\n\n\n\n\n\nDublin School\n\n\n2015-2019\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship"
+    "text": "Education\n\n\nSt. Lawrence University\n\n\nBachelor of Science, Data Science | August 2019 - December 2023\n\n\n Academic Honors: Chi Alpha Sigma (National Student-Athlete Honor Society), Mu Sigma Rho (Statistics Honor Society) Dean’s List (Summer 2021, Spring 2022), Sesquicentennial Scholarship\n\n\n\n\n\nDublin School\n\n\nSeptember 2015 - June 2019\n\n\n Activities and societies: Head Tour Guide, Day Student Proctor, Boys Varsity Tennis Captain, Boys Varsity Basketball Captain"
   },
   {
-    "objectID": "index.html#posts",
-    "href": "index.html#posts",
-    "title": "",
-    "section": "Posts",
-    "text": "Posts\nSome of my work\n\n\n\n\n\n\n\n\n\n\nDaily NBA Predictions Using a Pairwise Competition Model\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\nJames Wolpe\n\n\nDec 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShiny App to Visualize ATP Tennis Players Directional Tendencies\n\n\nBased on “Wardlaw Directionals”, this is a Shiny app designed to visualize the directional tendencies of ATP tennis players\n\n\n\nJames Wolpe\n\n\nMay 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nPosts"
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#todays-games",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#todays-games",
-    "title": "Daily NBA Predictions using Pairwise Competition model",
-    "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n46.7%\n\n\nNew York Knicks\n53.3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n64%\n\n\nLos Angeles Clippers\n36%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n85%\n\n\nCharlotte Hornets\n15%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n54.9%\n\n\nIndiana Pacers\n45.1%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nHouston Rockets\n35%\n\n\nNew Orleans Pelicans\n65%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n23%\n\n\nAtlanta Hawks\n77%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n4%\n\n\nBrooklyn Nets\n96%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nUtah Jazz\n37%\n\n\nToronto Raptors\n63%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n55%\n\n\nChicago Bulls\n45%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n22%\n\n\nOklahoma City Thunder\n78%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n8%\n\n\nDallas Mavericks\n92%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPortland Trail Blazers\n11%\n\n\nGolden State Warriors\n89%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMinnesota Timberwolves\n57%\n\n\nSacramento Kings\n43%"
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#todays-games---2023-12-23",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#todays-games---2023-12-23",
-    "title": "Daily NBA Predictions using Pairwise Competition model",
-    "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n46.7%\n\n\nNew York Knicks\n53.3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n64%\n\n\nLos Angeles Clippers\n36%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n85%\n\n\nCharlotte Hornets\n15%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n54.9%\n\n\nIndiana Pacers\n45.1%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nHouston Rockets\n35%\n\n\nNew Orleans Pelicans\n65%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n23%\n\n\nAtlanta Hawks\n77%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n4%\n\n\nBrooklyn Nets\n96%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nUtah Jazz\n37%\n\n\nToronto Raptors\n63%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n55%\n\n\nChicago Bulls\n45%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n22%\n\n\nOklahoma City Thunder\n78%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n8%\n\n\nDallas Mavericks\n92%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPortland Trail Blazers\n11%\n\n\nGolden State Warriors\n89%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMinnesota Timberwolves\n57%\n\n\nSacramento Kings\n43%"
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#todays-games---saturday-december-23-2023",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#todays-games---saturday-december-23-2023",
-    "title": "Daily NBA Predictions using Pairwise Competition model",
-    "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n46.7%\n\n\nNew York Knicks\n53.3%\n\n\n\n\n\n\n\n\n\n\n&lt;br&gt;\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n64%\n\n\nLos Angeles Clippers\n36%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n85%\n\n\nCharlotte Hornets\n15%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n54.9%\n\n\nIndiana Pacers\n45.1%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nHouston Rockets\n35%\n\n\nNew Orleans Pelicans\n65%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n23%\n\n\nAtlanta Hawks\n77%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n4%\n\n\nBrooklyn Nets\n96%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nUtah Jazz\n37%\n\n\nToronto Raptors\n63%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n55%\n\n\nChicago Bulls\n45%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n22%\n\n\nOklahoma City Thunder\n78%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n8%\n\n\nDallas Mavericks\n92%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPortland Trail Blazers\n11%\n\n\nGolden State Warriors\n89%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMinnesota Timberwolves\n57%\n\n\nSacramento Kings\n43%"
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#todays-games-saturday-december-23-2023",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#todays-games-saturday-december-23-2023",
-    "title": "Daily NBA Predictions using Pairwise Competition model",
-    "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n46.7%\n\n\nNew York Knicks\n53.3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n64%\n\n\nLos Angeles Clippers\n36%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n85%\n\n\nCharlotte Hornets\n15%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n54.9%\n\n\nIndiana Pacers\n45.1%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nHouston Rockets\n35%\n\n\nNew Orleans Pelicans\n65%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n23%\n\n\nAtlanta Hawks\n77%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n4%\n\n\nBrooklyn Nets\n96%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nUtah Jazz\n37%\n\n\nToronto Raptors\n63%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n55%\n\n\nChicago Bulls\n45%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n22%\n\n\nOklahoma City Thunder\n78%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n8%\n\n\nDallas Mavericks\n92%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPortland Trail Blazers\n11%\n\n\nGolden State Warriors\n89%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMinnesota Timberwolves\n57%\n\n\nSacramento Kings\n43%"
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#games-sunday-december-24-2023",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#games-sunday-december-24-2023",
-    "title": "Daily NBA Predictions using Pairwise Competition model",
-    "section": "Games Sunday, December 24, 2023",
-    "text": "Games Sunday, December 24, 2023\n\n\n[1] \"No scheduled games\""
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#games-monday-december-25-2023",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#games-monday-december-25-2023",
-    "title": "Daily NBA Predictions using Pairwise Competition model",
-    "section": "Games Monday, December 25, 2023",
-    "text": "Games Monday, December 25, 2023\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n46.7%\n\n\nNew York Knicks\n53.3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nGolden State Warriors\n25%\n\n\nDenver Nuggets\n75%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n72%\n\n\nLos Angeles Lakers\n28%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n55%\n\n\nMiami Heat\n45%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n53.2%\n\n\nPhoenix Suns\n46.8%"
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#todays-games-saturday-december-23",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#todays-games-saturday-december-23",
-    "title": "Daily NBA Predictions using Pairwise Competition model",
-    "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n46.7%\n\n\nNew York Knicks\n53.3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n64%\n\n\nLos Angeles Clippers\n36%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n85%\n\n\nCharlotte Hornets\n15%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n54.9%\n\n\nIndiana Pacers\n45.1%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nHouston Rockets\n35%\n\n\nNew Orleans Pelicans\n65%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n23%\n\n\nAtlanta Hawks\n77%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n4%\n\n\nBrooklyn Nets\n96%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nUtah Jazz\n37%\n\n\nToronto Raptors\n63%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n55%\n\n\nChicago Bulls\n45%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n22%\n\n\nOklahoma City Thunder\n78%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n8%\n\n\nDallas Mavericks\n92%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPortland Trail Blazers\n11%\n\n\nGolden State Warriors\n89%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMinnesota Timberwolves\n57%\n\n\nSacramento Kings\n43%"
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#games-sunday-december-24",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#games-sunday-december-24",
-    "title": "Daily NBA Predictions using Pairwise Competition model",
-    "section": "Games Sunday, December 24",
-    "text": "Games Sunday, December 24\n\n\nNo scheduled games"
-  },
-  {
-    "objectID": "posts/2023-11-nba-compr-site/daily_nba_compr.html#games-monday-december-25",
-    "href": "posts/2023-11-nba-compr-site/daily_nba_compr.html#games-monday-december-25",
-    "title": "Daily NBA Predictions using Pairwise Competition model",
-    "section": "Games Monday, December 25",
-    "text": "Games Monday, December 25\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n46.7%\n\n\nNew York Knicks\n53.3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nGolden State Warriors\n25%\n\n\nDenver Nuggets\n75%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n72%\n\n\nLos Angeles Lakers\n28%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n55%\n\n\nMiami Heat\n45%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n53.2%\n\n\nPhoenix Suns\n46.8%"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "",
-    "text": "Today’s Games (January 15, 2024)Games January 16, 2024Games January 17, 2024\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nHouston Rockets\n30%\n\n\nPhiladelphia 76ers\n70%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew Orleans Pelicans\n47.3%\n\n\nDallas Mavericks\n52.7%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n35%\n\n\nNew York Knicks\n65%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n19%\n\n\nWashington Wizards\n81%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n19%\n\n\nAtlanta Hawks\n81%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nGolden State Warriors\n53%\n\n\nMemphis Grizzlies\n47%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nChicago Bulls\n27%\n\n\nCleveland Cavaliers\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMiami Heat\n59%\n\n\nBrooklyn Nets\n41%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n84%\n\n\nToronto Raptors\n16%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nIndiana Pacers\n48%\n\n\nUtah Jazz\n52%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOklahoma City Thunder\n66%\n\n\nLos Angeles Lakers\n34%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n47.5%\n\n\nPhiladelphia 76ers\n52.5%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSacramento Kings\n54.8%\n\n\nPhoenix Suns\n45.2%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOklahoma City Thunder\n48.2%\n\n\nLos Angeles Clippers\n51.8%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMinnesota Timberwolves\n97%\n\n\nDetroit Pistons\n3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n62%\n\n\nAtlanta Hawks\n38%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n3%\n\n\nBoston Celtics\n97%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n50.44%\n\n\nCleveland Cavaliers\n49.56%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nHouston Rockets\n29%\n\n\nNew York Knicks\n71%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMiami Heat\n63%\n\n\nToronto Raptors\n37%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n8%\n\n\nNew Orleans Pelicans\n92%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n48.5%\n\n\nLos Angeles Lakers\n51.5%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nGolden State Warriors\n37%\n\n\nUtah Jazz\n63%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBrooklyn Nets\n58%\n\n\nPortland Trail Blazers\n42%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_results_df,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-saturday-december-23",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-saturday-december-23",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n46.7%\n\n\nNew York Knicks\n53.3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n64%\n\n\nLos Angeles Clippers\n36%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n85%\n\n\nCharlotte Hornets\n15%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n54.9%\n\n\nIndiana Pacers\n45.1%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nHouston Rockets\n35%\n\n\nNew Orleans Pelicans\n65%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n23%\n\n\nAtlanta Hawks\n77%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n4%\n\n\nBrooklyn Nets\n96%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nUtah Jazz\n37%\n\n\nToronto Raptors\n63%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n55%\n\n\nChicago Bulls\n45%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n22%\n\n\nOklahoma City Thunder\n78%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n8%\n\n\nDallas Mavericks\n92%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPortland Trail Blazers\n11%\n\n\nGolden State Warriors\n89%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMinnesota Timberwolves\n57%\n\n\nSacramento Kings\n43%"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-sunday-december-24",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-sunday-december-24",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "Games Sunday, December 24",
-    "text": "Games Sunday, December 24\n\n\nNo scheduled games"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-monday-december-25",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-monday-december-25",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "Games Monday, December 25",
-    "text": "Games Monday, December 25\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n46.7%\n\n\nNew York Knicks\n53.3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nGolden State Warriors\n25%\n\n\nDenver Nuggets\n75%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n72%\n\n\nLos Angeles Lakers\n28%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n55%\n\n\nMiami Heat\n45%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n53.2%\n\n\nPhoenix Suns\n46.8%\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_season_before,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-monday-december-25",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-monday-december-25",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n53.4%\n\n\nNew York Knicks\n46.6%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nGolden State Warriors\n26%\n\n\nDenver Nuggets\n74%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n72%\n\n\nLos Angeles Lakers\n28%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n57%\n\n\nMiami Heat\n43%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n55%\n\n\nPhoenix Suns\n45%"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-tuesday-december-26",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-tuesday-december-26",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "Games Tuesday, December 26",
-    "text": "Games Tuesday, December 26\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBrooklyn Nets\n92%\n\n\nDetroit Pistons\n8%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n87%\n\n\nWashington Wizards\n13%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nAtlanta Hawks\n41%\n\n\nChicago Bulls\n59%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nIndiana Pacers\n26%\n\n\nHouston Rockets\n74%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n16%\n\n\nNew Orleans Pelicans\n84%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMinnesota Timberwolves\n57%\n\n\nOklahoma City Thunder\n43%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nUtah Jazz\n69%\n\n\nSan Antonio Spurs\n31%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSacramento Kings\n84%\n\n\nPortland Trail Blazers\n16%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n10%\n\n\nLos Angeles Clippers\n90%"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-wednesday-december-27",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-wednesday-december-27",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "Games Wednesday, December 27",
-    "text": "Games Wednesday, December 27\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n49.2%\n\n\nOrlando Magic\n50.8%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n68%\n\n\nWashington Wizards\n32%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n66%\n\n\nBrooklyn Nets\n34%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhoenix Suns\n27%\n\n\nHouston Rockets\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n31%\n\n\nOklahoma City Thunder\n69%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n42%\n\n\nDallas Mavericks\n58%\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_season_before,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-wednesday-december-27",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-wednesday-december-27",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n45%\n\n\nOrlando Magic\n55%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n68%\n\n\nWashington Wizards\n32%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n64%\n\n\nBrooklyn Nets\n36%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhoenix Suns\n28%\n\n\nHouston Rockets\n72%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n31%\n\n\nOklahoma City Thunder\n69%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n40%\n\n\nDallas Mavericks\n60%"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-thursday-december-28",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-thursday-december-28",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "Games Thursday, December 28",
-    "text": "Games Thursday, December 28\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n1%\n\n\nBoston Celtics\n99%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nIndiana Pacers\n46.3%\n\n\nChicago Bulls\n53.7%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n21%\n\n\nMinnesota Timberwolves\n79%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nUtah Jazz\n26%\n\n\nNew Orleans Pelicans\n74%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n11%\n\n\nDenver Nuggets\n89%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMiami Heat\n44%\n\n\nGolden State Warriors\n56%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n27%\n\n\nPortland Trail Blazers\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n13%\n\n\nLos Angeles Lakers\n87%"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-friday-december-29",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-friday-december-29",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "Games Friday, December 29",
-    "text": "Games Friday, December 29\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n41%\n\n\nOrlando Magic\n59%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBrooklyn Nets\n80%\n\n\nWashington Wizards\n20%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSacramento Kings\n66%\n\n\nAtlanta Hawks\n34%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n7%\n\n\nBoston Celtics\n93%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n52.9%\n\n\nCleveland Cavaliers\n47.1%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n59%\n\n\nHouston Rockets\n41%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOklahoma City Thunder\n43%\n\n\nDenver Nuggets\n57%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n18%\n\n\nPhoenix Suns\n82%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n27%\n\n\nPortland Trail Blazers\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n18%\n\n\nLos Angeles Clippers\n82%"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-thursday-december-28",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-thursday-december-28",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nDetroit Pistons\n1%\n\n\nBoston Celtics\n99%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nIndiana Pacers\n46.8%\n\n\nChicago Bulls\n53.2%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n19%\n\n\nMinnesota Timberwolves\n81%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nUtah Jazz\n26%\n\n\nNew Orleans Pelicans\n74%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMemphis Grizzlies\n12%\n\n\nDenver Nuggets\n88%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMiami Heat\n44%\n\n\nGolden State Warriors\n56%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n27%\n\n\nPortland Trail Blazers\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n13%\n\n\nLos Angeles Lakers\n87%"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-saturday-december-30",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-saturday-december-30",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "Games Saturday, December 30",
-    "text": "Games Saturday, December 30\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMiami Heat\n61%\n\n\nUtah Jazz\n39%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n88%\n\n\nDetroit Pistons\n12%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n56%\n\n\nIndiana Pacers\n44%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n70%\n\n\nChicago Bulls\n30%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n18%\n\n\nMinnesota Timberwolves\n82%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n43%\n\n\nGolden State Warriors\n57%\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_season_before,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-saturday-december-30",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-saturday-december-30",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nMiami Heat\n65%\n\n\nUtah Jazz\n35%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n89%\n\n\nDetroit Pistons\n11%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n53.7%\n\n\nIndiana Pacers\n46.3%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPhiladelphia 76ers\n71%\n\n\nChicago Bulls\n29%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n18%\n\n\nMinnesota Timberwolves\n82%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n45.2%\n\n\nGolden State Warriors\n54.8%"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-sunday-december-31",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-sunday-december-31",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "Games Sunday, December 31",
-    "text": "Games Sunday, December 31\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nAtlanta Hawks\n74%\n\n\nWashington Wizards\n26%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Lakers\n41%\n\n\nNew Orleans Pelicans\n59%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBrooklyn Nets\n20%\n\n\nOklahoma City Thunder\n80%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n95%\n\n\nSan Antonio Spurs\n5%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSacramento Kings\n72%\n\n\nMemphis Grizzlies\n28%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n59%\n\n\nPhoenix Suns\n41%"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-monday-january-01",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-monday-january-01",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "Games Monday, January 01",
-    "text": "Games Monday, January 01\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMinnesota Timberwolves\n65%\n\n\nNew York Knicks\n35%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCleveland Cavaliers\n67%\n\n\nToronto Raptors\n33%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n3%\n\n\nHouston Rockets\n97%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nIndiana Pacers\n22%\n\n\nMilwaukee Bucks\n78%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n7%\n\n\nDenver Nuggets\n93%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPortland Trail Blazers\n20%\n\n\nPhoenix Suns\n80%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDallas Mavericks\n61%\n\n\nUtah Jazz\n39%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMiami Heat\n41%\n\n\nLos Angeles Clippers\n59%\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_season_before,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-tuesday-january-02",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-tuesday-january-02",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nChicago Bulls\n19%\n\n\nPhiladelphia 76ers\n81%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n23%\n\n\nMemphis Grizzlies\n77%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBrooklyn Nets\n28%\n\n\nNew Orleans Pelicans\n72%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n54.6%\n\n\nOklahoma City Thunder\n45.4%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n50.42%\n\n\nGolden State Warriors\n49.58%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n8%\n\n\nSacramento Kings\n92%"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-wednesday-january-03",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-wednesday-january-03",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "Games Wednesday, January 03",
-    "text": "Games Wednesday, January 03\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nWashington Wizards\n8%\n\n\nCleveland Cavaliers\n92%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n63%\n\n\nIndiana Pacers\n37%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOklahoma City Thunder\n78%\n\n\nAtlanta Hawks\n22%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBrooklyn Nets\n33%\n\n\nHouston Rockets\n67%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n42%\n\n\nMemphis Grizzlies\n58%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew Orleans Pelicans\n18%\n\n\nMinnesota Timberwolves\n82%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPortland Trail Blazers\n13%\n\n\nDallas Mavericks\n87%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nChicago Bulls\n27%\n\n\nNew York Knicks\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Clippers\n55%\n\n\nPhoenix Suns\n45%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n7%\n\n\nUtah Jazz\n93%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMiami Heat\n44%\n\n\nLos Angeles Lakers\n56%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n37%\n\n\nSacramento Kings\n63%"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-thursday-january-04",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-thursday-january-04",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "Games Thursday, January 04",
-    "text": "Games Thursday, January 04\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n91%\n\n\nSan Antonio Spurs\n9%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n61%\n\n\nGolden State Warriors\n39%\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_season_before,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-january-2-2024",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#todays-games-january-2-2024",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "",
-    "text": "Team\nWin Prob.\n\n\n\n\nChicago Bulls\n19%\n\n\nPhiladelphia 76ers\n81%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nSan Antonio Spurs\n23%\n\n\nMemphis Grizzlies\n77%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBrooklyn Nets\n28%\n\n\nNew Orleans Pelicans\n72%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n54.6%\n\n\nOklahoma City Thunder\n45.4%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n50.42%\n\n\nGolden State Warriors\n49.58%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nCharlotte Hornets\n8%\n\n\nSacramento Kings\n92%"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-january-3-2024",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-january-3-2024",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "Games January 3, 2024",
-    "text": "Games January 3, 2024\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nWashington Wizards\n8%\n\n\nCleveland Cavaliers\n92%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n63%\n\n\nIndiana Pacers\n37%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOklahoma City Thunder\n78%\n\n\nAtlanta Hawks\n22%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBrooklyn Nets\n33%\n\n\nHouston Rockets\n67%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nToronto Raptors\n42%\n\n\nMemphis Grizzlies\n58%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew Orleans Pelicans\n18%\n\n\nMinnesota Timberwolves\n82%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nPortland Trail Blazers\n13%\n\n\nDallas Mavericks\n87%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nChicago Bulls\n27%\n\n\nNew York Knicks\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nLos Angeles Clippers\n55%\n\n\nPhoenix Suns\n45%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDetroit Pistons\n7%\n\n\nUtah Jazz\n93%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMiami Heat\n44%\n\n\nLos Angeles Lakers\n56%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n37%\n\n\nSacramento Kings\n63%"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-january-4-2024",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html#games-january-4-2024",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "Games January 4, 2024",
-    "text": "Games January 4, 2024\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nMilwaukee Bucks\n91%\n\n\nSan Antonio Spurs\n9%\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n61%\n\n\nGolden State Warriors\n39%\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_results_df,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
+    "objectID": "cv.html#fa-code-technical-skills",
+    "href": "cv.html#fa-code-technical-skills",
+    "title": "CV",
+    "section": " Technical Skills",
+    "text": "Technical Skills\n\nProgramming\n\n\n\n\n R (Tidyverse, ggplot2, Shiny)   SQL (Snowflake, PostgreSQL)   Python (Pandas, NumPy, Scikit-learn)   Java   Google Looker Studio\n\n\n\n\n Data Visualization   Git (GitHub, GitLab)   Object-Oriented Programming   Database Management Systems (DBMS)\n\n\n\n\n\n\nMath & Statistics\n\n\n\n\n Probability   Calculus (Differential, Integral, Multivariable)   Statistical and Machine Learning   Time Series Analysis\n\n\n\n\n Regression Analysis   A/B Testing   Linear Algebra   Multi-level Modeling"
   }
 ]

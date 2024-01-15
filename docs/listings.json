@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/blog.html",
-    "items": []
-  },
-  {
     "listing": "/posts.html",
     "items": [
       "/posts/homepage/daily_nba_compr/daily_nba_compr.html",
