@@ -3,7 +3,7 @@ on:
   repository_dispatch:
     types: [schedule]
 
-name: Quarto Publish
+name: Quarto Daily Publish
 
 jobs:
   build-deploy:
