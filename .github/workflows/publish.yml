@@ -25,6 +25,11 @@ jobs:
         with:
           cache-version: 1
 
+      - name: Configure Git
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+
       - name: Install R Packages
         run: Rscript -e 'renv::restore()'
 
@@ -34,4 +39,3 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
