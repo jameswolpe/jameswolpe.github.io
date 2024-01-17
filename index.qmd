@@ -73,5 +73,3 @@ Performed Go-to-Market analysis, comparing a novel AI product with its human-ope
 [References](references.qmd){.btn .btn-secondary role="button"}
 [CV](cv.qmd){.btn .btn-secondary role="button"}
 :::
-
-
