@@ -17,7 +17,6 @@ listing:
 </div>
 :::
 
-
 <div class="large-text quote-text-bg center-text" style="text-align: center; font-size: 24px; color: #212529;">
   <h3 style="border-bottom: none;">{{< fa bolt >}} Hello! {{< fa bolt >}}</h3>
   <p>
