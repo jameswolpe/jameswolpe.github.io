@@ -21,15 +21,19 @@ library(rvest)
 library(tidyverse)
 
 # Define the list of URLs
+# get the current year adding 1 as that is how www.basketball-reference.com denotes the year, it is the year the championship is played in
+current_year <- as.numeric(format(Sys.Date(), "%Y")) +1
+# make the url dynamically oull the year 
+
 urls <- c(
-  "https://www.basketball-reference.com/leagues/NBA_2024_games-october.html",
-  "https://www.basketball-reference.com/leagues/NBA_2024_games-november.html",
-  "https://www.basketball-reference.com/leagues/NBA_2024_games-december.html",
-  "https://www.basketball-reference.com/leagues/NBA_2024_games-january.html",
-  "https://www.basketball-reference.com/leagues/NBA_2024_games-february.html",
-  "https://www.basketball-reference.com/leagues/NBA_2024_games-march.html",
-  "https://www.basketball-reference.com/leagues/NBA_2024_games-april.html"
-  
+  paste0("https://www.basketball-reference.com/leagues/NBA_", current_year, "_games-october.html"),
+  paste0("https://www.basketball-reference.com/leagues/NBA_", current_year, "_games-november.html"),
+  paste0("https://www.basketball-reference.com/leagues/NBA_", current_year, "_games-december.html"),
+  paste0("https://www.basketball-reference.com/leagues/NBA_", current_year, "_games-january.html"),
+  paste0("https://www.basketball-reference.com/leagues/NBA_", current_year, "_games-february.html"),
+  paste0("https://www.basketball-reference.com/leagues/NBA_", current_year, "_games-march.html"),
+  paste0("https://www.basketball-reference.com/leagues/NBA_", current_year, "_games-april.html"),
+  paste0("https://www.basketball-reference.com/leagues/NBA_", current_year, "_games-may.html")
 )
 
 # Initialize an empty list to store DataFrames
@@ -37,17 +41,24 @@ dfs <- list()
 
 # Loop through the URLs and scrape data
 for (url in urls) {
-  page_html <- read_html(url)
-  table_node <- html_nodes(page_html, "table")[[1]]
-  df <- html_table(table_node, header = TRUE)
-  dfs[[url]] <- df
+  # Attempt to scrape the page
+  tryCatch({
+    page_html <- read_html(url)
+    table_node <- html_nodes(page_html, "table")
+    if (length(table_node) > 0) {
+      df <- html_table(table_node[[1]], header = TRUE)
+      dfs[[url]] <- df
+    }
+  }, error = function(e) {
+    # Silently skip URLs that produce an error
+  })
 }
 
 # Combine the DataFrames into one
 nba_df <- do.call(rbind, dfs)
 rownames(nba_df) <- NULL
 
-nba_df <- nba_df[1:1230, ]
+#nba_df <- nba_df[1:1230, ]
 nba_df <- nba_df[, -c(2, 7, 9, 10, 11)]
 
 nba_df <- nba_df |>
