@@ -1,0 +1,31 @@
+name: Schedule GitHub Pages Deployment
+
+on:
+  schedule:
+    # Runs daily at midnight UTC
+    - cron: '0 0 * * *'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build the site
+        run: |
+          # Example commands for site build
+          npm install
+          npm run build
+
+      # Step 3: Upload Pages artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist  # Adjust this to match your build output directory
+
+      # Step 4: Deploy Pages
+      - name: Deploy Pages
+        uses: actions/deploy-pages@v4
