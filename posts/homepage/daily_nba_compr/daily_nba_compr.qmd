@@ -24,6 +24,7 @@ Sys.setenv(TZ = "America/New_York")
 # get the current year adding 1 as that is how www.basketball-reference.com denotes the year, it is the year the championship is played in
 current_year <- as.numeric(format(Sys.Date(), "%Y")) +1
 
+# make the url dynamically oull the year  
 urls <- c(
   paste0("https://www.basketball-reference.com/leagues/NBA_", current_year, "_games-october.html"),
   paste0("https://www.basketball-reference.com/leagues/NBA_", current_year, "_games-november.html"),
