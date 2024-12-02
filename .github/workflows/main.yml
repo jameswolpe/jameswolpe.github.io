@@ -1,31 +1,37 @@
-name: Schedule GitHub Pages Deployment
-
 on:
+  workflow_dispatch:
+  push:
+    branches: main
   schedule:
-    # Runs daily at midnight UTC
-    - cron: '0 0 * * *'
+    # Midnight ET during Standard Time (UTC-5)
+    - cron: '0 5 * * *'
+
+name: Quarto Publish
 
 jobs:
-  build-and-deploy:
+  build-deploy:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-      # Step 1: Check out the repository
-      - name: Checkout code
+      - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Build the site
-        run: |
-          # Example commands for site build
-          npm install
-          npm run build
-
-      # Step 3: Upload Pages artifact
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
         with:
-          path: ./dist  # Adjust this to match your build output directory
+          r-version: '4.4.2' # Use the version you observed in the logs
 
-      # Step 4: Deploy Pages
-      - name: Deploy Pages
-        uses: actions/deploy-pages@v4
+      - name: Install Required R Packages
+        run: |
+          Rscript -e 'install.packages(c("knitr", "rmarkdown"), repos = "https://cran.rstudio.com/")'
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
