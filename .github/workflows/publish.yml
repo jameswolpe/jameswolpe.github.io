@@ -23,7 +23,7 @@ jobs:
 
       - name: Install R Packages
         run: |
-          install.packages(c("rmarkdown", "knitr"))
+          install.packages(c("rmarkdown", "knitr", "tidyverse"))
           renv::restore()
 
       - name: Set up Quarto
