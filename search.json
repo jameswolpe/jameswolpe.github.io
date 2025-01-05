@@ -123,7 +123,7 @@
     "href": "cv.html#technical-skills",
     "title": "CV",
     "section": " Technical Skills",
-    "text": "Technical Skills\n\nProgramming\n\n\n\n\n R (Tidyverse, ggplot2, Shiny)   SQL (Snowflake, PostgreSQL)   Python (Pandas, NumPy, Scikit-learn)   Java   Google Looker Studio\n\n\n\n\n Data Visualization   Git (GitHub, GitLab)   Object-Oriented Programming   Database Management Systems (DBMS)\n\n\n\n\n\n\nMath & Statistics\n\n\n\n\n Probability   Calculus (Differential, Integral, Multivariable)   Statistical and Machine Learning   Time Series Analysis\n\n\n\n\n Regression Analysis   A/B Testing   Linear Algebra   Multi-level Modeling"
+    "text": "Technical Skills\n\nProgramming\n\n\n\n\n R (Tidyverse, ggplot2, Shiny)   SQL (Snowflake, PostgreSQL)   Python (Pandas, NumPy, Scikit-learn)   Java   Google Looker\n\n\n\n\n Data Visualization   Git (GitHub, GitLab)   Object-Oriented Programming   Database Management Systems (DBMS)\n\n\n\n\n\n\nMath & Statistics\n\n\n\n\n Probability   Calculus (Differential, Integral, Multivariable)   Statistical and Machine Learning   Time Series Analysis\n\n\n\n\n Regression Analysis   A/B Testing   Linear Algebra   Multi-level Modeling"
   },
   {
     "objectID": "posts.html",
