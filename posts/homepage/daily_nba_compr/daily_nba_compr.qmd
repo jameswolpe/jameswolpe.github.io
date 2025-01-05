@@ -22,7 +22,7 @@ library(tidyverse)
 
 Sys.setenv(TZ = "America/New_York")
 # get the current year adding 1 as that is how www.basketball-reference.com denotes the year, it is the year the championship is played in
-current_year <- as.numeric(format(Sys.Date(), "%Y")) +1
+current_year <- as.numeric(format(Sys.Date(), "%Y"))
 
 # make the url dynamically oull the year  
 urls <- c(
