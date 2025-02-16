@@ -123,7 +123,7 @@
     "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html",
     "title": "Daily NBA Predictions Using a Pairwise Competition Model",
     "section": "",
-    "text": "Today’s Games (February 15, 2025)Games February 16, 2025Games February 17, 2025\n\n\n\n\nNo scheduled games\n\n\n\n\n\n\nNo scheduled games\n\n\n\n\n\n\nNo scheduled games\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_results_df,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
+    "text": "Today’s Games (February 16, 2025)Games February 17, 2025Games February 18, 2025\n\n\n\n\nNo scheduled games\n\n\n\n\n\n\nNo scheduled games\n\n\n\n\n\n\nNo scheduled games\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_results_df,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
   },
   {
     "objectID": "posts/imdb_oscar_best_picture/imdb_oscar_best_picture.html",
