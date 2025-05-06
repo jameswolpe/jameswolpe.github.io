@@ -1,31 +1,24 @@
 [
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "David Shaub, Principal Data Scientist"
+    "objectID": "index.html#posts",
+    "href": "index.html#posts",
+    "title": "",
+    "section": "Posts",
+    "text": "Posts\nSome of my work\n\n\n\n\n\n\n\n\n\n\nDaily NBA Predictions Using a Pairwise Competition Model\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\nJames Wolpe\n\n\nDec 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nShiny App to Visualize ATP Tennis Players Directional Tendencies\n\n\nBased on “Wardlaw Directionals”, this is a Shiny app designed to visualize the directional tendencies of ATP tennis players\n\n\n\nJames Wolpe\n\n\nMay 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\nNo matching items\n\n\nPosts"
   },
   {
-    "objectID": "references.html#velocity-global",
-    "href": "references.html#velocity-global",
-    "title": "References",
-    "section": "",
-    "text": "David Shaub, Principal Data Scientist"
+    "objectID": "index.html#work-experience",
+    "href": "index.html#work-experience",
+    "title": "",
+    "section": "Work Experience",
+    "text": "Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nEngineered a lead conversion prediction model in Python using XGBoost, covering ETL, data cleanup, feature engineering, imputation, and model selection. The top 20% of the model’s performers demonstrated a 4.5x higher conversion rate.\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nPerformed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined KPIs and developed data-driven dashboards using Google Looker.\n\n\n\n\nReferences CV"
   },
   {
-    "objectID": "references.html#attentive-mobile",
-    "href": "references.html#attentive-mobile",
+    "objectID": "recommendations.html#attentive-mobile",
+    "href": "recommendations.html#attentive-mobile",
     "title": "References",
     "section": "Attentive Mobile:",
-    "text": "Attentive Mobile:\n\n\n(via LinkedIn) Aaron Hellman, Lead Data Analyst"
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Posts",
-    "section": "",
-    "text": "Daily NBA Predictions Using a Pairwise Competition Model\n\n\n\nNBA\n\nR\n\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\n\n\nDec 15, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\ncompr: An R package for Paired Competition Modeling\n\n\n\nR\n\ncompr\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nShiny App to Visualize ATP Tennis Players Directional Tendencies\n\n\nBased on “Wardlaw Directionals”, this is a Shiny app designed to visualize the directional tendencies of ATP tennis players\n\n\n\n\n\nMay 16, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\nR\n\ntidyverse\n\nggplot2\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\n\n\nMay 10, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\nNo matching items"
+    "text": "Attentive Mobile:"
   },
   {
     "objectID": "cv.html",
@@ -61,6 +54,27 @@
     "title": "CV",
     "section": " Technical Skills",
     "text": "Technical Skills\n\nProgramming\n\n\n\n\n R (Tidyverse, ggplot2, Shiny)   SQL (Snowflake, PostgreSQL)   Python (Pandas, NumPy, Scikit-learn)   Java   Google Looker\n\n\n\n\n Data Visualization   Git (GitHub, GitLab)   Object-Oriented Programming   Database Management Systems (DBMS)\n\n\n\n\n\n\nMath & Statistics\n\n\n\n\n Probability   Calculus (Differential, Integral, Multivariable)   Statistical and Machine Learning   Time Series Analysis\n\n\n\n\n Regression Analysis   A/B Testing   Linear Algebra   Multi-level Modeling"
+  },
+  {
+    "objectID": "posts/compr/compr.html",
+    "href": "posts/compr/compr.html",
+    "title": "compr: An R package for Paired Competition Modeling",
+    "section": "",
+    "text": "The compr package provides functionality to fit and interpret paired competition models in R.\nTo install and load the package, run"
+  },
+  {
+    "objectID": "posts/compr/compr.html#installation",
+    "href": "posts/compr/compr.html#installation",
+    "title": "compr: An R package for Paired Competition Modeling",
+    "section": "Installation",
+    "text": "Installation\nTo install and load the compr package, use the following commands:\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)"
+  },
+  {
+    "objectID": "posts/compr/compr.html#functionality",
+    "href": "posts/compr/compr.html#functionality",
+    "title": "compr: An R package for Paired Competition Modeling",
+    "section": "Functionality",
+    "text": "Functionality\nThe main function, comp_glm(), has the following arguments:\nformula: Specifies the response variable and contest-level predictors. data: The dataset to be used. p1: A string with the name of the column containing the first player. p2: A string with the name of the column containing the second player. p1_effects: A one-sided formula specifying player-level effects for p1. p2_effects: A one-sided formula specifying player-level effects for p2. ref_player: A string giving the name of the player to be used as the reference player (default is the first player in p1).\nHere is an example of using comp_glm():\ncomp_mod &lt;- comp_glm(point_winner ~ -1, data = tennis_point,\n                     p1 = \"player1\", p2 = \"player2\",\n                     p1_effects = ~ point_server1,\n                     p2_effects = ~ point_server2,\n                     ref_player = \"Milos Raonic\")\nFeel free to explore and leverage the compr package to enhance your paired competition modeling in R. For detailed information and usage examples, refer to the package documentation."
   },
   {
     "objectID": "posts/homepage/tennis_atp_directionals/atp_directionals.html",
@@ -112,34 +126,6 @@
     "text": "References\nhttps://www.imdb.com/title/tt0290988/?ref_=ttep_ep_tt"
   },
   {
-    "objectID": "posts/stat113_greek_life/stat113_greek_life.html",
-    "href": "posts/stat113_greek_life/stat113_greek_life.html",
-    "title": "Exploring Greek Life Trends: A Stat 113 Survey Analysis",
-    "section": "",
-    "text": "Introduction\nFor this project I used the Stat 113 data set which contains survey data from Stat 113 students. The variables of interest are weather or not a student is in or planning on joing Greek life, the students school year, the students gender, and a new variable I created that evaluates weather the semester was pre or postpandemic.\nIn my first semester back (last spring) since the Covid-19 pandemic I noticed that it was hard to meet new people and have a social scene. It also felt like most of my grade joined greek life. To investigate this I looked at the general trend of greek life participation and if there were more males rushing fraternaties postpandemic.\n\n\nData Exploration\nFirst I looked at the trends in males and females who were either in, or planning on joining greek life. A steady increase in the percent of males in, or planning on joining greek life can be seen. In fact, these most recent two semesters are the first time a higher percent of males than females in Stat 113 or in or planning on joining greek life.\n\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'\n\n\n\n\n\n\n\n\n\n\nstat113FSmale &lt;-\nstat113P2 %&gt;% drop_na(Greek) %&gt;%\n  mutate(Year=as_factor(Year))%&gt;%\n  filter(Gender== \"M\",\n         Year == 1 | Year == 2) %&gt;%\n   group_by(Term, Greek, Year) %&gt;%\n  summarise(ncount = n()) %&gt;%\n  ungroup() %&gt;%\n  group_by(Term, Year) %&gt;%\n  mutate(total = sum(ncount)) %&gt;% \n  ungroup() %&gt;%\n  mutate(propGreek = (ncount/total)*100) %&gt;%\n  filter(Greek == \"Planning\") %&gt;%\n    mutate(Year = factor(Year, levels = c(\"1\", \"2\"), \n              labels = c(\"Freshman\", \"Sophmore\")))\n\n`summarise()` has grouped output by 'Term', 'Greek'. You can override using the\n`.groups` argument.\n\n\nNext I looked to see where all those males were coming from. Both freshman and sophmores males have been increasing in perctage planning on joining greek life, however, in the past few semesters there has been a jump in sophmore males; especially that last spring semester I spoke about in my introduction.\n\n\n\n\n\n\n\n\n\nTo investigate Sophmore males planning on joining greek further I ploted them individually with standard error bars and colored by weather it was pre or post pandemic. Last spring was by far the highest percentage of Sophmore males planning on joining greek, my hypothesis for this is that there was a need to affiliate for social reasons in that pandemic semester, and many of the people that would’ve rushed in the fall were not on campus. My hypothesis for why fall of 202 was so low is that people had been away from campus for so long that they felt like they needed to get their barrings and didnt know hat to expect socially.\n\n\n\n\n\n\n\n\n\nFinnally I compared the proportion of male sophmores planning to join a Fraternity in the semesters leading up with the proportion post pandemic and found that there was a difference in means at the 0.05938 signifcance level.\n\n\n\n\n\n\n\n\n\n\nTwo Sample t-test: propGreek by postPandemic (continued below)\n\n\n\n\n\n\n\n\nTest statistic\ndf\nP value\nAlternative hypothesis\n\n\n\n\n1.983\n23\n0.05938\ntwo.sided\n\n\n\n\n\n\n\n\n\n\nmean in group Postpandemic\nmean in group Pretpandemic\n\n\n\n\n20.07\n11.6\n\n\n\n\n\n\n\nWrap-up\nIn conclusion, there has been a consistant increase in the percentage of males planning or in greek life, in fact these past two semesters were the first time that percentage was higher than the percentage of females. The second semester post pandemic saw a large uptick in the number of sophmore males planning on joing greek, I hypothesize this is because the limited social life on campus created pressure to socially affiliate. For sophmore males there was an increase in planning on joing greek at the 0.059 signifcance level. In the future I hope to revisit this data to see if this was just a blip."
-  },
-  {
-    "objectID": "posts/compr/compr.html",
-    "href": "posts/compr/compr.html",
-    "title": "compr: An R package for Paired Competition Modeling",
-    "section": "",
-    "text": "The compr package provides functionality to fit and interpret paired competition models in R.\nTo install and load the package, run"
-  },
-  {
-    "objectID": "posts/compr/compr.html#installation",
-    "href": "posts/compr/compr.html#installation",
-    "title": "compr: An R package for Paired Competition Modeling",
-    "section": "Installation",
-    "text": "Installation\nTo install and load the compr package, use the following commands:\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)"
-  },
-  {
-    "objectID": "posts/compr/compr.html#functionality",
-    "href": "posts/compr/compr.html#functionality",
-    "title": "compr: An R package for Paired Competition Modeling",
-    "section": "Functionality",
-    "text": "Functionality\nThe main function, comp_glm(), has the following arguments:\nformula: Specifies the response variable and contest-level predictors. data: The dataset to be used. p1: A string with the name of the column containing the first player. p2: A string with the name of the column containing the second player. p1_effects: A one-sided formula specifying player-level effects for p1. p2_effects: A one-sided formula specifying player-level effects for p2. ref_player: A string giving the name of the player to be used as the reference player (default is the first player in p1).\nHere is an example of using comp_glm():\ncomp_mod &lt;- comp_glm(point_winner ~ -1, data = tennis_point,\n                     p1 = \"player1\", p2 = \"player2\",\n                     p1_effects = ~ point_server1,\n                     p2_effects = ~ point_server2,\n                     ref_player = \"Milos Raonic\")\nFeel free to explore and leverage the compr package to enhance your paired competition modeling in R. For detailed information and usage examples, refer to the package documentation."
-  },
-  {
     "objectID": "posts/imdb_oscar_best_picture/imdb_oscar_best_picture.html",
     "href": "posts/imdb_oscar_best_picture/imdb_oscar_best_picture.html",
     "title": "The Art and Popularity Paradox: Trends in Oscar Best Picture Movies",
@@ -158,27 +144,41 @@
     "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html",
     "title": "Daily NBA Predictions Using a Pairwise Competition Model",
     "section": "",
-    "text": "Today’s Games (May 5, 2025)Games May 6, 2025Games May 7, 2025\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n31%\n\n\nBoston Celtics\n69%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n20%\n\n\nOklahoma City Thunder\n80%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nIndiana Pacers\n25%\n\n\nCleveland Cavaliers\n75%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n31%\n\n\nBoston Celtics\n69%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n20%\n\n\nOklahoma City Thunder\n80%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_results_df,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
+    "text": "Today’s Games (May 6, 2025)Games May 7, 2025Games May 8, 2025\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nIndiana Pacers\n27%\n\n\nCleveland Cavaliers\n73%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nGolden State Warriors\n43%\n\n\nMinnesota Timberwolves\n57%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n31%\n\n\nBoston Celtics\n69%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n20%\n\n\nOklahoma City Thunder\n80%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nGolden State Warriors\n43%\n\n\nMinnesota Timberwolves\n57%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_results_df,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
   },
   {
-    "objectID": "index.html#posts",
-    "href": "index.html#posts",
-    "title": "",
-    "section": "Posts",
-    "text": "Posts\nSome of my work\n\n\n\n\n\n\n\n\n\n\nDaily NBA Predictions Using a Pairwise Competition Model\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\nJames Wolpe\n\n\nDec 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nShiny App to Visualize ATP Tennis Players Directional Tendencies\n\n\nBased on “Wardlaw Directionals”, this is a Shiny app designed to visualize the directional tendencies of ATP tennis players\n\n\n\nJames Wolpe\n\n\nMay 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\nNo matching items\n\n\nPosts"
+    "objectID": "posts/stat113_greek_life/stat113_greek_life.html",
+    "href": "posts/stat113_greek_life/stat113_greek_life.html",
+    "title": "Exploring Greek Life Trends: A Stat 113 Survey Analysis",
+    "section": "",
+    "text": "Introduction\nFor this project I used the Stat 113 data set which contains survey data from Stat 113 students. The variables of interest are weather or not a student is in or planning on joing Greek life, the students school year, the students gender, and a new variable I created that evaluates weather the semester was pre or postpandemic.\nIn my first semester back (last spring) since the Covid-19 pandemic I noticed that it was hard to meet new people and have a social scene. It also felt like most of my grade joined greek life. To investigate this I looked at the general trend of greek life participation and if there were more males rushing fraternaties postpandemic.\n\n\nData Exploration\nFirst I looked at the trends in males and females who were either in, or planning on joining greek life. A steady increase in the percent of males in, or planning on joining greek life can be seen. In fact, these most recent two semesters are the first time a higher percent of males than females in Stat 113 or in or planning on joining greek life.\n\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'\n\n\n\n\n\n\n\n\n\n\nstat113FSmale &lt;-\nstat113P2 %&gt;% drop_na(Greek) %&gt;%\n  mutate(Year=as_factor(Year))%&gt;%\n  filter(Gender== \"M\",\n         Year == 1 | Year == 2) %&gt;%\n   group_by(Term, Greek, Year) %&gt;%\n  summarise(ncount = n()) %&gt;%\n  ungroup() %&gt;%\n  group_by(Term, Year) %&gt;%\n  mutate(total = sum(ncount)) %&gt;% \n  ungroup() %&gt;%\n  mutate(propGreek = (ncount/total)*100) %&gt;%\n  filter(Greek == \"Planning\") %&gt;%\n    mutate(Year = factor(Year, levels = c(\"1\", \"2\"), \n              labels = c(\"Freshman\", \"Sophmore\")))\n\n`summarise()` has grouped output by 'Term', 'Greek'. You can override using the\n`.groups` argument.\n\n\nNext I looked to see where all those males were coming from. Both freshman and sophmores males have been increasing in perctage planning on joining greek life, however, in the past few semesters there has been a jump in sophmore males; especially that last spring semester I spoke about in my introduction.\n\n\n\n\n\n\n\n\n\nTo investigate Sophmore males planning on joining greek further I ploted them individually with standard error bars and colored by weather it was pre or post pandemic. Last spring was by far the highest percentage of Sophmore males planning on joining greek, my hypothesis for this is that there was a need to affiliate for social reasons in that pandemic semester, and many of the people that would’ve rushed in the fall were not on campus. My hypothesis for why fall of 202 was so low is that people had been away from campus for so long that they felt like they needed to get their barrings and didnt know hat to expect socially.\n\n\n\n\n\n\n\n\n\nFinnally I compared the proportion of male sophmores planning to join a Fraternity in the semesters leading up with the proportion post pandemic and found that there was a difference in means at the 0.05938 signifcance level.\n\n\n\n\n\n\n\n\n\n\nTwo Sample t-test: propGreek by postPandemic (continued below)\n\n\n\n\n\n\n\n\nTest statistic\ndf\nP value\nAlternative hypothesis\n\n\n\n\n1.983\n23\n0.05938\ntwo.sided\n\n\n\n\n\n\n\n\n\n\nmean in group Postpandemic\nmean in group Pretpandemic\n\n\n\n\n20.07\n11.6\n\n\n\n\n\n\n\nWrap-up\nIn conclusion, there has been a consistant increase in the percentage of males planning or in greek life, in fact these past two semesters were the first time that percentage was higher than the percentage of females. The second semester post pandemic saw a large uptick in the number of sophmore males planning on joing greek, I hypothesize this is because the limited social life on campus created pressure to socially affiliate. For sophmore males there was an increase in planning on joing greek at the 0.059 signifcance level. In the future I hope to revisit this data to see if this was just a blip."
   },
   {
-    "objectID": "index.html#work-experience",
-    "href": "index.html#work-experience",
-    "title": "",
-    "section": "Work Experience",
-    "text": "Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nEngineered a lead conversion prediction model in Python using XGBoost, covering ETL, data cleanup, feature engineering, imputation, and model selection. The top 20% of the model’s performers demonstrated a 4.5x higher conversion rate.\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nPerformed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined KPIs and developed data-driven dashboards using Google Looker.\n\n\n\n\nReferences CV"
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Daily NBA Predictions Using a Pairwise Competition Model\n\n\n\nNBA\n\nR\n\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\n\n\nDec 15, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\ncompr: An R package for Paired Competition Modeling\n\n\n\nR\n\ncompr\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nShiny App to Visualize ATP Tennis Players Directional Tendencies\n\n\nBased on “Wardlaw Directionals”, this is a Shiny app designed to visualize the directional tendencies of ATP tennis players\n\n\n\n\n\nMay 16, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\nR\n\ntidyverse\n\nggplot2\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\n\n\nMay 10, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "recommendations.html#attentive-mobile",
-    "href": "recommendations.html#attentive-mobile",
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "David Shaub, Principal Data Scientist"
+  },
+  {
+    "objectID": "references.html#velocity-global",
+    "href": "references.html#velocity-global",
+    "title": "References",
+    "section": "",
+    "text": "David Shaub, Principal Data Scientist"
+  },
+  {
+    "objectID": "references.html#attentive-mobile",
+    "href": "references.html#attentive-mobile",
     "title": "References",
     "section": "Attentive Mobile:",
-    "text": "Attentive Mobile:"
+    "text": "Attentive Mobile:\n\n\n(via LinkedIn) Aaron Hellman, Lead Data Analyst"
   }
 ]
