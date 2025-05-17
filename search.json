@@ -1,5 +1,75 @@
 [
   {
+    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html",
+    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "",
+    "text": "“Trailer Park Boys” is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got."
+  },
+  {
+    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#inroduction",
+    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#inroduction",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "",
+    "text": "“Trailer Park Boys” is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got."
+  },
+  {
+    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#analysis",
+    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#analysis",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "Analysis",
+    "text": "Analysis\nThe distribution of Episode ratings in “Trailer Park Boys” appears to be normal as can be seen in Fig. 1. People tend to rate the episodes fairly high and the majority of the reviews are withing .6 of each other on the 10 point rating scale.\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMin.\n1st Qu.\nMedian\nMean\n3rd Qu.\nMax.\n\n\n\n\n7.1\n7.9\n8.2\n8.217\n8.6\n9.2\n\n\n\n\n\nThe distribution of user votes appears to be right skewed as can be seen in Fig. 2. The median number of votes an episode gets is 360 while some episodes get more than double that number.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMin.\n1st Qu.\nMedian\nMean\n3rd Qu.\nMax.\n\n\n\n\n178\n232\n360.5\n373.5\n489.8\n861\n\n\n\n\n\nLooking at episode ratings by season in Fig. 3 some trends can be observed. The show started off with its first four seasons doing consistently well with means around an average rating of 8.5. Then following a poor rated season five, a downtrend began, bottoming out at season ten with an average rating of around 7.5. The next and final two seasons were rated slightly higher with the final season rating right around the overall show mean of 8.2.\n\n\n\n\n\n\n\n\n\nA clear trend can be seen when looking at number of votes an episode got as a predictor of the rating of that episode as seen in Fig. 4. For every one vote increase in the number of votes a 0.001561 increase in episode rating was estimated. This positive trend becomes a little less clear with the very high number of votes, as there is an outlive that received 861 votes and had one of the four worst episode ratings.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nEstimate\nStd. Error\nt value\nPr(&gt;|t|)\n\n\n\n\n(Intercept)\n7.634\n0.09583\n79.66\n4.822e-95\n\n\nnumVotes\n0.001561\n0.0002368\n6.589\n1.859e-09\n\n\n\n\nFitting linear model: averageRating ~ numVotes\n\n\n\n\n\n\n\n\nObservations\nResidual Std. Error\n\\(R^2\\)\nAdjusted \\(R^2\\)\n\n\n\n\n106\n0.3795\n0.2945\n0.2877"
+  },
+  {
+    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#discussion",
+    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#discussion",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "Discussion",
+    "text": "Discussion\nWhen analyzing IMDB ratings of “Trailer Park Boys” some interesting trends were observed. The downward trend beginning around season four makes sense to any fan of the show as that is when the show got a bigger budget and got away from its low-budget, digital camera, homemade look. This all culminates to season ten, known by fans as the “Snoop Dogg season”, which is regarded as the worst season but has likely the largest budget. It was surprising to see season five as an outlier from the general trend, rated considerably lower. I suspect this is due to the slightly darker theme of the season and the more cohesive plot."
+  },
+  {
+    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#references",
+    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#references",
+    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "section": "References",
+    "text": "References\nhttps://www.imdb.com/title/tt0290988/?ref_=ttep_ep_tt"
+  },
+  {
+    "objectID": "posts/compr/compr.html",
+    "href": "posts/compr/compr.html",
+    "title": "compr: An R package for Paired Competition Modeling",
+    "section": "",
+    "text": "The compr package provides functionality to fit and interpret paired competition models in R.\nTo install and load the package, run"
+  },
+  {
+    "objectID": "posts/compr/compr.html#installation",
+    "href": "posts/compr/compr.html#installation",
+    "title": "compr: An R package for Paired Competition Modeling",
+    "section": "Installation",
+    "text": "Installation\nTo install and load the compr package, use the following commands:\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)"
+  },
+  {
+    "objectID": "posts/compr/compr.html#functionality",
+    "href": "posts/compr/compr.html#functionality",
+    "title": "compr: An R package for Paired Competition Modeling",
+    "section": "Functionality",
+    "text": "Functionality\nThe main function, comp_glm(), has the following arguments:\nformula: Specifies the response variable and contest-level predictors. data: The dataset to be used. p1: A string with the name of the column containing the first player. p2: A string with the name of the column containing the second player. p1_effects: A one-sided formula specifying player-level effects for p1. p2_effects: A one-sided formula specifying player-level effects for p2. ref_player: A string giving the name of the player to be used as the reference player (default is the first player in p1).\nHere is an example of using comp_glm():\ncomp_mod &lt;- comp_glm(point_winner ~ -1, data = tennis_point,\n                     p1 = \"player1\", p2 = \"player2\",\n                     p1_effects = ~ point_server1,\n                     p2_effects = ~ point_server2,\n                     ref_player = \"Milos Raonic\")\nFeel free to explore and leverage the compr package to enhance your paired competition modeling in R. For detailed information and usage examples, refer to the package documentation."
+  },
+  {
+    "objectID": "posts/homepage/imdb_friends_himym/imdb_friends_himym.html",
+    "href": "posts/homepage/imdb_friends_himym/imdb_friends_himym.html",
+    "title": "New York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”",
+    "section": "",
+    "text": "Introduction\nThe following analysis compares two TV shows, “How I Met Your Mother” and “Friends”. The data for this project is from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got. “How I Met Your Mother” was a sitcom on CBS that aired for 9 seasons totaling 208 episodes from 2005-2014, over that span the average episode rating was 8.03. “Friends” was a sitcom that aired on NBC for 10 seasons from 1994-2004. Over that time it aired 235 episodes with an average IMDB episode rating of 8.33. These two sitcoms have many similarities primarily that they are both about adults in their 20’s living in New York City.\n\n\nAnalysis\nFigure one shows the average episode rating by season, “Friends” shows fairly steady ratings by season with season 5 and 10 (the final season) being the highest just under a rating of 8.5. “How I Met Your Mother” shows a consistent decline in ratings, with season 9 (the final season) having the lowest average rating. An interesting observation about season 9 is that it contains both the highest rated episode and the lowest rated episode, this will be investigated more later.\n\n\n\n\n\n\n\n\n\nFigure two compares the number of ratings votes each episode got grouped by season and analyzed using side-by-side box plots. It can be seen that the average number of votes per episode decline by season, however both see an uptick in the final season and both have one large outlier in that final season.\n\n\n\n\n\n\n\n\n\nFinal season\nBelow in figure 3 an analysis of number of votes by episode in the final season can be seen. The number of votes by episode for “Friends” in the final season is consistent with the average number of votes over the course of the series, up until the final episode which received 14633 votes and is the second highest rated episode ever with a rating of 9.6. The number of votes for “How I Met Your Mother” contain a few more points that stray for the rest of the data, episode 16 received 9,749 votes and is the shows highest rated episode with a rating of 9.5. The final two episodes received 9,894 and 18,527 votes respectively with the final episode of the show receiving a rating of 5.5 and taking the crown for worst rated episode.\n\n\n\n\n\n\n\n\n\nThe following figure shows the number of votes the final episode of “How I Met Your Mother” received was an outlier nearly four standard deviations from the expected value.\n\n\n3.965\n\n\nThe following figure shows the number of votes the final episode of “Friends” received was an outlier greater than three standard deviations from the expected value.\n\n\n3.843\n\n\nFigure 4 shows the average rating of each episode in the final season of both “How I Met Your Mother” and “Friends”. “Friends” has similar ratings of episodes in the final season around the 8.5 mark. The final episode of “Friends” has the highest rating in the season. While “How I Met Your Mother” has quite the spread of values, including the final episode which has the lowest rating of the season.\n\n\n\n\n\n\n\n\n\n\n\nDiscussion\nWhile similar in setting, genre, and plot the trends in average episode ratings of “How I Met Your Mother” and “Friends” differ quite a bit. “Friends” has consistently high episode ratings by season ultimately resulting in a high rated final season and a final episode that received the second highest overall rating. While “How I Met Your Mother” had steadily decreasing average episode ratings by season, finishing with a worst rated final season and a worst rated final episode. Both shows had final episodes that received an extremely high number of votes 3.843 standard deviations from the expected value from the final season for “Friends” and 3.965 for “How I Met Your Mother”, however those for “Friends” were mostly high ratings and those for “How I Met Your Mother” were mostly dismal.\n\n\nReferences\nhttps://www.imdb.com/title/tt0460649/?ref_=tt_ov_inf https://www.imdb.com/title/tt0108778/?ref_=nv_sr_srsg_0"
+  },
+  {
+    "objectID": "posts/stat113_greek_life/stat113_greek_life.html",
+    "href": "posts/stat113_greek_life/stat113_greek_life.html",
+    "title": "Exploring Greek Life Trends: A Stat 113 Survey Analysis",
+    "section": "",
+    "text": "Introduction\nFor this project I used the Stat 113 data set which contains survey data from Stat 113 students. The variables of interest are weather or not a student is in or planning on joing Greek life, the students school year, the students gender, and a new variable I created that evaluates weather the semester was pre or postpandemic.\nIn my first semester back (last spring) since the Covid-19 pandemic I noticed that it was hard to meet new people and have a social scene. It also felt like most of my grade joined greek life. To investigate this I looked at the general trend of greek life participation and if there were more males rushing fraternaties postpandemic.\n\n\nData Exploration\nFirst I looked at the trends in males and females who were either in, or planning on joining greek life. A steady increase in the percent of males in, or planning on joining greek life can be seen. In fact, these most recent two semesters are the first time a higher percent of males than females in Stat 113 or in or planning on joining greek life.\n\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'\n\n\n\n\n\n\n\n\n\n\nstat113FSmale &lt;-\nstat113P2 %&gt;% drop_na(Greek) %&gt;%\n  mutate(Year=as_factor(Year))%&gt;%\n  filter(Gender== \"M\",\n         Year == 1 | Year == 2) %&gt;%\n   group_by(Term, Greek, Year) %&gt;%\n  summarise(ncount = n()) %&gt;%\n  ungroup() %&gt;%\n  group_by(Term, Year) %&gt;%\n  mutate(total = sum(ncount)) %&gt;% \n  ungroup() %&gt;%\n  mutate(propGreek = (ncount/total)*100) %&gt;%\n  filter(Greek == \"Planning\") %&gt;%\n    mutate(Year = factor(Year, levels = c(\"1\", \"2\"), \n              labels = c(\"Freshman\", \"Sophmore\")))\n\n`summarise()` has grouped output by 'Term', 'Greek'. You can override using the\n`.groups` argument.\n\n\nNext I looked to see where all those males were coming from. Both freshman and sophmores males have been increasing in perctage planning on joining greek life, however, in the past few semesters there has been a jump in sophmore males; especially that last spring semester I spoke about in my introduction.\n\n\n\n\n\n\n\n\n\nTo investigate Sophmore males planning on joining greek further I ploted them individually with standard error bars and colored by weather it was pre or post pandemic. Last spring was by far the highest percentage of Sophmore males planning on joining greek, my hypothesis for this is that there was a need to affiliate for social reasons in that pandemic semester, and many of the people that would’ve rushed in the fall were not on campus. My hypothesis for why fall of 202 was so low is that people had been away from campus for so long that they felt like they needed to get their barrings and didnt know hat to expect socially.\n\n\n\n\n\n\n\n\n\nFinnally I compared the proportion of male sophmores planning to join a Fraternity in the semesters leading up with the proportion post pandemic and found that there was a difference in means at the 0.05938 signifcance level.\n\n\n\n\n\n\n\n\n\n\nTwo Sample t-test: propGreek by postPandemic (continued below)\n\n\n\n\n\n\n\n\nTest statistic\ndf\nP value\nAlternative hypothesis\n\n\n\n\n1.983\n23\n0.05938\ntwo.sided\n\n\n\n\n\n\n\n\n\n\nmean in group Postpandemic\nmean in group Pretpandemic\n\n\n\n\n20.07\n11.6\n\n\n\n\n\n\n\nWrap-up\nIn conclusion, there has been a consistant increase in the percentage of males planning or in greek life, in fact these past two semesters were the first time that percentage was higher than the percentage of females. The second semester post pandemic saw a large uptick in the number of sophmore males planning on joing greek, I hypothesize this is because the limited social life on campus created pressure to socially affiliate. For sophmore males there was an increase in planning on joing greek at the 0.059 signifcance level. In the future I hope to revisit this data to see if this was just a blip."
+  },
+  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
@@ -21,11 +91,25 @@
     "text": "Attentive Mobile:\n\n\n(via LinkedIn) Aaron Hellman, Lead Data Analyst"
   },
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Posts",
-    "section": "",
-    "text": "Daily NBA Predictions Using a Pairwise Competition Model\n\n\n\nNBA\n\nR\n\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\n\n\nDec 15, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\ncompr: An R package for Paired Competition Modeling\n\n\n\nR\n\ncompr\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nShiny App to Visualize ATP Tennis Players Directional Tendencies\n\n\nBased on “Wardlaw Directionals”, this is a Shiny app designed to visualize the directional tendencies of ATP tennis players\n\n\n\n\n\nMay 16, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\nR\n\ntidyverse\n\nggplot2\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\n\n\nMay 10, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\nNo matching items"
+    "objectID": "index.html#posts",
+    "href": "index.html#posts",
+    "title": "",
+    "section": "Posts",
+    "text": "Posts\nSome of my work\n\n\n\n\n\n\n\n\n\n\nDaily NBA Predictions Using a Pairwise Competition Model\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\nJames Wolpe\n\n\nDec 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nShiny App to Visualize ATP Tennis Players Directional Tendencies\n\n\nBased on “Wardlaw Directionals”, this is a Shiny app designed to visualize the directional tendencies of ATP tennis players\n\n\n\nJames Wolpe\n\n\nMay 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\nNo matching items\n\n\nPosts"
+  },
+  {
+    "objectID": "index.html#work-experience",
+    "href": "index.html#work-experience",
+    "title": "",
+    "section": "Work Experience",
+    "text": "Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nEngineered a lead conversion prediction model in Python using XGBoost, covering ETL, data cleanup, feature engineering, imputation, and model selection. The top 20% of the model’s performers demonstrated a 4.5x higher conversion rate.\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nPerformed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined KPIs and developed data-driven dashboards using Google Looker.\n\n\n\n\nReferences CV"
+  },
+  {
+    "objectID": "recommendations.html#attentive-mobile",
+    "href": "recommendations.html#attentive-mobile",
+    "title": "References",
+    "section": "Attentive Mobile:",
+    "text": "Attentive Mobile:"
   },
   {
     "objectID": "cv.html",
@@ -63,6 +147,13 @@
     "text": "Technical Skills\n\nProgramming\n\n\n\n\n R (Tidyverse, ggplot2, Shiny)   SQL (Snowflake, PostgreSQL)   Python (Pandas, NumPy, Scikit-learn)   Java   Google Looker\n\n\n\n\n Data Visualization   Git (GitHub, GitLab)   Object-Oriented Programming   Database Management Systems (DBMS)\n\n\n\n\n\n\nMath & Statistics\n\n\n\n\n Probability   Calculus (Differential, Integral, Multivariable)   Statistical and Machine Learning   Time Series Analysis\n\n\n\n\n Regression Analysis   A/B Testing   Linear Algebra   Multi-level Modeling"
   },
   {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Daily NBA Predictions Using a Pairwise Competition Model\n\n\n\nNBA\n\nR\n\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\n\n\nDec 15, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\ncompr: An R package for Paired Competition Modeling\n\n\n\nR\n\ncompr\n\n\n\n\n\n\n\n\n\nDec 11, 2023\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nShiny App to Visualize ATP Tennis Players Directional Tendencies\n\n\nBased on “Wardlaw Directionals”, this is a Shiny app designed to visualize the directional tendencies of ATP tennis players\n\n\n\n\n\nMay 16, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\nR\n\ntidyverse\n\nggplot2\n\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nThe Art and Popularity Paradox: Trends in Oscar Best Picture Movies\n\n\n\n\n\n\n\n\nMay 11, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Greek Life Trends: A Stat 113 Survey Analysis\n\n\n\n\n\n\n\n\nMay 10, 2022\n\n\nJames Wolpe\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of IMDB Ratings in “Trailer Park Boys”\n\n\n\n\n\n\n\n\nMay 8, 2022\n\n\nJames Wolpe\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "posts/homepage/tennis_atp_directionals/atp_directionals.html",
     "href": "posts/homepage/tennis_atp_directionals/atp_directionals.html",
     "title": "Shiny App to Visualize ATP Tennis Players Directional Tendencies",
@@ -77,67 +168,11 @@
     "text": "Crowdsourced shot-by-shot professional tennis data by The Tennis Abstract Match Charting Project is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Based on a work at https://github.com/JeffSackmann/tennis_MatchChartingProject"
   },
   {
-    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html",
-    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html",
-    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
+    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html",
+    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html",
+    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
     "section": "",
-    "text": "“Trailer Park Boys” is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got."
-  },
-  {
-    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#inroduction",
-    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#inroduction",
-    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
-    "section": "",
-    "text": "“Trailer Park Boys” is a Canadian mockumentary TV show based in the fictional Sunnyvale Trailer Park. The show ran for eight years on Showcase and was then purchased by Netflix where it ran another four seasons. In total it has run twelve seasons, totaling 106 episodes and has an average IMDB episode rating of 8.22 over that span. Data comes from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got."
-  },
-  {
-    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#analysis",
-    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#analysis",
-    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
-    "section": "Analysis",
-    "text": "Analysis\nThe distribution of Episode ratings in “Trailer Park Boys” appears to be normal as can be seen in Fig. 1. People tend to rate the episodes fairly high and the majority of the reviews are withing .6 of each other on the 10 point rating scale.\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMin.\n1st Qu.\nMedian\nMean\n3rd Qu.\nMax.\n\n\n\n\n7.1\n7.9\n8.2\n8.217\n8.6\n9.2\n\n\n\n\n\nThe distribution of user votes appears to be right skewed as can be seen in Fig. 2. The median number of votes an episode gets is 360 while some episodes get more than double that number.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMin.\n1st Qu.\nMedian\nMean\n3rd Qu.\nMax.\n\n\n\n\n178\n232\n360.5\n373.5\n489.8\n861\n\n\n\n\n\nLooking at episode ratings by season in Fig. 3 some trends can be observed. The show started off with its first four seasons doing consistently well with means around an average rating of 8.5. Then following a poor rated season five, a downtrend began, bottoming out at season ten with an average rating of around 7.5. The next and final two seasons were rated slightly higher with the final season rating right around the overall show mean of 8.2.\n\n\n\n\n\n\n\n\n\nA clear trend can be seen when looking at number of votes an episode got as a predictor of the rating of that episode as seen in Fig. 4. For every one vote increase in the number of votes a 0.001561 increase in episode rating was estimated. This positive trend becomes a little less clear with the very high number of votes, as there is an outlive that received 861 votes and had one of the four worst episode ratings.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nEstimate\nStd. Error\nt value\nPr(&gt;|t|)\n\n\n\n\n(Intercept)\n7.634\n0.09583\n79.66\n4.822e-95\n\n\nnumVotes\n0.001561\n0.0002368\n6.589\n1.859e-09\n\n\n\n\nFitting linear model: averageRating ~ numVotes\n\n\n\n\n\n\n\n\nObservations\nResidual Std. Error\n\\(R^2\\)\nAdjusted \\(R^2\\)\n\n\n\n\n106\n0.3795\n0.2945\n0.2877"
-  },
-  {
-    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#discussion",
-    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#discussion",
-    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
-    "section": "Discussion",
-    "text": "Discussion\nWhen analyzing IMDB ratings of “Trailer Park Boys” some interesting trends were observed. The downward trend beginning around season four makes sense to any fan of the show as that is when the show got a bigger budget and got away from its low-budget, digital camera, homemade look. This all culminates to season ten, known by fans as the “Snoop Dogg season”, which is regarded as the worst season but has likely the largest budget. It was surprising to see season five as an outlier from the general trend, rated considerably lower. I suspect this is due to the slightly darker theme of the season and the more cohesive plot."
-  },
-  {
-    "objectID": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#references",
-    "href": "posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html#references",
-    "title": "Analysis of IMDB Ratings in “Trailer Park Boys”",
-    "section": "References",
-    "text": "References\nhttps://www.imdb.com/title/tt0290988/?ref_=ttep_ep_tt"
-  },
-  {
-    "objectID": "posts/stat113_greek_life/stat113_greek_life.html",
-    "href": "posts/stat113_greek_life/stat113_greek_life.html",
-    "title": "Exploring Greek Life Trends: A Stat 113 Survey Analysis",
-    "section": "",
-    "text": "Introduction\nFor this project I used the Stat 113 data set which contains survey data from Stat 113 students. The variables of interest are weather or not a student is in or planning on joing Greek life, the students school year, the students gender, and a new variable I created that evaluates weather the semester was pre or postpandemic.\nIn my first semester back (last spring) since the Covid-19 pandemic I noticed that it was hard to meet new people and have a social scene. It also felt like most of my grade joined greek life. To investigate this I looked at the general trend of greek life participation and if there were more males rushing fraternaties postpandemic.\n\n\nData Exploration\nFirst I looked at the trends in males and females who were either in, or planning on joining greek life. A steady increase in the percent of males in, or planning on joining greek life can be seen. In fact, these most recent two semesters are the first time a higher percent of males than females in Stat 113 or in or planning on joining greek life.\n\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'\n\n\n\n\n\n\n\n\n\n\nstat113FSmale &lt;-\nstat113P2 %&gt;% drop_na(Greek) %&gt;%\n  mutate(Year=as_factor(Year))%&gt;%\n  filter(Gender== \"M\",\n         Year == 1 | Year == 2) %&gt;%\n   group_by(Term, Greek, Year) %&gt;%\n  summarise(ncount = n()) %&gt;%\n  ungroup() %&gt;%\n  group_by(Term, Year) %&gt;%\n  mutate(total = sum(ncount)) %&gt;% \n  ungroup() %&gt;%\n  mutate(propGreek = (ncount/total)*100) %&gt;%\n  filter(Greek == \"Planning\") %&gt;%\n    mutate(Year = factor(Year, levels = c(\"1\", \"2\"), \n              labels = c(\"Freshman\", \"Sophmore\")))\n\n`summarise()` has grouped output by 'Term', 'Greek'. You can override using the\n`.groups` argument.\n\n\nNext I looked to see where all those males were coming from. Both freshman and sophmores males have been increasing in perctage planning on joining greek life, however, in the past few semesters there has been a jump in sophmore males; especially that last spring semester I spoke about in my introduction.\n\n\n\n\n\n\n\n\n\nTo investigate Sophmore males planning on joining greek further I ploted them individually with standard error bars and colored by weather it was pre or post pandemic. Last spring was by far the highest percentage of Sophmore males planning on joining greek, my hypothesis for this is that there was a need to affiliate for social reasons in that pandemic semester, and many of the people that would’ve rushed in the fall were not on campus. My hypothesis for why fall of 202 was so low is that people had been away from campus for so long that they felt like they needed to get their barrings and didnt know hat to expect socially.\n\n\n\n\n\n\n\n\n\nFinnally I compared the proportion of male sophmores planning to join a Fraternity in the semesters leading up with the proportion post pandemic and found that there was a difference in means at the 0.05938 signifcance level.\n\n\n\n\n\n\n\n\n\n\nTwo Sample t-test: propGreek by postPandemic (continued below)\n\n\n\n\n\n\n\n\nTest statistic\ndf\nP value\nAlternative hypothesis\n\n\n\n\n1.983\n23\n0.05938\ntwo.sided\n\n\n\n\n\n\n\n\n\n\nmean in group Postpandemic\nmean in group Pretpandemic\n\n\n\n\n20.07\n11.6\n\n\n\n\n\n\n\nWrap-up\nIn conclusion, there has been a consistant increase in the percentage of males planning or in greek life, in fact these past two semesters were the first time that percentage was higher than the percentage of females. The second semester post pandemic saw a large uptick in the number of sophmore males planning on joing greek, I hypothesize this is because the limited social life on campus created pressure to socially affiliate. For sophmore males there was an increase in planning on joing greek at the 0.059 signifcance level. In the future I hope to revisit this data to see if this was just a blip."
-  },
-  {
-    "objectID": "posts/compr/compr.html",
-    "href": "posts/compr/compr.html",
-    "title": "compr: An R package for Paired Competition Modeling",
-    "section": "",
-    "text": "The compr package provides functionality to fit and interpret paired competition models in R.\nTo install and load the package, run"
-  },
-  {
-    "objectID": "posts/compr/compr.html#installation",
-    "href": "posts/compr/compr.html#installation",
-    "title": "compr: An R package for Paired Competition Modeling",
-    "section": "Installation",
-    "text": "Installation\nTo install and load the compr package, use the following commands:\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)"
-  },
-  {
-    "objectID": "posts/compr/compr.html#functionality",
-    "href": "posts/compr/compr.html#functionality",
-    "title": "compr: An R package for Paired Competition Modeling",
-    "section": "Functionality",
-    "text": "Functionality\nThe main function, comp_glm(), has the following arguments:\nformula: Specifies the response variable and contest-level predictors. data: The dataset to be used. p1: A string with the name of the column containing the first player. p2: A string with the name of the column containing the second player. p1_effects: A one-sided formula specifying player-level effects for p1. p2_effects: A one-sided formula specifying player-level effects for p2. ref_player: A string giving the name of the player to be used as the reference player (default is the first player in p1).\nHere is an example of using comp_glm():\ncomp_mod &lt;- comp_glm(point_winner ~ -1, data = tennis_point,\n                     p1 = \"player1\", p2 = \"player2\",\n                     p1_effects = ~ point_server1,\n                     p2_effects = ~ point_server2,\n                     ref_player = \"Milos Raonic\")\nFeel free to explore and leverage the compr package to enhance your paired competition modeling in R. For detailed information and usage examples, refer to the package documentation."
+    "text": "Today’s Games (May 17, 2025)Games May 18, 2025Games May 19, 2025\n\n\n\n\nNo scheduled games\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n23%\n\n\nOklahoma City Thunder\n77%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nNew York Knicks\n34%\n\n\nBoston Celtics\n66%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_results_df,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
   },
   {
     "objectID": "posts/imdb_oscar_best_picture/imdb_oscar_best_picture.html",
@@ -145,40 +180,5 @@
     "title": "The Art and Popularity Paradox: Trends in Oscar Best Picture Movies",
     "section": "",
     "text": "Look at box office, ratings, votes, etc. and compare with google trends for oscars search\n\nIntroduction\nOver the last 30 years it seems that the movie that wins best picture at the Oscars has gotten more “artsy” and less “popular”. To investigate this question I will be using data pulled from the IMDB website, specifically the variables that count the number of ratings votes, the average rating, and the run time of movies for best picture winning movies over the last 30 years.\nIt is important to note that the last two best picture winners, “CODA” and “Nomadland” were not included in the data set as well as the 1996 film “The English Patient”\n\n\nAnalysis\nFigure 1 below shows a consistent decline in the number of votes the best picture received on IMDB by year. For each one year increase, the number of votes received by the best picture winner decreases by an estimated 21826 (p-value 0.027). This shows a steady decline in the popularity of the best picture winning movie.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nEstimate\nStd. Error\nt value\nPr(&gt;|t|)\n\n\n\n\n(Intercept)\n44548158\n19073568\n2.336\n0.02719\n\n\nstartYear\n-21826\n9514\n-2.294\n0.02979\n\n\n\n\nFitting linear model: numVotes ~ startYear\n\n\n\n\n\n\n\n\nObservations\nResidual Std. Error\n\\(R^2\\)\nAdjusted \\(R^2\\)\n\n\n\n\n29\n443470\n0.1631\n0.1321\n\n\n\n\n\nFigure 2 shows a decrease in the average rating the best picture received on IMDB by year. For each one year increase the average rating of the movie is estimated to decrease by 0.02 points. However the data points for this analysis are quite spread out and the p-value of that estimate is 0.0616 putting it above the .05 significance level.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nEstimate\nStd. Error\nt value\nPr(&gt;|t|)\n\n\n\n\n(Intercept)\n47.69\n20.31\n2.348\n0.02645\n\n\nstartYear\n-0.01976\n0.01013\n-1.95\n0.0616\n\n\n\n\nFitting linear model: averageRating ~ startYear\n\n\n\n\n\n\n\n\nObservations\nResidual Std. Error\n\\(R^2\\)\nAdjusted \\(R^2\\)\n\n\n\n\n29\n0.4722\n0.1235\n0.09101\n\n\n\n\n\nFigure 3 looks the average run time of best picture winning movies over the last 30 years. I expected a steady increase as the have become more “artsy” and less popular but was surprised to see a negative trend line. For each one year increase, the run time of the best picture winner decreases by an estimated 1.5 minutes (p-value 0.00556).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nEstimate\nStd. Error\nt value\nPr(&gt;|t|)\n\n\n\n\n(Intercept)\n3149\n1045\n3.013\n0.005561\n\n\nstartYear\n-1.502\n0.5213\n-2.882\n0.007651\n\n\n\n\nFitting linear model: runtimeMinutes ~ startYear\n\n\n\n\n\n\n\n\nObservations\nResidual Std. Error\n\\(R^2\\)\nAdjusted \\(R^2\\)\n\n\n\n\n29\n24.3\n0.2353\n0.207\n\n\n\n\n\n\n\nDiscussion\nAs a fan of the Oscars, in recent years it has felt like the best picture is going to more and more obscure movies and that less of my friends have seen or heard of them. To analyze this I looked at IMDB data of the Oscar winners of the last 30 years and made multiple plots to visualize trends looking at number of votes and average rating. The results from the graphs of number of votes and average ratings showed a decline in both the number of people seeing the Oscar nominated movie over recent years and how much they liked the movie. Hopefully the Academy can change its ways and award films more popular among everyday people the best picture award and we can get more films like “Forrest Gump”.\n\n\nReferences\nhttps://www.imdb.com/search/title/?count=100&groups=oscar_best_picture_winners&sort=year%2Cdesc"
-  },
-  {
-    "objectID": "posts/homepage/imdb_friends_himym/imdb_friends_himym.html",
-    "href": "posts/homepage/imdb_friends_himym/imdb_friends_himym.html",
-    "title": "New York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”",
-    "section": "",
-    "text": "Introduction\nThe following analysis compares two TV shows, “How I Met Your Mother” and “Friends”. The data for this project is from IMDB and the variables of interest are the episode number, the season number, the average rating of each episode, and the number of ratings votes each episode got. “How I Met Your Mother” was a sitcom on CBS that aired for 9 seasons totaling 208 episodes from 2005-2014, over that span the average episode rating was 8.03. “Friends” was a sitcom that aired on NBC for 10 seasons from 1994-2004. Over that time it aired 235 episodes with an average IMDB episode rating of 8.33. These two sitcoms have many similarities primarily that they are both about adults in their 20’s living in New York City.\n\n\nAnalysis\nFigure one shows the average episode rating by season, “Friends” shows fairly steady ratings by season with season 5 and 10 (the final season) being the highest just under a rating of 8.5. “How I Met Your Mother” shows a consistent decline in ratings, with season 9 (the final season) having the lowest average rating. An interesting observation about season 9 is that it contains both the highest rated episode and the lowest rated episode, this will be investigated more later.\n\n\n\n\n\n\n\n\n\nFigure two compares the number of ratings votes each episode got grouped by season and analyzed using side-by-side box plots. It can be seen that the average number of votes per episode decline by season, however both see an uptick in the final season and both have one large outlier in that final season.\n\n\n\n\n\n\n\n\n\nFinal season\nBelow in figure 3 an analysis of number of votes by episode in the final season can be seen. The number of votes by episode for “Friends” in the final season is consistent with the average number of votes over the course of the series, up until the final episode which received 14633 votes and is the second highest rated episode ever with a rating of 9.6. The number of votes for “How I Met Your Mother” contain a few more points that stray for the rest of the data, episode 16 received 9,749 votes and is the shows highest rated episode with a rating of 9.5. The final two episodes received 9,894 and 18,527 votes respectively with the final episode of the show receiving a rating of 5.5 and taking the crown for worst rated episode.\n\n\n\n\n\n\n\n\n\nThe following figure shows the number of votes the final episode of “How I Met Your Mother” received was an outlier nearly four standard deviations from the expected value.\n\n\n3.965\n\n\nThe following figure shows the number of votes the final episode of “Friends” received was an outlier greater than three standard deviations from the expected value.\n\n\n3.843\n\n\nFigure 4 shows the average rating of each episode in the final season of both “How I Met Your Mother” and “Friends”. “Friends” has similar ratings of episodes in the final season around the 8.5 mark. The final episode of “Friends” has the highest rating in the season. While “How I Met Your Mother” has quite the spread of values, including the final episode which has the lowest rating of the season.\n\n\n\n\n\n\n\n\n\n\n\nDiscussion\nWhile similar in setting, genre, and plot the trends in average episode ratings of “How I Met Your Mother” and “Friends” differ quite a bit. “Friends” has consistently high episode ratings by season ultimately resulting in a high rated final season and a final episode that received the second highest overall rating. While “How I Met Your Mother” had steadily decreasing average episode ratings by season, finishing with a worst rated final season and a worst rated final episode. Both shows had final episodes that received an extremely high number of votes 3.843 standard deviations from the expected value from the final season for “Friends” and 3.965 for “How I Met Your Mother”, however those for “Friends” were mostly high ratings and those for “How I Met Your Mother” were mostly dismal.\n\n\nReferences\nhttps://www.imdb.com/title/tt0460649/?ref_=tt_ov_inf https://www.imdb.com/title/tt0108778/?ref_=nv_sr_srsg_0"
-  },
-  {
-    "objectID": "posts/homepage/daily_nba_compr/daily_nba_compr.html",
-    "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html",
-    "title": "Daily NBA Predictions Using a Pairwise Competition Model",
-    "section": "",
-    "text": "Today’s Games (May 16, 2025)Games May 17, 2025Games May 18, 2025\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nBoston Celtics\n56%\n\n\nNew York Knicks\n44%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo scheduled games\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nDenver Nuggets\n22%\n\n\nOklahoma City Thunder\n78%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_results_df,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
-  },
-  {
-    "objectID": "index.html#posts",
-    "href": "index.html#posts",
-    "title": "",
-    "section": "Posts",
-    "text": "Posts\nSome of my work\n\n\n\n\n\n\n\n\n\n\nDaily NBA Predictions Using a Pairwise Competition Model\n\n\nDaily NBA Predictions using ‘compr’: An R Package for Pairwise Competition Modeling Developed by Dr. Matt Higham and Myself\n\n\n\nJames Wolpe\n\n\nDec 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nShiny App to Visualize ATP Tennis Players Directional Tendencies\n\n\nBased on “Wardlaw Directionals”, this is a Shiny app designed to visualize the directional tendencies of ATP tennis players\n\n\n\nJames Wolpe\n\n\nMay 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew York, New York: A Comparative Analysis of “Friends” and “How I Met Your Mother”\n\n\n\n\n\n\nJames Wolpe\n\n\nMay 11, 2022\n\n\n\n\n\n\nNo matching items\n\n\nPosts"
-  },
-  {
-    "objectID": "index.html#work-experience",
-    "href": "index.html#work-experience",
-    "title": "",
-    "section": "Work Experience",
-    "text": "Work Experience\n\n\n\nVelocity Global  Data Science Intern  Summer 2022\nEngineered a lead conversion prediction model in Python using XGBoost, covering ETL, data cleanup, feature engineering, imputation, and model selection. The top 20% of the model’s performers demonstrated a 4.5x higher conversion rate.\n\n\n\n\nAttentive Mobile  Data Analyst Intern  Summer 2023\nPerformed Go-to-Market analysis, comparing a novel AI product with its human-operated counterpart. Leveraging insights gained, I defined KPIs and developed data-driven dashboards using Google Looker.\n\n\n\n\nReferences CV"
-  },
-  {
-    "objectID": "recommendations.html#attentive-mobile",
-    "href": "recommendations.html#attentive-mobile",
-    "title": "References",
-    "section": "Attentive Mobile:",
-    "text": "Attentive Mobile:"
   }
 ]
