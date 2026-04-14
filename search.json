@@ -32,7 +32,7 @@
     "href": "posts/homepage/daily_nba_compr/daily_nba_compr.html",
     "title": "Daily NBA Predictions Using a Pairwise Competition Model",
     "section": "",
-    "text": "Today’s Games (April 13, 2026)Games April 14, 2026Games April 15, 2026\n\n\n\n\nNo scheduled games\n\n\n\n\n\n\nNo scheduled games\n\n\n\n\n\n\nNo scheduled games\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_results_df,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
+    "text": "Today’s Games (April 14, 2026)Games April 15, 2026Games April 16, 2026\n\n\n\n\nNo scheduled games\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nOrlando Magic\n44%\n\n\nPhiladelphia 76ers\n56%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam\nWin Prob.\n\n\n\n\nGolden State Warriors\n38%\n\n\nLos Angeles Clippers\n62%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo scheduled games\n\n\n\n\n\n\nData retrieved from Basketball Reference. Code used to fit the model:\n\ndevtools::install_github(repo = \"https://github.com/jameswolpe/compr\")\nlibrary(compr)\ncurrent_nba_pred &lt;- comp_glm(formula = home_winner ~ 1,\n         data = nba_results_df,\n         p1 = \"home\", \n         p2 = \"away\",\n         p1_effects = ~ 1,\n         p2_effects = ~ 1,\n         ref_player = \"New York Knicks\",\n         family = \"binomial\")"
   },
   {
     "objectID": "cv.html",
