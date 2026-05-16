@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jameswolpe.github.io/index.html</loc>
-    <lastmod>2026-05-15T07:47:06.813Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jameswolpe.github.io/posts/imdb_oscar_best_picture/imdb_oscar_best_picture.html</loc>
-    <lastmod>2026-05-15T07:47:06.826Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jameswolpe.github.io/posts/homepage/imdb_friends_himym/imdb_friends_himym.html</loc>
-    <lastmod>2026-05-15T07:47:06.824Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jameswolpe.github.io/posts/homepage/daily_nba_compr/daily_nba_compr.html</loc>
-    <lastmod>2026-05-15T07:47:06.823Z</lastmod>
+    <loc>https://jameswolpe.github.io/posts.html</loc>
+    <lastmod>2026-05-16T07:09:37.421Z</lastmod>
   </url>
   <url>
     <loc>https://jameswolpe.github.io/cv.html</loc>
-    <lastmod>2026-05-15T07:47:06.749Z</lastmod>
+    <lastmod>2026-05-16T07:09:37.352Z</lastmod>
   </url>
   <url>
     <loc>https://jameswolpe.github.io/references.html</loc>
-    <lastmod>2026-05-15T07:47:06.827Z</lastmod>
+    <lastmod>2026-05-16T07:09:37.435Z</lastmod>
   </url>
   <url>
-    <loc>https://jameswolpe.github.io/recommendations.html</loc>
-    <lastmod>2026-05-15T07:47:06.827Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jameswolpe.github.io/posts.html</loc>
-    <lastmod>2026-05-15T07:47:06.813Z</lastmod>
+    <loc>https://jameswolpe.github.io/posts/homepage/daily_nba_compr/daily_nba_compr.html</loc>
+    <lastmod>2026-05-16T07:09:37.432Z</lastmod>
   </url>
   <url>
     <loc>https://jameswolpe.github.io/posts/compr/compr.html</loc>
-    <lastmod>2026-05-15T07:47:06.814Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jameswolpe.github.io/posts/homepage/tennis_atp_directionals/atp_directionals.html</loc>
-    <lastmod>2026-05-15T07:47:06.824Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jameswolpe.github.io/posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html</loc>
-    <lastmod>2026-05-15T07:47:06.827Z</lastmod>
+    <lastmod>2026-05-16T07:09:37.422Z</lastmod>
   </url>
   <url>
     <loc>https://jameswolpe.github.io/posts/stat113_greek_life/stat113_greek_life.html</loc>
-    <lastmod>2026-05-15T07:47:06.827Z</lastmod>
+    <lastmod>2026-05-16T07:09:37.435Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jameswolpe.github.io/posts/imdb_oscar_best_picture/imdb_oscar_best_picture.html</loc>
+    <lastmod>2026-05-16T07:09:37.434Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jameswolpe.github.io/posts/imdb_trailer_park_boys/imdb_trailer_park_boys.html</loc>
+    <lastmod>2026-05-16T07:09:37.435Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jameswolpe.github.io/posts/homepage/imdb_friends_himym/imdb_friends_himym.html</loc>
+    <lastmod>2026-05-16T07:09:37.433Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jameswolpe.github.io/posts/homepage/tennis_atp_directionals/atp_directionals.html</loc>
+    <lastmod>2026-05-16T07:09:37.433Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jameswolpe.github.io/recommendations.html</loc>
+    <lastmod>2026-05-16T07:09:37.435Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jameswolpe.github.io/index.html</loc>
+    <lastmod>2026-05-16T07:09:37.421Z</lastmod>
   </url>
 </urlset>
